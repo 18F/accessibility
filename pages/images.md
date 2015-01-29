@@ -9,7 +9,18 @@ When using images on a page, you must provide an alternate method for that conte
 
 ### Testing 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+1. Using the web developer tool, select images > Display Alt Attributes & Outline All Images
+2. Inspect each Alt tag for the following
+  * A unique description of the image is provided
+  * Repeated images have the same alt text
+  * All Text in the image is included
+  * "Image of" or "Photo of" is not used
+  * If the alt tag is empty, ensure the image is purely decorative
+    * If the image is not decorative, make sure the image is described on the page
+3. Check outlined images without alt tags by doing the following
+  * Right click the image
+  * Select 'Inspect Element'
+  * Check for a title tag for the information normally found on the alt tag
 
 ### Examples
 
