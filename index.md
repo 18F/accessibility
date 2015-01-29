@@ -7,7 +7,7 @@ title: Accessibility
 page_title: Home
 ---
 
-This site is currently in Draft as it is still being built. It will eventually contain resources for all things accessibility, development best practices, testing guides, and tools. If you have a question or would like to contribute, please visit our [GitHub Repo.](https://github.com/18F/accessibility) 
+This site is currently in __Draft__ as it is still being built. It will eventually contain resources for all things accessibility, development best practices, testing guides, and tools. If you have a question or would like to contribute, please visit our [GitHub Repo.](https://github.com/18F/accessibility) 
 
 ## Resources
 
