@@ -1,0 +1,10 @@
+.jumbotron {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+.mantra {
+	background-image: url(../images/lightbulb-100.png);
+}
+.jumbotron .container-fluid {
+	background: url(../images/tagline-bg.png) 0 0 repeat;
+}
