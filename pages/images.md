@@ -13,7 +13,7 @@ When using images on a page, you must provide an alternate method for that conte
 2. Inspect each Alt tag for the following
   * A unique description of the image is provided
   * Repeated images have the same alt text
-  * All Text in the image is included
+  * All text in the image is included in the alt text
   * "Image of" or "Photo of" is not used
   * If the alt tag is empty, ensure the image is purely decorative
     * If the image is not decorative, make sure the image is described on the page
