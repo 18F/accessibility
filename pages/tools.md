@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Forms
-description: 'How we work with forms'
-permalink: /forms/
-page_title: Forms
+title: Testing Tools
+description: 'Tools we use to test accessibility'
+permalink: /tools/
+page_title: Testing Tools
 ---
 Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
 
