@@ -1,4 +1,6 @@
 # Accessibility
+This repo will contain the guidelines and best practices for 508 accessibility at 18f. 
+The site is in draft. 
 
 ### Public domain
 
