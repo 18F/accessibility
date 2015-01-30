@@ -1,16 +1,44 @@
 ---
 layout: default
-title: Keyboard
+title: Keyboard Access
 description: 'How we work with keyboards only'
 permalink: /keyboard/
 page_title: Keyboard Access
 ---
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+
+Keyboard access to a website is key to the usability of your site. All interactions and information that can be accessed with a mouse **must** be accessible with just a keyboard. This doesn't mean everyone who can't use a mouse will use a keyboard, but alternative AT inputs use keyboard like inputs to navigate the web. 
 
 ### Testing 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+1. Identify all interactions on the page
+2. Using the tab, enter, and space bar, navigate the page and ensure each input/interaction can be triggered
+  * Ensure rollover interactions (help text, etc) can be triggered aswell
+3. Ensure the tab order of the page makes sense
+4. Ensure the focus is always visible when moving through the page
+5. Ensure the tab is never trapped in a loop
+6. If a modal dialog box is used, ensure focus is moved to the modal 
+7. If an interaction reveals hidden content
+  * Ensure the focus is moved to the revealed content
+    * If this does not happen, check for a programatic description of the change
+8. Check for title tags that provide information not on the screen
+  * This is considered a failure of keyboard access
 
 ### Examples
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+<a href="#">Link to nowhere 1</a>
+
+<a href="#">Link to nowhere 2</a>
+
+<a href='javascript:$("#hiddenContent").show().focus();'>Reveal Hidden Content</a>
+
+<div id="hiddenContent" style="display:none;" tabindex='-1'>This div was hidden, now its not!</div>
+
+`<a href="#">Link to nowhere 1</a>`
+
+`<a href="#">Link to nowhere 2</a>`
+
+`<a href='javascript:$("#hiddenContent").show().focus();'>Reveal Hidden Content</a>`
+
+`<div id="hiddenContent" style="display:none;" tabindex='-1'>This div was hidden, now its not!</div>`
+
+> Avoid using tabindex of >= 1 as this well disrupt the normal tab order of the page. tabindex of -1 is only appropriate when autofocusing an element not normally interactive.
