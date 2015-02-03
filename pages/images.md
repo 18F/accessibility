@@ -26,28 +26,28 @@ When using images on a page, you must provide an alternate method for that conte
 
 ### Correct
 
-<img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign"/>
+<img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign">
 
-`<img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign"/>`
+`<img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign">`
 
 > Preffered method for providing alternate content.
 > Clear alt tag with all text included.
 
 ---
 
-<img src="{{site.baseurl}}/images/sign.jpg" title="Sign that reads Warning do not read this sign"/>
+<img src="{{site.baseurl}}/images/sign.jpg" title="Sign that reads Warning do not read this sign">
 
-`<img src="{{site.baseurl}}/images/sign.jpg" title="Sign that reads Warning do not read this sign"/>`
+`<img src="{{site.baseurl}}/images/sign.jpg" title="Sign that reads Warning do not read this sign">`
 
 > Acceptable, but less compatible with certain Assitive technologies
 > Clear title tag with all text included.
 
 ---
 
-<img src="{{site.baseurl}}/images/sign.jpg" alt=""/>
+<img src="{{site.baseurl}}/images/sign.jpg" alt="">
 <span>Sign that reads Warning do not read this sign</span>
 
-`<img src="{{site.baseurl}}/images/sign.jpg" alt=""/>`
+`<img src="{{site.baseurl}}/images/sign.jpg" alt="">`
 `<span>Sign that reads Warning do not read this sign</span>`
 
 > Information contained in the image is provided on the page.
@@ -59,25 +59,25 @@ When using images on a page, you must provide an alternate method for that conte
 
 #### Incorrect
 
-<img src="{{site.baseurl}}/images/sign.jpg" />
+<img src="{{site.baseurl}}/images/sign.jpg" >
 
-`<img src="{{site.baseurl}}/images/sign.jpg" />`
+`<img src="{{site.baseurl}}/images/sign.jpg">`
 
 > Image is missing an alt tag and alternative content
 
 ---
 
-<img src="{{site.baseurl}}/images/sign.jpg" alt="sign"/>
+<img src="{{site.baseurl}}/images/sign.jpg" alt="sign">
 
-`<img src="{{site.baseurl}}/images/sign.jpg" alt="sign"/>`
+`<img src="{{site.baseurl}}/images/sign.jpg" alt="sign">`
 
 > Alt tag is missing text from image
 
 ---
 
-<img src="{{site.baseurl}}/images/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN"/>
+<img src="{{site.baseurl}}/images/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 
-`<img src="{{site.baseurl}}/images/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN"/>`
+`<img src="{{site.baseurl}}/images/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">`
 
 > Avoid using "Image of" or "Picture of" as the screen reader
 > will notify the user that it is an image. 

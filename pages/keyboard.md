@@ -33,12 +33,17 @@ Keyboard access to a website is key to the usability of your site. All interacti
 
 <div id="hiddenContent" style="display:none;" tabindex='-1'>This div was hidden, now its not!</div>
 
-`<a href="#">Link to nowhere 1</a>`
-
-`<a href="#">Link to nowhere 2</a>`
-
-`<a href='javascript:$("#hiddenContent").show().focus();'>Reveal Hidden Content</a>`
-
-`<div id="hiddenContent" style="display:none;" tabindex='-1'>This div was hidden, now its not!</div>`
+```
+<a href="#">Link to nowhere 1</a>
+<a href="#">Link to nowhere 2</a>
+<a href='javascript:$("#hiddenContent").show().focus();'>
+	Reveal Hidden Content
+</a>
+<div id="hiddenContent" 
+	 style="display:none;" 
+	 tabindex='-1'>
+	This div was hidden, now its not!
+</div>
+```
 
 > Avoid using tabindex of >= 1 as this well disrupt the normal tab order of the page. tabindex of -1 is only appropriate when autofocusing an element not normally interactive.
