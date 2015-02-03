@@ -33,7 +33,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
 
 <div id="hiddenContent" style="display:none;" tabindex='-1'>This div was hidden, now its not!</div>
 
-```
+```html
 <a href="#">Link to nowhere 1</a>
 <a href="#">Link to nowhere 2</a>
 <a href='javascript:$("#hiddenContent").show().focus();'>
