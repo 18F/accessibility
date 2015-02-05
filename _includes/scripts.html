@@ -1,0 +1,14 @@
+{% if page.title == "Keyboard Access" %}
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.moveFocus').on('focus',function(){
+			$('.keyboardTrap:first').focus();
+		});
+		$('.keyboardTrap').click(function(){
+			$('.moveFocus').each(function(){
+				$(this).remove();
+			});
+		});
+	});
+</script>
+{% endif %}
