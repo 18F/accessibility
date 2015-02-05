@@ -5,12 +5,58 @@ description: 'How we work with color and contrast'
 permalink: /color/
 page_title: Color and Contrast
 ---
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+There are two aspects we need to address when it comes to color, contrast and color dependence. Color contrast is the ratio of the foreground color(text) and the background color. Color dependence is the need to see color to understand the information.  
 
 ### Testing 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+#### Color Contrast
+
+1. Using a [color contast checker](http://www.paciellogroup.com/resources/contrastanalyser/), select the darkest/lightest section of the text
+2. Select the darkest/lightest section of the background
+3. Check the ratio and ensure its greater than 4.5:1 (ex 5.3:1 would pass)
+
+Note: Run this test for all states of the text (hover, visted, focused). This test should also be performed on images of text unless the image is a logo, which are exempt. 
+
+#### Color Dependence
+
+1. Identify sections which use color to convey information
+2. Check to see if the information is conveyed in another way visually and programatically
 
 ### Examples
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+#### Failures
+
+<span style = "color:#58AA02">This text fails. </span>
+
+> This text fails because it is too light. The contrast ratio is (2.93 : 1). 
+
+<span style = "color:#FFFFFF; background:#8D8E90">This text fails.</span>
+
+> This text fails because the background isn't dark enough. The contrast ratio is (3.28 : 1).
+
+<span style="color:red;">Red text indicates a required field</span>
+
+<label for="name">First Name&nbsp;</label><input type"text" id="name">
+
+<label for="lname" style="color:red">Last Name&nbsp;</label><input type"text" id="lname">
+
+> This is a failure because the only indication of which fields are required is the color of the text label.
+
+#### Passes
+
+<span style = "color:#458503">This text passes. </span>
+
+> This text passes. The contrast ratio is (4.56 : 1). 
+
+<span style = "color:#FFFFFF; background:#757679">This text passes.</span>
+
+> This text passes. The contrast ratio is (4.54 : 1).
+
+<span style="color:red;">* indicates a required field</span>
+
+<label for="name">First Name&nbsp;</label><input type"text" id="name">
+
+<label for="lname" style="color:red">* Last Name&nbsp;</label><input type"text" id="lname">
+
+> This example passes because the * and the red text indicates the required field.
+
