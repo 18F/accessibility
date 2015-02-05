@@ -11,7 +11,7 @@ There are two aspects we need to address when it comes to color, contrast and co
 
 #### Color Contrast
 
-1. Using a [color contast checker](http://www.paciellogroup.com/resources/contrastanalyser/), select the darkest/lightest section of the text
+1. Using a [color contrast checker](http://www.paciellogroup.com/resources/contrastanalyser/), select the darkest/lightest section of the text
 2. Select the darkest/lightest section of the background
 3. Check the ratio and ensure its greater than 4.5:1 (ex 5.3:1 would pass)
 
