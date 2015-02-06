@@ -5,12 +5,18 @@ description: 'How we deal with page titles'
 permalink: /pagetitles/
 page_title: Page Titles
 ---
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+Page titles are important because they help a user navigate their browser. Most users have multiple tabs open at once. It's easier to jump between pages if each page title is unique. It's also helpful to have the unique portion first, usually the name of the page. 
 
 ### Testing 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+1. Check that the title shown in the tab for the page is unique and describes the page accurately.
+  * The title should be in plain english 
+  * The title should describe the web site as well as the specific page being displayed by the site
 
 ### Examples
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+```html
+<title>Page Titles - 18F Accessibility</title>
+```
+
+> The title for this page is 'Page Titles - 18F Accessibility'. The first half is the name of this page and the second is the name of the site.  
