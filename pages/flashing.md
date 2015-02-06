@@ -5,12 +5,24 @@ description: 'How we deal with flashing'
 permalink: /flashing/
 page_title: Flashing
 ---
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+Flashing is generally a bad idea. It can cause all sorts of issues, from seizures to motion sickness. If you absolutely must have a flashing element there are a few things to consider. 
 
 ### Testing 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+* Failure at any step constitues a 508 compliance issue
+
+1. Check if you can determine the frequency of "flashing"
+  * Note: Scrolling text is considered flashing for our purposes
+2. Check that the rate of flashing is less than 3hz (3 times a second), or scroll delay is set to >= 400
 
 ### Examples
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+<marquee scrolldelay = "400">Here is a marquee, I bet you haven't seen this in a while, anyway, the scroll delay is set to 400.</marquee>
+
+```html
+<marquee scrolldelay="400">
+	Here is a marquee, I bet you haven't seen this in a while, anyway, the scroll delay is set to 400.
+</marquee>
+```
+
+> This is an example of marquee. The scrolldelay is set and it is equal to 400 meaning it is compliant. 
