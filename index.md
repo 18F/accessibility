@@ -7,7 +7,14 @@ title: Accessibility
 page_title: Home
 ---
 
-This site is currently in __Draft__ as it is still being built. It will eventually contain resources for all things accessibility, development best practices, testing guides, and tools. If you have a question or would like to contribute, please visit our [GitHub Repo.](https://github.com/18F/accessibility) 
+This site is currently in __Draft__ as it is still being built. It will eventually contain resources for all things accessibility, development best practices, testing guides, and tools.
+
+
+Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into count. And least of all, it is a required by law for all federal EIT products to be accessible (with a few minor exceptions). 
+
+Accessibility works best when incorporated into an agile production environment. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straight forward and cost effective. The best and perhaps only way to ensure this is done, is training and education. Every member of a production team should be aware of what accessibility concerns are and a basic understanding of how they are addressed. 
+
+If you have any questions about accessiblity, 508, or would like help, please reach out on the [GitHub Repo.](https://github.com/18F/accessibility).  
 
 ## Resources
 
