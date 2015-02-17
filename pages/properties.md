@@ -5,12 +5,26 @@ description: 'How we deal with Web Text Properties'
 permalink: /properties/
 page_title: Web Text Properties
 ---
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+Having the HTML properties of your website set properly ensures assitive technology interacts with your site correctly. _AT_ will read foreign languages, but they need to know when the language differs from the page's default. 
 
 ### Testing 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+1. Open the inspector panel
+2. Locate the main ```html``` tag
+  * __If the ```lang``` attribute isn't set to the correct language, this is a failure.__
+3. Identify any content that differs from the default language, make sure the content has its own ```lang``` attribute set with that language
+  * __Any alternate language content not set constitues a failure__
 
 ### Examples
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+#### Failure
+
+La manzana está verde.
+
+> This text is spanish and no language tag is set
+
+#### Passes 
+
+<p lang='es'>La manzana está verde.</p>
+
+> This text passes because the ```lang``` attribute is set to spanish
