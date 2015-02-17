@@ -17,6 +17,8 @@ Flashing is generally a bad idea. It can cause all sorts of issues, from seizure
 
 ### Examples
 
+#### Passes
+
 <marquee scrolldelay = "400">Here is a marquee, I bet you haven't seen this in a while, anyway, the scroll delay is set to 400.</marquee>
 
 ```html
@@ -26,3 +28,9 @@ Flashing is generally a bad idea. It can cause all sorts of issues, from seizure
 ```
 
 > This is an example of marquee. The scrolldelay is set and it is equal to 400 meaning it is compliant. 
+
+#### Fails
+<button type='button' id='blinkbutton'>Click to see non-compliant flashing</button>
+<span class='blink' style='display:none;'>This text is blinking</span>
+
+> ___Failure:___ This blinking text fails because the rate of flashing can't be determined and its greater than 3hz.
