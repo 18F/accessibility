@@ -18,3 +18,7 @@ div.skip-nav a:focus {
 	padding-right: 2px;
 	overflow: visible;
  }
+
+ .mainContent:focus {
+ 	outline: none;
+ }
