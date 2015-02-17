@@ -13,10 +13,14 @@ Keyboard access to a website is key to the usability of your site. All interacti
 1. Identify all interactions on the page
 2. Using the tab, enter, and space bar, navigate the page and ensure each input/interaction can be triggered
   * Ensure rollover interactions (help text, etc) can be triggered aswell
-3. Ensure the tab order of the page makes sense
-4. Ensure the focus is always visible when moving through the page
-5. Ensure the tab is never trapped in a loop
-6. If a modal dialog box is used, ensure focus is moved to the modal 
+  * __If the user cannot ineract with something, or get the information another way, this is a failure__
+3. Make sure the tab order of the page is logical
+  * __If the tab order is confusing, this is a failure__
+4. Check that the focus is always visible when moving through the page with the tab key
+  * __If you lose focus, on a hidden link or other object when simply tabbing through the page, this is a failure__
+5. Make sure you can tab through the page and get back the address bar
+  * __If you ever need your mouse to get back to an element, this is a failure__
+6. If a modal dialog box is used, focus must move to the modal dialog box until a selection is made 
 7. If an interaction reveals hidden content
   * Ensure the focus is moved to the revealed content
     * If this does not happen, check for a programatic description of the change
