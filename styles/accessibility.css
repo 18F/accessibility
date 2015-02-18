@@ -22,3 +22,13 @@ div.skip-nav a:focus {
  .mainContent:focus {
  	outline: none;
  }
+
+ table, th, td {
+   border: 1px solid black;
+   padding: 5px;
+   margin:5px;
+}
+th {
+	background: #767576;
+	color:white;
+}
