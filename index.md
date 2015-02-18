@@ -23,7 +23,7 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [Creating Accessible PDF's](http://www.section508.va.gov/support/tutorials/pdf/index.asp)
 * [GSA's 508 Policies](https://insite.gsa.gov/portal/content/629482)
 * [w3 ARIA documentation](http://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria)
-  * ARIA or Accessible Rich Internet Applications is used in modern browswers to provide additional information to assitive technologys. (IE 8+, Chrome, Firefox, Mobile, [full ARIA browser list](http://caniuse.com/#feat=wai-aria))
+  * ARIA or Accessible Rich Internet Applications is used in modern browsers to provide additional information to assistive technologies. (IE 8+, Chrome, Firefox, Mobile, [full ARIA browser list](http://caniuse.com/#feat=wai-aria))
   * Not accepted by DHS
 * [ARIA practical Examples](http://heydonworks.com/practical_aria_examples/)
 * [The Accessibility Project](http://a11yproject.com/)
