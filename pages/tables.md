@@ -92,10 +92,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficit
 		</th>
 	</tr>
 	<tr>
-		<th id='feet'>
+		<th id='feet' headers='height'>
 			Feet
 		</th>
-		<th id='inches'>
+		<th id='inches' headers='height'>
 			Inches
 		</th>
 	<tr>
