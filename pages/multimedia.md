@@ -5,12 +5,16 @@ description: 'How we deal with multimedia'
 permalink: /multimedia/
 page_title: Multimedia
 ---
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+When using multimedia, we must provide means for everyone to consume the media. Multimedia is anything that uses audio and video
 
-### Testing 
+#### Closed Captioning
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+Videos with audio require synchornized closed captioning. Anything said in the video must be included in the closed captioning, and anything in the closed captioning must be said in the video. 
 
-### Examples
+#### Audio Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+Audio description ensures any information displayed visually is conveyed via audio. The most basic example of this is text on screen. All the text on screen should be availble by audio. This can be done a couple of ways. The script for the video can be written in a way that all visual information is read by the narrator. The other way is to add a seperate audio track that describes the visual content. This can be done with a special player or a seperate version of the video with the audio baked in. 
+
+#### Keyboard Access
+
+Just a note about keyboard access. All video controls should be accessible via the keyboard, but its also worth noting the time stamp information should be availble to screen readers aswell. 
