@@ -6,6 +6,18 @@ permalink: /tables/
 page_title: Tables
 ---
 
+When tables are used to show data, the header cells that relate to the data cells need to be programatically linked. This makes table navigation for screen readers less painful. 
+
+Simple tables can have 2 levels of headers. Each header cell should have `scope='col'` or `scope='row'`. 
+Complex tables are tables with more than 2 levels of headers. Each header should be given a unique `id` and each data cell should have a `headers` attribute with each related header cells id listed. 
+
+### Testing
+
+1. Identify 'data' tables (layout tables are exempt)
+2. View the table source code
+3. Identify the table headers
+  * Check for scope on simple tables
+  * Check for id and headers on complex tables 
 
 ### Examples
 
