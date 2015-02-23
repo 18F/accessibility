@@ -5,12 +5,15 @@ description: 'How we deal with CSS'
 permalink: /css/
 page_title: CSS Dependence
 ---
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+CSS Dependence just means site shouldn't rely on CSS to be functional or understandable. Often sites will use CSS to load important images for example. This is bad for several reasons. Background images can't be tagged for accessiblity and with CSS turned off they aren't shown. 
+
+The other issue that pops up with CSS dependence is content order. Sometimes, content will be arranged on screen with CSS instead of the natural code flow. 
 
 ### Testing 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+1. Disable CSS
+2. Check for missing information (images, text, etc)
+3. Check for code or other items the developer doesn't want you to see
+  * Confusing elements shouldn't be present
+4. Check for overlapping text
 
-### Examples
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
