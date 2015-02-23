@@ -5,12 +5,15 @@ description: 'How we deal with Plug-ins'
 permalink: /plugins/
 page_title: Plug-ins
 ---
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+Plugins provide extended functionality not native to the browswer. Examples include PDF, Flash, Shockwave, Silverlight, and Java. 
+
+Anytime one of these is used on a page, they must be tested for accessiblity. 
+
+Pro-tip: Flash always fails for accessibility, but is often given an exception. 
 
 ### Testing 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
-
-### Examples
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+1. Identify any plugins on the page
+2. Identify a link to download each plugin
+3. Check each plugin for accessibility
+  * Most plugins have a VPAT availble on the manufactures website which lists its accessilbity findings
