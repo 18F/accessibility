@@ -5,12 +5,42 @@ description: 'How we deal with Frames'
 permalink: /frames/
 page_title: Frames
 ---
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+When using frames, its important that all content contained in them is accessible. 
 
 ### Testing 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+1. Identify all `frame`s / `iframe`s on a pages
+2. Using the keyboard, navigate each frame to ensure content is accessible
+3. Check the `title` or `name` attribute of each for a description of the content
 
 ### Examples
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+
+#### Failure
+
+<iframe src="../iframeform/"></iframe>
+
+```html
+<iframe src="../iframeform/"></iframe>
+```
+
+> This `iframe` doesn't have a title or name.
+
+<iframe src="../iframeform/" name='Provide an address form'></iframe>
+
+```html
+<iframe src="../iframeform/" name='Provide an address form'></iframe>
+```
+
+> This `name` isn't correct
+
+#### Passes
+
+<iframe src="../iframeform/" title='Provide Name Form'></iframe>
+
+```html
+<iframe src="../iframeform/" title='Provide Name Form'></iframe>
+```
+
+> Correct `title` is provided. This would also pass if this information was in a `name` attribute.
+
