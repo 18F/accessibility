@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+echo "building site"
+bundle exec rake test
+
+echo "built"
+
+echo "Cleaning up..."
+rm -Rf _site
