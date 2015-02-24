@@ -33,3 +33,12 @@ If you have any questions about accessiblity, 508, or would like help, please re
   * The full section 508 standards
 * [Web Aim's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
 * [Tips for creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
+* [HTML Code Sniffer](https://squizlabs.github.io/HTML_CodeSniffer/)
+  * "Check that your HTML code conforms to your coding standard"
+  * ["Section 508" Guidelines: Summary](https://squizlabs.github.io/HTML_CodeSniffer/Standards/Section508/)
+  * [WCAG 2.0 Standard: Summary](https://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/)
+* [pa11y.org](http://pa11y.org/)
+  * Command line interface (CLI), web service, and web dashboard for accessibility reporting (uses HTML Code Sniffer).
+  * [CLI](https://github.com/nature/pa11y)
+  * [Web service](https://github.com/nature/pa11y-webservice)
+  * [Dashboard](https://github.com/nature/pa11y-dashboard)
