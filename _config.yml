@@ -1,4 +1,4 @@
-baseurl: /accessibility/
+baseurl: /accessibility
 markdown: redcarpet
 
 sass:
