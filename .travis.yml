@@ -1,7 +1,9 @@
 language: ruby
 rvm:
   - 2.1.5
-script: ./script/cibuild
+script:
+  - pa11y https://18f.github.io/accessibility/ 
+  - ./script/cibuild
 before_script:
   - npm install -g pa11y
 
