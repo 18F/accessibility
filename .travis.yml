@@ -2,6 +2,8 @@ language: ruby
 rvm:
   - 2.1.5
 script: ./script/cibuild
+before_script:
+  - npm install -g pa11y
 
 # branch whitelist
 branches:
