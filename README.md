@@ -1,6 +1,14 @@
 # Accessibility
 This repo will contain the guidelines and best practices for 508 accessibility at 18f. 
-The site is in draft. 
+The site is in draft.
+
+### Running Locally 
+
+The site is `jekyll` based, and will require the Ruby gem to run. 
+
+  * `gem install jekyll`
+
+To keep our code updating continuously as we edit, we use `jekyll serve --baseurl '' --watch`. As of Jekyll 2.2.0, [gh-pages compiles Sass natively](https://github.com/blog/1867-github-pages-now-runs-jekyll-2-2-0).
 
 ### Public domain
 
