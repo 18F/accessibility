@@ -1,5 +1,1 @@
-url: ""
-
-proofer:
-  href_ignore:
-    - "#comments"
+baseurl: ""
