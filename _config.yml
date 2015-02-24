@@ -3,3 +3,36 @@ markdown: redcarpet
 
 sass:
     sass_dir: styles/_sass
+
+exclude:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE
+  - readme.md
+  - bundle
+  - src
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - bower.json
+  - package.json
+  - script
+  - test
+  - less
+  - scss
+  - media
+  - feature-detects
+  - composer.json
+  - component.json
+  - grunt.js
+  - assets/vendor/font-awesome/src
+  - assets/vendor/bootstrap/js
+  - assets/vendor/bootstrap/less
+  - assets/vendor/font-awesome/less
+  - assets/vendor/font-awesome/scss
+  - assets/vendor/font-awesome/src
+  - assets/vendor/modernizr/feature-detects
+  - assets/vendor/modernizr/media
+  - assets/vendor/modernizr/test
+  - ".bundle"
+  - vendor
