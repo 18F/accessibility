@@ -18,6 +18,8 @@ If you have any questions about accessiblity, 508, or would like help, please re
 
 ## Resources
 
+### Sites/Tutorials
+
 * [Simply Accessible](http://simplyaccessible.com/archives/)
   * A great blog and resource with articles about modern accessibility.
 * [Creating Accessible PDF's](http://www.section508.va.gov/support/tutorials/pdf/index.asp)
@@ -33,3 +35,8 @@ If you have any questions about accessiblity, 508, or would like help, please re
   * The full section 508 standards
 * [Web Aim's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
 * [Tips for creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
+
+### Tools
+
+* [Colour Contrast Analyser](http://www.paciellogroup.com/resources/contrastanalyser/)
+* [pa11y automated CLI 508 tool](http://pa11y.org/)
