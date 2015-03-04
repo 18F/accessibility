@@ -40,7 +40,7 @@ If you have any questions about accessiblity, 508, or would like help, please re
 
 * [Colour Contrast Analyser](http://www.paciellogroup.com/resources/contrastanalyser/)
 * [pa11y automated CLI 508 tool](http://pa11y.org/)
-* [https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en](Accessibility Developer Tools - Chrome)
-* [https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US](Web Developer - Chrome)
-* [https://msdn.microsoft.com/en-us/library/windows/desktop/dd318521%28v=vs.85%29.aspx](Inspector - Windows)
+* [Accessibility Developer Tools - Chrome](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
+* [Web Developer - Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US)
+* [Inspector - Windows](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318521%28v=vs.85%29.aspx)
   * This tool is used by DHS for their Trusted Tester Program 
