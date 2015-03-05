@@ -1,24 +1,37 @@
 ---
 layout: default
-title: Testing Tools
-description: 'Tools we use to test accessibility'
+title: Tools
+description: 'Tools we use to improve and test accessibility'
 permalink: /tools/
-page_title: Testing Tools
+page_title: Accessibility-friendly Tools
 ---
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
 
-### Testing 
+### Tools
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+#### Autocomplete Widgets
+These JavaScript widgets produce HTML with [ARIA autocomplete] attributes:
 
-Phasellus ut ipsum cursus, dictum dui ut, sagittis leo. Nam justo metus, venenatis ut urna at, ultrices congue eros. Praesent sapien tellus, elementum ut vehicula lobortis, mollis a elit. Cras eleifend, nulla ut vehicula cursus, ante dui faucibus ligula, ac faucibus nisi mauris et dui. Nulla mollis nibh metus, eu ultrices ex ultrices elementum. Pellentesque id leo blandit, ornare metus id, lacinia massa. Aliquam volutpat interdum sapien vel scelerisque. Quisque pulvinar ante nulla. Nam eu hendrerit diam, at vestibulum lacus.
+* [Awesomplete](http://leaverou.github.io/awesomplete/) is dependency-free
+* [jQuery UI autocomplete](http://jqueryui.com/autocomplete/) requires jQuery
+* [Select2](https://select2.github.io/) also requires jQuery
 
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+### Testing Tools
+These tools can be used to test sites for Section 508 and WCAG compliance:
 
-### Examples
+* [achecker](http://achecker.ca/) is an accessibility reporter for HTML only.
+* [Google's Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en) is a Chrome plugin for running basic accessibility tests from the comfort of your browser.
+* The [W3C](http://www.w3.org/) maintains a comprehensive [list of web accessibility evaluation tools](http://www.w3.org/WAI/ER/tools/).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur efficitur metus non porta. Aenean fringilla sodales dolor eget sodales. Sed semper nunc in lectus fermentum congue. Ut quis nulla arcu. Pellentesque sit amet erat nec lectus posuere facilisis eu ac libero. Proin cursus feugiat accumsan. Proin eget maximus libero, in ultrices est. Aliquam semper mi porta nisi mattis aliquam.
+#### Automated Testing
+These tools can be used in automated tests and with continuous integration
+tools to help you ensure that your sites remain accessible throughout the
+development process:
 
-Phasellus ut ipsum cursus, dictum dui ut, sagittis leo. Nam justo metus, venenatis ut urna at, ultrices congue eros. Praesent sapien tellus, elementum ut vehicula lobortis, mollis a elit. Cras eleifend, nulla ut vehicula cursus, ante dui faucibus ligula, ac faucibus nisi mauris et dui. Nulla mollis nibh metus, eu ultrices ex ultrices elementum. Pellentesque id leo blandit, ornare metus id, lacinia massa. Aliquam volutpat interdum sapien vel scelerisque. Quisque pulvinar ante nulla. Nam eu hendrerit diam, at vestibulum lacus.
+* [a11y](https://github.com/addyosmani/a11y) is a Node-based accessibility auditing with both command-line and JavaScript APIs.
+* [pa11y](http://pa11y.org/) and is like a11y, but consists of a larger suite of tools, including command-line and JavaScript APIs, a [web service](https://github.com/nature/pa11y-webservice) and a [dashboard](https://github.com/nature/pa11y-dashboard) for monitoring accessibility reports across multiple sites.
+* [ra11y](https://github.com/benbalter/ra11y) is a Ruby-based accessibility testing tool tuned for use with [Jekyll](http://jekyllrb.com/) and static sites.
+* [webalin](http://webalin.readthedocs.org/en/latest/) is a Python-based 508 compliance linter for HTML.
 
-Sed eros purus, egestas eu risus sit amet, sodales posuere eros. Ut porta lorem lorem, in ultrices est porta hendrerit. Nam vitae porttitor neque. Vestibulum in leo porta, feugiat nisl vestibulum, dignissim ligula. Morbi hendrerit, enim et faucibus sollicitudin, libero turpis pretium tellus, sit amet dapibus nunc sem vel eros. Proin felis velit, varius vel tellus nec, viverra tristique leo. Integer mattis mollis orci, ut maximus mi varius vitae.
+There are many other [npm](https://www.npmjs.com/) packages tagged [wcag](https://www.npmjs.com/search?q=wcag) and [a11y](https://www.npmjs.com/search?q=a11y).
+
+[ARIA autocomplete]: http://www.w3.org/TR/wai-aria/states_and_properties#aria-autocomplete
