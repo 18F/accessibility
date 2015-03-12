@@ -32,7 +32,7 @@ th {
 	background: #767576;
 	color:white;
 }
-li.active{
-	background: #317ab9;
+li.active a{
+	background-color: #317ab9;
 }
 
