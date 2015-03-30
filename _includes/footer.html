@@ -1,4 +1,5 @@
-  </div>
+      </div>
+    </div>
   </div>
 <!-- Google Analytics -->
     <script>
@@ -9,12 +10,12 @@
        Set active tab
     *****************/
     (function(){
-    	var pageTitle = $(document).find("title").text();
-    	pageTitle = pageTitle.substring(0,pageTitle.indexOf(' - '));
-    	$('nav li a:contains('+pageTitle+')')
-    		.attr('title','Selected Page')
-    		.parent()
-    			.addClass('active');
+      var pageTitle = $(document).find("title").text();
+      pageTitle = pageTitle.substring(0,pageTitle.indexOf(' - '));
+      $('nav li a:contains('+pageTitle+')')
+        .attr('title','Selected Page')
+        .parent()
+          .addClass('active');
     })();
     </script>
   </body>
