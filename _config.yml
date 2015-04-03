@@ -1,6 +1,6 @@
 baseurl: /accessibility
 markdown: redcarpet
-
+title: Accessibility
 sass:
     sass_dir: styles/_sass
 
@@ -90,9 +90,9 @@ navigation:
 
 
 repos:
-- name: Automated Testing Playbook
+- name: Accessibility
   description: Main repository
-  url: https://github.com/18F/automated-testing-playbook
+  url: https://github.com/18F/accessibility
 
 # Style Variables
 brand_color: "#1188ff"
