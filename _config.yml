@@ -1,6 +1,6 @@
 baseurl: /accessibility
 markdown: redcarpet
-name: Accessibility
+name: Accessibility Guide
 sass:
     sass_dir: styles/_sass
 
