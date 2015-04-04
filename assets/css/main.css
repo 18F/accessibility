@@ -35,25 +35,23 @@ Typography
 */
 
 body {
-    font-family: "Avenir Next", Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     line-height: 1.466666667;
 }
 
 h1,
+h2,
 h3,
 h4,
-h5,
-strong {
-    font-family: "Avenir Next Demi", "Avenir Next", Arial, sans-serif;
+h5 {
+    font-family: "Raleway", Arial, sans-serif;
     font-weight: 600;
 }
 
 .site-title {
-    font-size: 1.625em;
-    font-family: "Avenir Next", Arial, sans-serif;
-    font-weight: normal;
+    font-size: 1.9em;
     color: #919395;
     margin: 0;
     line-height: 1.2941176470588236;
@@ -61,10 +59,12 @@ strong {
 }
 
 h2 {
-    font-weight: 400;
-    font-style: normal;
     font-size: 1.375em;
     margin: 1.4em 0 0 0;
+}
+
+h3 {
+    margin-top: 30px;
 }
 
 h4 {
@@ -187,13 +187,11 @@ Navigation
   color: #74767B;
   border-left: 4px solid {{ site.brand_color }};
   background-color: transparent;
-  border-bottom: 1px solid #babbbd;
   padding-left: 0;
 }
 .sidebar-nav ul {
   margin: 0;
   padding: 0;
-  /*border-top: 1px solid @gray-50;*/
 }
 .sidebar-nav li {
   list-style: none;
@@ -422,6 +420,7 @@ Desktop Styles
     .logo {
         max-width: 30%;
         padding-right: 20px;
+        margin-top: -12px;
         float: right;
     }
 
