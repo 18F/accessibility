@@ -1,31 +1,8 @@
 baseurl: /accessibility
 markdown: redcarpet
-name: Accessibility
-sass:
-    sass_dir: styles/_sass
-
-# Build settings
-exclude:
-- README.md
-- LICENSE.md
-- CONTRIBUTING.md
-- deploy
-- vendor
-- go
+name: Accessibility Guide
 
 permalink: pretty
-
-defaults:
-  -
-    scope:
-      path: "pages"
-    values:
-      layout: "default"
-      edit_info:
-        repo: 18F/accessibility
-        branch: master
-
-# DOCter bits after this
 
 # Author/Organization info to be displayed in the templates
 author:
@@ -87,7 +64,6 @@ navigation:
 - text: Alternative Versions
   url: alternativeversions/
   internal: true
-
 
 repos:
 - name: Accessibility

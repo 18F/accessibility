@@ -1,115 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.">
-    <title>{{page.page_title}} - 18F Accessibility</title>
-<!--
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssso        osssssssssso/-.```.-/osssssssssss:            -ossssss
-sssssssssssssssssssssssssssssssssssss++++++-  osssssssso-  `-///-`  -osssssssss-  -+++++++++-ossssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssssso. `/ossssso/` .ossssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osssssss/  /sssssssss/  /ssssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osssssss/  /sssssssss/  /ssssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssssso. `/sssssss/` `ossssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osssssssso-  .:///:.  -osssssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssssss+:`   ````   -/ossssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssss/.` .:++oooo+/-` `:ossssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osssso-  -+osssssssssso/` `/sssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossso. `/ssssssssssssssso-  /ssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osss-  /ssssssssssssssssso. `osss-            -sssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osss  `sssssssssssssssssss/  /sss-  -+++++++++-sssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osss  .sssssssssssssssssss/  :sss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osss.  ossssssssssssssssss-  +sss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  osss+` .ossssssssssssssss:  -ssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossss+` `/ossssssssssss+-  -sssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssso:` `:+oooooooo/-  .+ssssss-  osssssssssssssssss
-sssssssssssssssssssssssssssssssssssssssssss-  ossssssso/.` ``....`  `-+ssssssss-  osssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssso++ssssssssssso+/::-:://osssssssssss+++ssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-
-Hi there! Great job on pulling back the curtain.
-We're always looking for curious people with diverse skill-sets. Let's talk at 18f@gsa.gov
-
--->
-
-    <link href="{{site.baseurl}}/styles/bootstrap-3.1.1.min.css" rel="stylesheet">
-    <link href='//fonts.googleapis.com/css?family=Raleway:400,700%7COpen+Sans:300,600' rel='stylesheet' type='text/css'>
-    <link href="{{site.baseurl}}/styles/18f.min.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/styles/github.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/styles/accessibility.css" rel="stylesheet">
-    <!-- <link href="styles/fonts.css" rel="stylesheet"> -->
-    <!-- <link href="styles/18f.css" rel="stylesheet"> -->
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.js"></script>
-      <link href="styles/ie.css" rel="stylesheet">
-    <![endif]-->
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  </head>
-  <body>
-  <div class="skip-nav">
-    <a href="#mainContent">Skip to main content</a>
-  </div>
-  <div class="container section">
-    <div class="row">
-      <div class="col-md-2">
-        <a href="https://hub.18f.us/" style="text-decoration:none;">
-          <i class="icon-18f-logo" style="font-size:7em; color:#18f;"></i>
-          <span class='sr-only'>18f Home</span>
-        </a>
-        <nav class="hidden-print" role="navigation">
-          <ul class='nav nav-pills nav-stacked'>
-            <li><a href="{{site.baseurl}}/">Home</a></li>
-            <li><a href='{{site.baseurl}}/keyboard/'>Keyboard Access</a></li>
-            <li><a href='{{site.baseurl}}/images/'>Images</a></li>
-            <li><a href='{{site.baseurl}}/color/'>Color and Contrast</a></li>
-            <li><a href='{{site.baseurl}}/forms/'>Forms</a></li>
-            <li><a href='{{site.baseurl}}/flashing/'>Flashing</a></li>
-            <li><a href='{{site.baseurl}}/pagetitles/'>Page Titles</a></li>
-            <li><a href='{{site.baseurl}}/multimedia/'>Multimedia</a></li>
-            <li><a href='{{site.baseurl}}/timeouts/'>Time Outs</a></li>
-            <li><a href='{{site.baseurl}}/properties/'>Web Text Properties</a></li>
-            <li><a href='{{site.baseurl}}/tables/'>Data Tables</a></li>
-            <li><a href='{{site.baseurl}}/css/'>CSS Dependence</a></li>
-            <li><a href='{{site.baseurl}}/frames/'>Frames</a></li>
-            <li><a href='{{site.baseurl}}/links/'>Links and Repetitive Content</a></li>
-            <li><a href='{{site.baseurl}}/plugins/'>Plug-ins</a></li>
-            <li><a href='{{site.baseurl}}/alternativeversions/'>Alternative Versions</a></li>
-          </ul>
-        </nav>
-      </div>
- <div class="col-md-10">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - Accessibility Guide</title>
+  <meta name="viewport" content="width=device-width">
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,700%7COpen+Sans:300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+  <!--[if lt IE 9]>
+    <script src="{{ site.baseurl }}/assets/js/html5shiv.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/respond.js"></script>
+  <![endif]-->
+</head>
