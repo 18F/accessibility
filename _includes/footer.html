@@ -1,22 +1,7 @@
-      </div>
-    </div>
-  </div>
-<!-- Google Analytics -->
-    <script>
-     <!-- Put your personalized analytics script here -->
-    </script>
-    <script type="text/javascript">
-    /*****************
-       Set active tab
-    *****************/
-    (function(){
-      var pageTitle = $(document).find("title").text();
-      pageTitle = pageTitle.substring(0,pageTitle.indexOf(' - '));
-      $('nav li a:contains('+pageTitle+')')
-        .attr('title','Selected Page')
-        .parent()
-          .addClass('active');
-    })();
-    </script>
-  </body>
-</html>
+<footer role="contentinfo">
+  <div class="wrap">
+    <p>This project is maintained by <a href="{{ site.author.url }}">{{ site.author.name }}</a>.</p>
+
+    <p>Hosted on <a href="http://pages.github.com/">GitHub Pages</a>.</p>
+  </div><!--/.wrap -->
+</footer>

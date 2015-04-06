@@ -1,3 +1,7 @@
+/*
+This is where custom styles for your guide should live.
+*/
+
 div.skip-nav a {
   position: absolute;
   left: -10000;
