@@ -5,11 +5,11 @@
     <ul>
       {% for link in site.navigation %}
         {% if link.internal == true %}
-          <li {% if page.title == link.text %}class="active"{% endif %}>
+          <li {% if page.title == link.text %}class="sidebar-nav-active"{% endif %}>
             <a href="{{ site.baseurl }}/{{ link.url }}">{{ link.text }}</a>
           </li>
         {% else %}
-          <li {% if page.title == link.text %}class="active"{% endif %}>
+          <li {% if page.title == link.text %}class="sidebar-nav-active"{% endif %}>
             <a href="{{ link.url }}">{{ link.text }}</a>
           </li>
         {% endif %}
