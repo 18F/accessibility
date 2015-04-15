@@ -6,16 +6,14 @@ permalink: /tools/
 page_title: Accessibility-friendly Tools
 ---
 
-### Tools
+### Color Tools
+* [WebAIM color contrast checker](http://webaim.org/resources/contrastchecker/) compares two hex colors and tells you whether they meet WCAG AA and AAA contrast thresholds.
+* [NC State palette accessibility evaluator](http://accessibility.oit.ncsu.edu/tools/color-contrast/) lets you compare contrast between 3 or more colors for WCAG AA or AAA compliance.
+* [Color Safe](http://colorsafe.co/) is a guide for choosing colors that meet WCAG contrast thresholds.
+* [Color Contrast Analyzer](http://www.paciellogroup.com/resources/contrastanalyser/) is a desktop application for contrast checking that also simulates different forms of color impairment.
+* [Color Oracle](http://colororacle.org/) is another desktop application for simulating color impairment on your entire screen.
 
-#### Autocomplete Widgets
-These JavaScript widgets produce HTML with [ARIA autocomplete] attributes:
-
-* [Awesomplete](http://leaverou.github.io/awesomplete/) is dependency-free
-* [jQuery UI autocomplete](http://jqueryui.com/autocomplete/) requires jQuery
-* [Select2](https://select2.github.io/) also requires jQuery
-
-### Testing Tools
+### Accessibility Checkers
 These tools can be used to test sites for Section 508 and WCAG compliance:
 
 * [achecker](http://achecker.ca/) is an accessibility reporter for HTML only.
@@ -23,7 +21,14 @@ These tools can be used to test sites for Section 508 and WCAG compliance:
 * [WAVE](http://wave.webaim.org/) is a comprehensive accessibility auditor with slick document introspection features.
 * The [W3C](http://www.w3.org/) maintains a comprehensive [list of web accessibility evaluation tools](http://www.w3.org/WAI/ER/tools/).
 
-#### Automated Testing
+### Autocomplete Widgets
+These JavaScript widgets produce HTML with [ARIA autocomplete] attributes:
+
+* [Awesomplete](http://leaverou.github.io/awesomplete/) is dependency-free
+* [jQuery UI autocomplete](http://jqueryui.com/autocomplete/) requires jQuery
+* [Select2](https://select2.github.io/) also requires jQuery
+
+### Automated Testing
 These tools can be used in automated tests and with continuous integration
 tools to help you ensure that your sites remain accessible throughout the
 development process:
