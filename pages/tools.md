@@ -8,6 +8,7 @@ page_title: Accessibility-friendly Tools
 
 ### Color Tools
 * [WebAIM color contrast checker](http://webaim.org/resources/contrastchecker/) compares two hex colors and tells you whether they meet WCAG AA and AAA contrast thresholds.
+* [Snook's color contrast analyzer](http://snook.ca/technical/colour_contrast/colour.html) lets you adjust RGB and HSV values and reports contrast compliance interactively.
 * [NC State palette accessibility evaluator](http://accessibility.oit.ncsu.edu/tools/color-contrast/) lets you compare contrast between 3 or more colors for WCAG AA or AAA compliance.
 * [Color Safe](http://colorsafe.co/) is a guide for choosing colors that meet WCAG contrast thresholds.
 * [Color Contrast Analyzer](http://www.paciellogroup.com/resources/contrastanalyser/) is a desktop application for contrast checking that also simulates different forms of color impairment.
