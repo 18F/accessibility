@@ -7,12 +7,26 @@ title: Home
 page_title: Home
 ---
 
-This site is currently in __Draft__ as it is still being built. It will eventually contain resources for all things accessibility, development best practices, testing guides, and tools.
+This site is currently in __draft__ as it is still being built. It will eventually contain resources for all things accessibility, development best practices, testing guides, and tools.
 
+## What is accessibility?
 
-Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into count. And least of all, it is a required by law for all federal EIT products to be accessible (with a few minor exceptions). 
+Accessibility is a long word that can do a lot for you and your web products. Paying attention to accessibility and developing in a inclusive ways from the beginning of your project means that:
 
-Accessibility works best when incorporated into an agile production environment. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straight forward and cost effective. The best and perhaps only way to ensure this is done, is training and education. Every member of a production team should be aware of what accessibility concerns are and a basic understanding of how they are addressed. 
+- the greatest number of users will be able to view your content;
+- search engines will be able to read your site more completely;
+- everyone (everyone!) will have a better experience using your product;
+- and, you'll be following the law (it is required by law that all federal EIT products be accessible, aka '508 compliance').
+
+### Wait, you said this is something I should do from the _start_ of a project? Really?
+
+Accessibility works best when incorporated into an agile production environment from the beginning. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straightforward and cost-effective. Every member of a production team should be aware of what accessibility concerns are and have at least a basic understanding of how they are addressed. 
+
+### I'm still not convinced that this is important
+
+Designing and developing so that people with many different backgrounds in many parts of their lives can use our products make the experience better for everyone. All of us will be differently-abled in different parts of our lives. Take a look at Anne Gibson's [Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-july-31) for a great reminder of, well, life happens.
+
+### I'm convinced now! Who should I contact for help if this site isn't enough?
 
 If you have any questions about accessiblity, 508, or would like help, please reach out on the [GitHub Repo.](https://github.com/18F/accessibility).  
 
