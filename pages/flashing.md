@@ -9,11 +9,11 @@ Flashing is generally a bad idea. It can cause all sorts of issues, from seizure
 
 ### Testing 
 
-* Failure at any step constitues a 508 compliance issue
+*Failure at any step constitues a 508 compliance issue*
 
 1. Check if you can determine the frequency of "flashing"
-  * Note: Scrolling text is considered flashing for our purposes
-2. Check that the rate of flashing is less than 3hz (3 times a second), or scroll delay is set to >= 400
+  * Note: Scrolling text is considered flashing for our purposes.
+2. Check that the rate of flashing is less than 3hz (3 times a second), or scroll delay is set to >= 400.
 
 ### Examples
 

@@ -1,31 +1,31 @@
 ---
 layout: default
-title: Keyboard Access
+title: Keyboard access
 description: 'How we work with keyboards only'
 permalink: /keyboard/
-page_title: Keyboard Access
+page_title: Keyboard access
 ---
 
 Keyboard access to a website is key to the usability of your site. All interactions and information that can be accessed with a mouse **must** be accessible with just a keyboard. This doesn't mean everyone who can't use a mouse will use a keyboard, but alternative AT inputs use keyboard like inputs to navigate the web. 
 
 ### Testing 
 
-1. Identify all interactions on the page
-2. Using the tab, enter, and space bar, navigate the page and ensure each input/interaction can be triggered
-  * Ensure rollover interactions (help text, etc) can be triggered aswell
-  * __If the user cannot ineract with something, or get the information another way, this is a failure__
-3. Make sure the tab order of the page is logical
-  * __If the tab order is confusing, this is a failure__
-4. Check that the focus is always visible when moving through the page with the tab key
-  * __If you lose focus, on a hidden link or other object when simply tabbing through the page, this is a failure__
-5. Make sure you can tab through the page and get back the address bar
+1. Identify all interactions on the page.
+2. Using the tab, enter, and space bar, navigate the page and ensure each input and interaction can be triggered.
+  * Ensure rollover interactions (help text, etc) can be triggered as well.
+  * __If the user cannot ineract with something, or get the information another way, this is a failure.__
+3. Make sure the tab order of the page is logical.
+  * __If the tab order is confusing, this is a failure__.
+4. Check that the focus is always visible when moving through the page with the tab key.
+  * __If you lose focus on a hidden link or other object when simply tabbing through the page, this is a failure__.
+5. Make sure you can tab through the page and get back to the address bar.
   * __If you ever need your mouse to get back to an element, this is a failure__
-6. If a modal dialog box is used, focus must move to the modal dialog box until a selection is made 
-7. If an interaction reveals hidden content
+6. If a modal dialog box is used, focus must move to the modal dialog box until a selection is made.
+7. If an interaction reveals hidden content:
   * Ensure the focus is moved to the revealed content
     * If this does not happen, check for a programatic description of the change
-8. Check for title tags that provide information not on the screen
-  * This is considered a failure of keyboard access
+8. Check for title tags that provide information not on the screen.
+  * This is considered a failure of keyboard access.
 
 ### Examples
 

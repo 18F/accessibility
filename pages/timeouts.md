@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Time Outs
+title: Timeouts
 description: 'How we deal with Time Outs'
 permalink: /timeouts/
-page_title: Time Outs
+page_title: Timeouts
 ---
 If timeouts are used, you must give the user at least 20 seconds to request more time. 
 
 ### Testing 
 
-1. Identify any timeouts on the page
-  * Contact the developer to find these
-2. Trigger the time out
-  * __If you are not able to request more time or the request lasts less than 20 seconds, its a failure__
+1. Identify any timeouts on the page.
+  * Contact the developer to find these.
+2. Trigger the time out.
+  * __If you're not able to request more time or the request lasts less than 20 seconds, it's a failure__
 
 ### Examples
 
