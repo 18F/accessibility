@@ -10,8 +10,8 @@ Page titles are important because they help a user navigate their browser. Most 
 ### Testing 
 
 1. Check that the title shown in the tab for the page is unique and describes the page accurately.
-  * The title should be in plain english 
-  * The title should describe the web site as well as the specific page being displayed by the site
+  * The title should be in plain English.
+  * The title should describe the web site as well as the specific page being displayed by the site.
 
 ### Examples
 
@@ -19,4 +19,4 @@ Page titles are important because they help a user navigate their browser. Most 
 <title>Page Titles - 18F Accessibility</title>
 ```
 
-> The title for this page is 'Page Titles - 18F Accessibility'. The first half is the name of this page and the second is the name of the site.  
+> The title for this page is 'Page Titles - 18F Accessibility'. The first half is the name of this page and the second is the name of the site.

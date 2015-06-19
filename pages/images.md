@@ -9,15 +9,15 @@ When using images on a page, you must provide an alternate method for that conte
 
 ### Testing 
 
-1. Using the web developer tool, select images > Display Alt Attributes & Outline All Images
-2. Inspect each Alt tag for the following
-  * A unique description of the image is provided
+1. Using the web developer tool, select images > Display Alt Attributes & Outline All Images.
+2. Inspect each Alt tag for the following:
+  * A unique description of the image
   * Repeated images have the same alt text
   * All text in the image is included in the alt text
   * "Image of" or "Photo of" is not used
   * If the alt tag is empty, ensure the image is purely decorative
     * If the image is not decorative, make sure the image is described on the page
-3. Check outlined images without alt tags by doing the following
+3. Check outlined images without alt tags by doing the following:
   * Right click the image
   * Select 'Inspect Element'
   * Check for a title tag for the information normally found on the alt tag
@@ -43,7 +43,7 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="{{site.baseurl}}/images/sign.jpg" title="Sign that reads Warning do not read this sign">
 ```
 
-> Acceptable, but less compatible with certain Assitive technologies
+> Acceptable, but less compatible with certain assitive technologies.
 > Clear title tag with all text included.
 
 ---
@@ -58,8 +58,7 @@ When using images on a page, you must provide an alternate method for that conte
 
 > Information contained in the image is provided on the page.
 > In most instances, an alt tag would be preferred.
-> Images marked with an empty alt (alt="") are considered
-> "Decorative" and not read by AT.
+> Images marked with an empty alt (alt="") are considered "Decorative" and not read by AT.
 
 ---
 
@@ -91,8 +90,5 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="{{site.baseurl}}/images/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 ```
 
-> Avoid using "Image of" or "Picture of" as the screen reader
-> will notify the user that it is an image. 
-> Also avoid using all caps as some screen readers will read
-> each letter. ie. W-A-R-N-I-N-G
+> Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter. ie. W-A-R-N-I-N-G
 

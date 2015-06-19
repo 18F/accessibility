@@ -9,15 +9,15 @@ Making forms accessible is a simple process. Each form element should be associa
 
 ### Testing 
 
-1. Identify each form element
-2. Find all instructions associated with each element
-  * __If a form element isn't programatically associated with ALL instructions, this is a failure__
-3. Ensure all field elements are accessible via the keyboard
-  * __If the form cannot be filled out with just a keyboard, this is a failure__
-4. Check for title tags
-  * Title tags can be a substitute for labels
+1. Identify each form element.
+2. Find all instructions associated with each element.
+  * __If a form element isn't programatically associated with ALL instructions, this is a failure__.
+3. Ensure all field elements are accessible via the keyboard.
+  * __If the form cannot be filled out with just a keyboard, this is a failure__.
+4. Check for title tags.
+  * Title tags can be a substitute for labels.
   * __If the title tag provides all the related information it passes, if it provides extra information it fails.__
-    * Title tags are not accessible via keyboard
+    * Title tags are not accessible via keyboard.
 
 
 ### Examples
@@ -93,7 +93,7 @@ Making forms accessible is a simple process. Each form element should be associa
 
 > ___Failure:___ Last name has an invalid ```id```.
 
-> ___Failure:___ "This Question Is Required" is not associtated with the form fields
+> ___Failure:___ "This Question Is Required" is not associtated with the form fields.
 
 > ___Failure:___ The ```title``` tag for Pea Soup indicates it's 'Chick Pea Soup.' This information is not available to keyboard, sighted users.
 
