@@ -19,12 +19,12 @@ Having the HTML properties of your website set properly ensures assitive technol
 
 #### Failure
 
-La manzana está verde.
+Sus ojos son verdes.
 
-> This text is spanish and no language tag is set
+> This text is Spanish and lacks a ```lang``` attribute.
 
 #### Passes 
 
-<p lang='es'>La manzana está verde.</p>
+<p lang="es">Sus ojos son verdes.</p>
 
-> This text passes because the ```lang``` attribute is set to spanish
+> This text passes because the ```lang="es"``` attribute identifies its content as Spanish.
