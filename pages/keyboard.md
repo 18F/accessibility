@@ -13,7 +13,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
 1. Identify all interactions on the page
 2. Using the tab, enter, and space bar, navigate the page and ensure each input/interaction can be triggered
   * Ensure rollover interactions (help text, etc) can be triggered aswell
-  * __If the user cannot ineract with something, or get the information another way, this is a failure__
+  * __If the user cannot interact with something, or get the information another way, this is a failure__
 3. Make sure the tab order of the page is logical
   * __If the tab order is confusing, this is a failure__
 4. Check that the focus is always visible when moving through the page with the tab key
