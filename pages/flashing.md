@@ -9,7 +9,7 @@ Flashing is generally a bad idea. It can cause all sorts of issues, from seizure
 
 ### Testing 
 
-* Failure at any step constitues a 508 compliance issue
+* Failure at any step constitutes a 508 compliance issue
 
 1. Check if you can determine the frequency of "flashing"
   * Note: Scrolling text is considered flashing for our purposes
