@@ -24,15 +24,15 @@ Keyboard access to a website is key to the usability of your site. All interacti
   * Modal dialog boxes need to trap the keyboard. When a modal dialog box is triggered, the keyboard focus needs to immediately move to the first actionable element in the modal.
   * The keyboard cannot use the modal dialog box until it is dismissed. When a user moves the keyboard focus past the last element in the modal dialog box, it needs to loop to the beginning of the dialog box.
   * The keyboard user needs to be able to access all controls in the dialog box, especially the controls to dismiss the dialog.
-  * _If the keyboard user cannot do all of these things, this is a failure_.
+  * __If the keyboard user cannot do all of these things, this is a failure__.
   * Ideally, the keyboard user should also be able to dismiss the modal dialog box with the Escape key.
 7. If an interaction reveals hidden content.
   * Ensure the focus is moved to the revealed content.
     * If this does not happen, check for a programatic description of the change.
 8. Check for title tags providing information not on the screen.
-  * _Title attributes which can only be exposed by hovering the mouse over the element are a failure of keyboard access_.
+  * __Title attributes which can only be exposed by hovering the mouse over the element are a failure of keyboard access__.
 9. Check that the focus never goes to elements that won't be available to somebody using a mouse.
-  * _If the keyboard focus goes to an offscreen element that has been temporarily hidden (items in a non-expanded drop-down menu, offscreen modals which haven't been triggered, etc.), this is a failure_.
+  * __If the keyboard focus goes to an offscreen element that has been temporarily hidden (items in a non-expanded drop-down menu, offscreen modals which haven't been triggered, etc.), this is a failure__.
 
 ### Examples
 
