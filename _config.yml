@@ -1,7 +1,9 @@
 baseurl: /accessibility
 markdown: redcarpet
 name: Accessibility Guide
-
+exclude:
+  - /vendor
+  
 permalink: pretty
 
 # Author/Organization info to be displayed in the templates
