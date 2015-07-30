@@ -19,6 +19,9 @@ navigation:
 - text: Home
   url: index.html
   internal: true
+# - text: Checklist
+#   url: checklist/
+#   internal: true
 - text: Tools
   url: tools/
   internal: true
@@ -39,6 +42,9 @@ navigation:
   internal: true
 - text: Page Titles
   url: pagetitles/
+  internal: true
+- text: Headers
+  url: headers/
   internal: true
 - text: Multimedia
   url: multimedia/
