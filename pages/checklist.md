@@ -5,34 +5,32 @@ description: 'A simple checklist for determining if your site is accessible'
 permalink: /checklist/
 page_title: checklist
 ---
-In order to properly assess the accessiblity state of your site or feature, use this checklist to identify potential issues. 
-
-This checklist is broken down into three sections A, B and C. The test should be done in order. Issues found should be addressed before testing the next section as they build off each other. 
+This checklist helps readers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing import: A, B and C. Please check and address these issues in the order in which they appear. 
 
  * A - Critical issues that will cause serious issues for users of assitive technology
  * B - Less critical issues that can be overcome by most assitive technology
- * C - Minor issues that only affect the ease of use with assitive technology
+ * C - Minor issues that only affect ease of use with assitive technology
 
- It is important to note, while B and C are noted as less critical, they are still required to be truly 508 compliant. 
+It is important to note, while B and C are noted as less critical, they are still required to be truly 508 compliant. 
 
 ###  A - Critical
 
 1. <a href='../keyboard'>Site is keyboard accessible</a>
  * All interactions can be accessed with a keyboard
-2. <a href='../keyboard'>Site is free of Keyboard Traps</a>
+2. <a href='../keyboard'>Site is free of keyboard traps</a>
  * The keyboard focus is never trapped in a loop
-4. <a href='../forms'>All Form inputs have explicit labels</a>
-6. <a href='../images'>All relevant images use an img tag</a>
-5. <a href='../images'>All images have alt attributes</a>
+4. <a href='../forms'>All `form` inputs have explicit labels</a>
+6. <a href='../images'>All relevant images use an `img` tag</a>
+5. <a href='../images'>All images have `alt` attributes</a>
 6. <a href='../multimedia'>Multimedia is tagged</a>
  * All multimedia has appropriate captioning and audio description
 
 ### B - Less Critical
-1. <a href='../color'>Text color contrast is compliant</a>
+1. <a href='../color'>Text has sufficient color contrast</a>
  * All text has a contrast ratio of 4.5:1 with the background
 2. <a href='../keyboard'>Site never loses focus</a>
  * Focus is always visible when moving through the page with the keyboard
-3. <a href='../keyboard'>Site tab order is logical</a>
+3. <a href='../keyboard'>Tab order is logical</a>
 4. <a href='../forms'>Form instructions are associated with inputs</a>
 5. <a href='../timeouts'>Site doesn't timeout unexpectantly</a>
  * Identify elements that may "timeout" and verify that the user can request more time
