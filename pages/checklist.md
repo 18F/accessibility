@@ -5,7 +5,7 @@ description: 'A simple checklist for determining if your site is accessible'
 permalink: /checklist/
 page_title: checklist
 ---
-This checklist helps readers identify potential accessibility issues affecting a website. The checklist is broken down into three sections of decreasing import: A, B and C. Please check and address these issues in the order in which they appear. 
+This checklist helps readers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing import: A, B and C. Please check and address these issues in the order in which they appear. 
 
  * A - Critical issues that will cause serious issues for users of assitive technology
  * B - Less critical issues that can be overcome by most assitive technology
