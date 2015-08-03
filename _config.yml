@@ -22,8 +22,8 @@ navigation:
   url: index.html
   internal: true
 - text: Checklist
-    url: checklist/
-    internal: true
+  url: checklist/
+  internal: true
 - text: Tools
   url: tools/
   internal: true
