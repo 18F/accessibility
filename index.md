@@ -19,7 +19,7 @@ If you have any questions about accessiblity, 508, or would like help, please re
 ## Resources
 
 ### Sites/Tutorials
-
+* [18f Accessibility Checklist](./checklist)
 * [Simply Accessible](http://simplyaccessible.com/archives/)
   * A great blog and resource with articles about modern accessibility.
 * [Creating Accessible PDFs](http://www.section508.va.gov/support/tutorials/pdf/index.asp)
