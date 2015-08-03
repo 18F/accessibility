@@ -21,9 +21,9 @@ navigation:
 - text: Home
   url: index.html
   internal: true
-# - text: Checklist
-#   url: checklist/
-#   internal: true
+- text: Checklist
+    url: checklist/
+    internal: true
 - text: Tools
   url: tools/
   internal: true
