@@ -11,7 +11,7 @@ This checklist helps developers identify potential accessibility issues affectin
  * B - Less critical issues that can be overcome by most assitive technology
  * C - Minor issues that only affect ease of use with assitive technology
 
-It is important to note, while B and C are noted as less critical, they are still required to be truly 508 compliant. This checklist should be used as a reference for development and is not a substitute for compliance checks by the section 508 coordinator.
+It is important to note, while B and C are noted as less critical, they are still required to be truly 508 compliant. This checklist should be used as a reference for development and is not a substitute for compliance checks by a section 508 coordinator.
 
 ###  A - Critical
 
