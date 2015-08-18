@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Checklist
 description: 'A simple checklist for determining if your site is accessible'
 permalink: /checklist/

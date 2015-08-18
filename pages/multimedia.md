@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Multimedia
 description: 'How we deal with multimedia'
 permalink: /multimedia/

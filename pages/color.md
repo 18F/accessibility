@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Color and Contrast
 description: 'How we work with color and contrast'
 permalink: /color/

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Alternative Versions
 description: 'How we deal with Alternative Versions'
 permalink: /alternativeversions/

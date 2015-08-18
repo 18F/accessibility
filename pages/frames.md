@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Frames
 description: 'How we deal with Frames'
 permalink: /frames/

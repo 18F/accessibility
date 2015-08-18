@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Keyboard Access
 description: 'How we work with keyboards only'
 permalink: /keyboard/

@@ -46,7 +46,6 @@ end
 require_relative '_go/go'
 require_relative '_go/navigation'
 require_relative '_go/repository'
-require_relative '_go/theme'
 
 BASEDIR = File.dirname(__FILE__)
 
@@ -87,7 +86,7 @@ def create_repo
 end
 
 def update_theme
-  GuidesTemplate.update_theme_from_guides_template BASEDIR
+  GoScript.exec_cmd 'bundle update guides_style_18f'
 end
 
 GoScript::CommandGroup.add_group(
@@ -96,7 +95,7 @@ GoScript::CommandGroup.add_group(
     :init => 'Set up the dev environment',
     :create_repo => 'Remove template files and create a new Git repository',
     :update_nav => 'Update the \'navigation:\' data in _config.yml',
-    :update_theme => 'Import theme updates from 18F/guides-template',
+    :update_theme => 'Update the guides_style_18f gem',
     :update_gems => 'Execute Bundler to update gem set',
     :serve => 'Serve the site at localhost:4000',
     :build => 'Build the site',

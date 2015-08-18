@@ -1,5 +1,4 @@
 ---
-layout: default
 title: CSS Dependence
 description: 'How we deal with CSS'
 permalink: /css/

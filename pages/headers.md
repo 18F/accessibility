@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Headers
 description: 'Proper use of header elements'
 permalink: /headers/

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Flashing
 description: 'How we deal with flashing'
 permalink: /flashing/

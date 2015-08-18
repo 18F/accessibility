@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Time Outs
 description: 'How we deal with Time Outs'
 permalink: /timeouts/

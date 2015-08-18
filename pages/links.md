@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Links and Repetitive Content
 description: 'How we deal with Links and Repetitive Content'
 permalink: /links/
