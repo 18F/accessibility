@@ -3,6 +3,8 @@ title: Time Outs
 description: 'How we deal with Time Outs'
 permalink: /timeouts/
 page_title: Time Outs
+scripts:
+- assets/js/time-outs.js
 ---
 If timeouts are used, you must give the user at least 20 seconds to request more time. 
 
