@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Forms
 description: 'How we work with forms'
 permalink: /forms/

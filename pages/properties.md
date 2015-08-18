@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Web Text Properties
 description: 'How we deal with Web Text Properties'
 permalink: /properties/

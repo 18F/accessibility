@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Plug-ins
 description: 'How we deal with Plug-ins'
 permalink: /plugins/

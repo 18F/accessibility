@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Page Titles
 description: 'How we deal with page titles'
 permalink: /pagetitles/

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Tools
 description: 'Tools we use to improve and test accessibility'
 permalink: /tools/

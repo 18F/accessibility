@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Images
 description: 'How we work with images'
 permalink: /images/

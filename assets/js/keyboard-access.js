@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $('.moveFocus').on('focus',function(){
+    $('.keyboardTrap:first').focus();
+  });
+  $('.keyboardTrap').click(function(){
+    $('.moveFocus').each(function(){
+      $(this).remove();
+    });
+  });
+});
