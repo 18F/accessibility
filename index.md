@@ -11,7 +11,7 @@ This site is currently in __draft__ as it is still being built. It will eventual
 
 ## What is accessibility?
 
-Accessibility is a long word that can do a lot for you and your web products. Paying attention to accessibility and developing in a inclusive ways from the beginning of your project means that:
+Accessibility is a long word that can do a lot for you and your web products. Paying attention to accessibility and developing inclusively from the start of your project means that:
 
 - the greatest number of users will be able to view your content;
 - search engines will be able to read your site more completely;
@@ -20,15 +20,15 @@ Accessibility is a long word that can do a lot for you and your web products. Pa
 
 ### Wait, you said this is something I should do from the _start_ of a project? Really?
 
-Accessibility works best when incorporated into an agile production environment from the beginning. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straightforward and cost-effective. Every member of a production team should be aware of what accessibility concerns are and have at least a basic understanding of how they are addressed. 
+Accessibility works best when incorporated into an agile production environment from the beginning. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straightforward and cost-effective. Every member of a product team should be aware of what accessibility concerns are and have at least a basic understanding of how they are addressed. 
 
 ### I'm still not convinced that this is important
 
-Designing and developing so that people with many different backgrounds in many parts of their lives can use our products make the experience better for everyone. All of us will be differently-abled in different parts of our lives. Take a look at Anne Gibson's [Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-july-31) for a great reminder of, well, life happens.
+Designing and developing inclusively makes the experience better for everyone. Nearly all of us will be differently-abled at some point in our lives. Take a look at Anne Gibson's [Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-july-31).
 
 ### I'm convinced now! Who should I contact for help if this site isn't enough?
 
-If you have any questions about accessiblity, 508, or would like help, please reach out on the [GitHub Repo.](https://github.com/18F/accessibility).  
+If you have any questions about accessiblity, Section 508, or would like help, please reach out on the [GitHub Repo.](https://github.com/18F/accessibility).  
 
 ## Resources
 
