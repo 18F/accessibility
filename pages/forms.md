@@ -92,7 +92,7 @@ Making forms accessible is a simple process. Each form element should be associa
 
 > ___Failure:___ Last name has an invalid ```id```.
 
-> ___Failure:___ "This Question Is Required" is not associtated with the form fields
+> ___Failure:___ "This Question Is Required" is not associated with the form fields
 
 > ___Failure:___ The ```title``` tag for Pea Soup indicates it's 'Chick Pea Soup.' This information is not available to keyboard, sighted users.
 
