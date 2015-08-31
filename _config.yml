@@ -1,10 +1,13 @@
-baseurl: /accessibility
 markdown: redcarpet
 name: Accessibility Guide
 exclude:
   - /vendor
   
 permalink: pretty
+highlighter: rouge
+
+sass:
+  style: :compressed
 
 # Author/Organization info to be displayed in the templates
 author:
@@ -81,14 +84,7 @@ repos:
   description: Main repository
   url: https://github.com/18F/accessibility
 
-# Style Variables
-brand_color: "#1188ff"
-
 google_analytics_ua: UA-48605964-19
-
-# To use the shared 18F Guides styles when deploying to pages.18f.gov,
-# uncomment the following; comment it out during local development:
-asset_root: /guides-template
 
 back_link:
   url: "https://pages.18f.gov/guides/"
