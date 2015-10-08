@@ -34,6 +34,7 @@ If you have any questions about accessiblity, 508, or would like help, please re
   * The full section 508 standards
 * [Web Aim's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
 * [Tips for creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
+* [VO Compatibility for iOS](http://pauljadam.com/demos/voiceover-ios-html-aria-support.html)
 
 ### Tools
 
