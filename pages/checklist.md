@@ -31,7 +31,7 @@ It is important to note, while B and C are noted as less critical, they are stil
  * Focus is always visible when moving through the page with the keyboard
 3. <a href='../keyboard'>Tab order is logical</a>
 4. <a href='../forms'>Form instructions are associated with inputs</a>
-5. <a href='../timeouts'>Site doesn't timeout unexpectantly</a>
+5. <a href='../timeouts'>Site doesn't timeout unexpectedly</a>
  * Identify elements that may "timeout" and verify that the user can request more time
 6. <a href='../tables'>Tables are coded properly</a>
  * Tables have proper headers and column attributes
