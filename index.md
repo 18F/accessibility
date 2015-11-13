@@ -44,3 +44,4 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [Web Developer - Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US)
 * [Inspector - Windows](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318521%28v=vs.85%29.aspx)
   * This tool is used by DHS for their Trusted Tester Program 
+* [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/)
