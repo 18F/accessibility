@@ -15,9 +15,9 @@ Accessibility works best when incorporated into an agile production environment.
 
 If you have any questions about accessiblity, 508, or would like help, please reach out on the [GitHub Repo.](https://github.com/18F/accessibility).  
 
-## Resources
+### Resources
 
-### Sites/Tutorials
+#### Sites/Tutorials
 * [18f Accessibility Checklist](./checklist)
 * [Simply Accessible](http://simplyaccessible.com/archives/)
   * A great blog and resource with articles about modern accessibility.

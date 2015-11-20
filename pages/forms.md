@@ -20,7 +20,7 @@ Making forms accessible is a simple process. Each form element should be associa
 
 
 ### Examples
-##Passes
+#### Passes
 
 <fieldset>
 <legend>Name</legend>
@@ -54,7 +54,7 @@ Making forms accessible is a simple process. Each form element should be associa
 
 > ___Favorite Soup:___ ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` tag for assistive technology to read. 
 
-##Fails
+#### Fails
 
 <fieldset>
 <legend>Name</legend>
