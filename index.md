@@ -22,6 +22,7 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [Simply Accessible](http://simplyaccessible.com/archives/)
   * A great blog and resource with articles about modern accessibility.
 * [Creating Accessible PDFs](http://www.section508.va.gov/support/tutorials/pdf/index.asp)
+* [Required fixes for PDFs](http://www.hhs.gov/web/section-508/making-files-accessible/pdf-required/index.html)
 * [Making Files Accessible PDF, Word, Excel, Powerpoint](http://www.hhs.gov/web/section-508/making-files-accessible/index.html)
 * [GSA's 508 Policies](http://www.gsa.gov/portal/content/105254)
 * [w3 ARIA documentation](http://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria)
