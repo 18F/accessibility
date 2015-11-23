@@ -13,7 +13,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
 
 1. Identify all interactions on the page.
 2. Using the tab, enter, and space bar, navigate the page and ensure each input/interaction can be triggered.
-  * Ensure rollover / hover interactions (help text, etc) can be triggered as well.
+  * Ensure rollover / hover interactions (help text, etc.) can be triggered as well.
   * __If the user cannot interact with something, or get the information another way, this is a failure__.
 3. Make sure the tab order of the page is logical and follows the visual order of elements on the page.
   * __If the tab order is confusing, this is a failure__.
@@ -43,7 +43,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
 
 <a href='javascript:$("#hiddenContent").show().focus();'>Reveal Hidden Content</a>
 
-<div id="hiddenContent" style="display:none;" tabindex='-1'>This div was hidden, now its not!</div>
+<div id="hiddenContent" style="display:none;" tabindex='-1'>This div was hidden, now it's not!</div>
 
 ```html
 <a href="#">Link to nowhere 1</a>
@@ -54,11 +54,11 @@ Keyboard access to a website is key to the usability of your site. All interacti
 <div id="hiddenContent" 
 	 style="display:none;" 
 	 tabindex='-1'>
-	This div was hidden, now its not!
+	This div was hidden, now it's not!
 </div>
 ```
 
-> Avoid using tabindex of >= 1 as this well disrupt the normal tab order of the page. tabindex of -1 is only appropriate when autofocusing an element not normally interactive.
+> Avoid using tabindex of >= 1 as this will disrupt the normal tab order of the page. tabindex of -1 is only appropriate when autofocusing an element not normally interactive.
 
 #### Keyboard Trap
 
