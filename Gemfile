@@ -5,5 +5,5 @@ gem 'rouge'
 gem 'go_script'
 
 group :jekyll_plugins do
-  gem 'guides_style_18f', :path => '../guides-style'
+  gem 'guides_style_18f'
 end
