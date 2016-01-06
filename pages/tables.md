@@ -105,6 +105,7 @@ Complex tables are tables with more than 2 levels of headers. Each header should
 		<th id='inches' headers='height'>
 			Inches
 		</th>
+	</tr>
 	<tr>
 		<td headers='name'>
 			Walter
