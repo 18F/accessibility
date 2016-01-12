@@ -1,7 +1,7 @@
 ---
 title: Writing guide
 description: 'When writing about accessibility, here are some things to keep in mind'
-permalink: /writingguide/
+permalink: /writing-guide/
 page_title: Accessibility Writing Guide
 ---
 
@@ -11,8 +11,8 @@ Section 508 is part of the 'Rehabilitation Act of 1973.' The law was amended in 
 
 The correct way to refer to the law is: 
 
-* Section 508 of the Rehabilitation Act
 * Section 508 of the Rehabilitation Act of 1973, as amended (29 U.S.C. § 794 (d))
+* Section 508 of the Rehabilitation Act
 * Section 508
 
 While related in ways, the Rehabilitation Act is not part of the Americans with Disabilities Act. 

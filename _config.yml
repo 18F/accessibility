@@ -79,7 +79,7 @@ navigation:
   url: alternativeversions/
   internal: true
 - text: Writing Guide
-  url: writingguide/
+  url: writing-guide/
 
 repos:
 - name: Accessibility
