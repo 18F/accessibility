@@ -37,16 +37,16 @@ Complex tables are tables with more than 2 levels of headers. Each header should
 		</th>
 	</tr>
 	<tr>
-		<td scope='row'>
+		<th scope='row'>
 			Walter
-		</td>
+		</th>
 		<td>6'4</td>
 		<td>34</td>
 	</tr>
 	<tr>
-		<td scope='row'>
+		<th scope='row'>
 			Steve
-		</td>
+		</th>
 		<td>5'4</td>
 		<td>30</td>
 	</tr>
@@ -66,16 +66,16 @@ Complex tables are tables with more than 2 levels of headers. Each header should
 		</th>
 	</tr>
 	<tr>
-		<td scope='row'>
+		<th scope='row'>
 			Walter
-		</td>
+		</th>
 		<td>6'4</td>
 		<td>34</td>
 	</tr>
 	<tr>
-		<td scope='row'>
+		<th scope='row'>
 			Steve
-		</td>
+		</th>
 		<td>5'4</td>
 		<td>30</td>
 	</tr>
