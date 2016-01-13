@@ -13,7 +13,7 @@ Accessibility is one of the most important aspects of modern web development. Ac
 
 Accessibility works best when incorporated into an agile production environment. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straight forward and cost effective. The best and perhaps only way to ensure this is done, is training and education. Every member of a production team should be aware of what accessibility concerns are and a basic understanding of how they are addressed. 
 
-If you have any questions about accessiblity, 508, or would like help, please reach out on the [GitHub Repo.](https://github.com/18F/accessibility).  
+If you have any questions about accessiblity, 508, or would like help, please reach out on the [GitHub Repo](https://github.com/18F/accessibility).  
 
 <b>Disclamer:</b> This resource is intended to help 18f comform with the standards of section 508 of the Rehabilitation Act. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for all of section 508 compliance criteria. 
 
