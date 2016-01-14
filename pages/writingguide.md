@@ -26,9 +26,9 @@ While related in ways, the Rehabilitation Act is not part of the Americans with 
 ### Talking Points
 
 * The goal of accessibility at 18f is to build sites that are usable by everyone, not to meet minimum standards
-* We focus on building accessibility into every step of a project, from design to each spring review
+* We focus on building accessibility into every step of a project, from design to each sprint review
 * Employing accessibility best practices improves the user experience fo all users
-* 18f guidelines and best practices are not intended to be a replacement or suplement for Section 508 Standards, but are tools to acheiving these standards in a modern web development consultancy 
+* 18f guidelines and best practices are not intended to be a replacement or supplement for Section 508 Standards, but are tools to acheiving these standards in a modern web development consultancy 
 
 ### Examples
 
