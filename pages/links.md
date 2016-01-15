@@ -20,6 +20,14 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 3. Identify links with generic text ('Click here', 'Read more')
   * Check for ```title``` or ```ARIA``` attribues to provide context
 
+#### Links that open in a New Window
+1. Identify links that open in new windows
+2. Check that ```target='_blank'```
+3. Verify that some indication is given programatically
+  *  ```<a href='#' target='_blank' aria-label='Opens in new window`>``
+  *  ```<a href='#' target='_blank' title='Opens in new window'>```
+  *  ```<a href='#' target='_blank'>Link<span class='sr-only'>Opens in new window</span></a>```
+
 #### Skip Navigation
 
 1. First compare the pages on the site for links that are repeated at the beggining of the tab order
