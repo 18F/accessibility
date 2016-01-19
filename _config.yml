@@ -78,6 +78,8 @@ navigation:
 - text: Alternative Versions
   url: alternativeversions/
   internal: true
+- text: Writing Guide
+  url: writing-guide/
 
 repos:
 - name: Accessibility
