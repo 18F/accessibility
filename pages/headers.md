@@ -5,7 +5,7 @@ permalink: /headers/
 page_title: Headers
 ---
 
-When laying out a page, headers provide a sementaic way to layout sections of content. Header elements are used by users of AT to navigate a page quickly and to understand the structure of a page. 
+When laying out a page, headers provide a sementaic way to layout sections of content. Header elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see [Landmarks](../landmarks/)
 
 When using headers, it is best practice to reserve `<h1>` for the name of the site, `<h2>` for the page title, and the rest for sections on the page. Header attributes should be used in order, and "lower" elements should never be nested in higher attributes. i.e. 
 

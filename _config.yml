@@ -51,6 +51,9 @@ navigation:
 - text: Headers
   url: headers/
   internal: true
+- text: Landmarks
+  url: landmarks/
+  internal: true
 - text: Multimedia
   url: multimedia/
   internal: true
