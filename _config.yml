@@ -83,6 +83,7 @@ navigation:
   internal: true
 - text: Writing Guide
   url: writing-guide/
+  internal: true
 
 repos:
 - name: Accessibility
