@@ -14,7 +14,7 @@ There are two aspects we need to address when it comes to color, contrast and co
 2. Select the darkest/lightest section of the background
 3. Check the ratio and ensure its greater than 4.5:1 (ex 5.3:1 would pass)
 
-Note: Run this test for all states of the text (hover, visted, focused). This test should also be performed on images of text unless the image is a logo, which are exempt. 
+Note: Run this test for all states of the text (hover, visited, focused). This test should also be performed on images of text unless the image is a logo, which are exempt. 
 
 #### Color Dependence
 
