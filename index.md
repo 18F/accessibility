@@ -15,7 +15,7 @@ Accessibility works best when incorporated into an agile production environment.
 
 If you have any questions about accessiblity, 508, or would like help, please reach out on the [GitHub Repo](https://github.com/18F/accessibility).  
 
-<b>Disclamer:</b> This resource is intended to help 18f conform with the standards of section 508 of the Rehabilitation Act. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for all of section 508 compliance criteria. 
+<b>Disclaimer:</b> This resource is intended to help 18f conform with the standards of section 508 of the Rehabilitation Act. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for all of section 508 compliance criteria. 
 
 ### Resources
 
