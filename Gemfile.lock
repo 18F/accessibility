@@ -6,7 +6,7 @@ GEM
     go_script (0.1.5)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
-    guides_style_18f (0.3.0)
+    guides_style_18f (0.4.2)
       jekyll
       jekyll_pages_api
       jekyll_pages_api_search
@@ -29,12 +29,10 @@ GEM
     jekyll_pages_api (0.1.5)
       htmlentities (~> 4.3)
       jekyll (>= 2.0, < 4.0)
-    jekyll_pages_api_search (0.3.0)
+    jekyll_pages_api_search (0.4.3)
       jekyll_pages_api (~> 0.1.4)
       sass (~> 3.4)
-      therubyracer (~> 0.12.2)
     kramdown (1.9.0)
-    libv8 (3.16.14.13)
     liquid (3.0.6)
     listen (3.0.5)
       rb-fsevent (>= 0.9.3)
@@ -44,13 +42,9 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.3.3)
-    ref (2.0.0)
     rouge (1.10.1)
     safe_yaml (1.0.4)
     sass (3.4.19)
-    therubyracer (0.12.2)
-      libv8 (~> 3.16.14.0)
-      ref
 
 PLATFORMS
   ruby
@@ -63,4 +57,4 @@ DEPENDENCIES
   rouge
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
