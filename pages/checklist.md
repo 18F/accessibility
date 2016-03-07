@@ -35,8 +35,8 @@ It is important to note, while B and C are noted as less critical, they are stil
  * Identify elements that may "timeout" and verify that the user can request more time
 6. <a href='../tables'>Tables are coded properly</a>
  * Tables have proper headers and column attributes
-7. <a href='../headers'>Headers are nested properly</a>
- * Header elements are nested in a logical way
+7. <a href='../headings'>Headings are nested properly</a>
+ * Heading elements are nested in a logical way
 
 ### C - Minor
 1. <a href='../frames'>Frames are named</a>

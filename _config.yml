@@ -48,8 +48,8 @@ navigation:
 - text: Page Titles
   url: pagetitles/
   internal: true
-- text: Headers
-  url: headers/
+- text: Headings
+  url: headings/
   internal: true
 - text: Landmarks
   url: landmarks/
