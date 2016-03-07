@@ -31,13 +31,14 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 #### Skip Navigation
 
 1. First compare the pages on the site for links that are repeated at the beggining of the tab order
-  * Skip Navigation is not needed if repetitive nav links are not used
-2. Check that the skip navigation link is visible
+  * `Skip Navigation` is not needed if repetitive nav links are not used
+2. If the `Skip Navigation` link is not visible, ensure it becomes visible when it has focus
 3. Find the target of the skip navigation link
   * Verify the target is a valid id
   * Verify the target is after the repetive content and before meaningful content
-  * Verify the target has a ```tabindex='-1'```
-4. Select the 'Skip Navigation' link
+  * Verify the target has a ```tabindex='-1'``` or is included in the tab order (such as a link or a button)
+   * This ensures the element will receive focus in chrome and safari
+4. Select the `Skip Navigation` link
 5. If visual focus is after the repetitive content, the test is complete
 6. If there is no visual focus, tab again to verify focus is after the repetitive content
 
@@ -77,7 +78,7 @@ div.skip-nav a {
   height: auto;
   overflow: hidden;
 }
-div.skip-nav a:focus {
+div.skip-nav a:focus, div.skip-nav a:active {
 	position: absolute;
 	top: 5px;
 	left: 5px;
@@ -90,7 +91,7 @@ div.skip-nav a:focus {
 	overflow: visible;
  }
 
- .mainContent:focus {
+ .mainContent:focus, .mainContent:active {
  	outline: none;
  }
 ```
