@@ -6,7 +6,7 @@ title: Home
 page_title: Home
 ---
 
-This site is currently in __Draft__ as it is still being built. It will eventually contain resources for all things accessibility, development best practices, testing guides, and tools. 
+This site is currently in __Draft__ as it is still being built. It will eventually contain resources for all things accessibility, development best practices, testing guides, and tools.  
 
 
 Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into count. And least of all, it is a required by law for all federal EIT products to be accessible (with a few minor exceptions). 
