@@ -18,7 +18,7 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 2. Identify links with the same text
   * If they point at the different location, check for ```title``` or ```ARIA``` attributes to distinguish them
 3. Identify links with generic text ('Click here', 'Read more')
-  * Check for ```title``` or ```ARIA``` attribues to provide context
+  * Check for the ```title``` or ```ARIA``` attributes to provide context or additional off-screen text
 
 #### Links that open in a New Window
 1. Identify links that open in new windows
