@@ -6,7 +6,7 @@ GEM
     go_script (0.1.5)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
-    guides_style_18f (0.4.2)
+    guides_style_18f (0.4.3)
       jekyll
       jekyll_pages_api
       jekyll_pages_api_search
@@ -29,7 +29,7 @@ GEM
     jekyll_pages_api (0.1.5)
       htmlentities (~> 4.3)
       jekyll (>= 2.0, < 4.0)
-    jekyll_pages_api_search (0.4.3)
+    jekyll_pages_api_search (0.4.4)
       jekyll_pages_api (~> 0.1.4)
       sass (~> 3.4)
     kramdown (1.9.0)
