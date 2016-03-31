@@ -4,13 +4,13 @@ description: 'A simple checklist for determining if your site is accessible'
 permalink: /checklist/
 page_title: checklist
 ---
-This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing import: A, B and C. Please check and address these issues in the order in which they appear.
+This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: A, B and C. Please check and address these issues in the order in which they appear.
 
 For more detail on accessibilty standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) 
 
- * A - Critical issues that will cause serious issues for users of assistive technology
- * B - Less critical issues that can be overcome by most assistive technology
- * C - Minor issues that only affect ease of use with assistive technology
+ * A - Critical issues that will cause serious problems and/or stop most users of assitive technology from using the site
+ * B - Issues that may cause problems or increased frustration for certain users
+ * C - Minor issues that will cause problems or frustration for a small number of users
 
 It is important to note, while B and C are noted as less critical, they are still required to be truly 508 compliant. This checklist should be used as a reference for development and is not a substitute for compliance checks by a section 508 coordinator.
 
@@ -25,19 +25,20 @@ It is important to note, while B and C are noted as less critical, they are stil
 5. <a href='../images'>All images have `alt` attributes</a>
 6. <a href='../multimedia'>Multimedia is tagged</a>
  * All multimedia has appropriate captioning and audio description
+7. <a href='../color'>Text has sufficient color contrast</a>
+ * All text has a contrast ratio of 4.5:1 with the background
 
 ### B - Less Critical
-1. <a href='../color'>Text has sufficient color contrast</a>
- * All text has a contrast ratio of 4.5:1 with the background
-2. <a href='../keyboard'>Site never loses focus</a>
+
+1. <a href='../keyboard'>Site never loses focus</a>
  * Focus is always visible when moving through the page with the keyboard
-3. <a href='../keyboard'>Tab order is logical</a>
-4. <a href='../forms'>Form instructions are associated with inputs</a>
-5. <a href='../timeouts'>Site doesn't timeout unexpectedly</a>
+2. <a href='../keyboard'>Tab order is logical</a>
+3. <a href='../forms'>Form instructions are associated with inputs</a>
+4. <a href='../timeouts'>Site doesn't timeout unexpectedly</a>
  * Identify elements that may "timeout" and verify that the user can request more time
-6. <a href='../tables'>Tables are coded properly</a>
+5. <a href='../tables'>Tables are coded properly</a>
  * Tables have proper headers and column attributes
-7. <a href='../headings'>Headings are nested properly</a>
+6. <a href='../headings'>Headings are nested properly</a>
  * Heading elements are nested in a logical way
 
 ### C - Minor
