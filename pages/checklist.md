@@ -4,7 +4,9 @@ description: 'A simple checklist for determining if your site is accessible'
 permalink: /checklist/
 page_title: checklist
 ---
-This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing import: A, B and C. Please check and address these issues in the order in which they appear. 
+This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing import: A, B and C. Please check and address these issues in the order in which they appear.
+
+For more detail on accessibilty standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) 
 
  * A - Critical issues that will cause serious issues for users of assistive technology
  * B - Less critical issues that can be overcome by most assistive technology
