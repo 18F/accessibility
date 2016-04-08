@@ -18,7 +18,7 @@ These tools can be used to test sites for Section 508 and WCAG compliance in bro
 
 * [achecker](http://achecker.ca/) is an accessibility reporter for HTML only.
 * [Google's Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en) is a Chrome plugin for running basic accessibility tests from the comfort of your browser.
-* [Web Accessibility Toolbar (WAT)](https://www.paciellogroup.com/resources/wat/) is an IE tool that has been developed to aid manual examination of web pages for a variety of aspects of accessibility. It is used by DHS's trusted tester program.
+* [Web Accessibility Toolbar (WAT)](https://www.paciellogroup.com/resources/wat/) is an IE tool that has been developed to aid manual examination of web pages for a variety of aspects of accessibility. It is used by DHS's Trusted Tester program.
 * [WAVE](http://wave.webaim.org/) is a comprehensive accessibility auditor with slick document introspection features.
 * The [W3C](http://www.w3.org/) maintains a comprehensive [list of web accessibility evaluation tools](http://www.w3.org/WAI/ER/tools/).
 
