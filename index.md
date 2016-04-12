@@ -21,6 +21,17 @@ If you have any questions about accessiblity, 508, or would like help, please re
 
 ### Resources
 
+### Tools
+
+* [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) - use this for a quick audit of any URL
+* [Colour Contrast Analyser](http://www.paciellogroup.com/resources/contrastanalyser/)
+* [pa11y automated CLI 508 tool](http://pa11y.org/)
+* [Accessibility Developer Tools - Chrome](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
+* [Web Developer - Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US)
+* [Inspector - Windows](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318521%28v=vs.85%29.aspx)
+  * This tool is used by DHS for their Trusted Tester Program 
+* [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
+
 #### Sites/Tutorials
 * [18F Accessibility Checklist](./checklist)
 * [WAI Tutorials](http://www.w3.org/WAI/tutorials/)
@@ -42,16 +53,5 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [Web Aim's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
 * [Tips for creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
 * [VO Compatibility for iOS](http://pauljadam.com/demos/voiceover-ios-html-aria-support.html)
-
-### Tools
-
-* [Colour Contrast Analyser](http://www.paciellogroup.com/resources/contrastanalyser/)
-* [pa11y automated CLI 508 tool](http://pa11y.org/)
-* [Accessibility Developer Tools - Chrome](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
-* [Web Developer - Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US)
-* [Inspector - Windows](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318521%28v=vs.85%29.aspx)
-  * This tool is used by DHS for their Trusted Tester Program 
-* [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/)
-* [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
 
 
