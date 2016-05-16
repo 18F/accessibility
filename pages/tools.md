@@ -11,7 +11,12 @@ page_title: Accessibility-friendly Tools
 * [NC State palette accessibility evaluator](http://accessibility.oit.ncsu.edu/tools/color-contrast/) lets you compare contrast between 3 or more colors for WCAG AA or AAA compliance.
 * [Color Safe](http://colorsafe.co/) is a guide for choosing colors that meet WCAG contrast thresholds.
 * [Color Contrast Analyzer](http://www.paciellogroup.com/resources/contrastanalyser/) is a desktop application for contrast checking that also simulates different forms of color impairment.
+
+#### Color Impairment
 * [Color Oracle](http://colororacle.org/) is another desktop application for simulating color impairment on your entire screen.
+* [Daltonize](http://daltonize.appspot.com/) is a collection of bookmarklets that simulate the three most common forms of color impairment (protanopia, deuteranopia, and tritanopia) on any web page.
+* [colourblind](https://github.com/Altreus/colourblind) is another simulation tool similar to Daltonize, but with more options (protanopia, protanomaly, deuteranopia, deuteranomaly, tritanopia, tritanomaly, achromatopsia, and achromatomaly) in a single bookmarklet.
+* [postcss-colorblind](https://github.com/btholt/postcss-colorblind) is a CSS build tool that modifies colors in your CSS to simulate [four common impairment groups](https://github.com/skratchdot/color-blind#color-blindness-table).
 
 ### Accessibility Review Tools
 These tools can be used to test sites for Section 508 and WCAG compliance in browser:
