@@ -84,6 +84,8 @@ navigation:
 - text: Writing Guide
   url: writing-guide/
   internal: true
+- text: Trainings/Videos
+  url: training-videos
 
 repos:
 - name: Accessibility
