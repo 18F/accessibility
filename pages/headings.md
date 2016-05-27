@@ -7,7 +7,9 @@ page_title: Headings
 
 When laying out a page, headings provide a sementaic way to layout sections of content. Heading elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see [Landmarks](../landmarks/)
 
-When using headings, it is best practice to reserve `<h1>` for the name of the site, `<h2>` for the page title, and the rest for sections on the page. Heading attributes should be used in order, and "lower" elements should never be nested in higher attributes. i.e. 
+When using headings, to layout a page, reserve the `<h1>` tag for the main content of the page. On the home page, this is usually the title of the site and this varys based on the main use of sub pages. For sub sections use `<h2>` to `<h6>` without skipping levels.
+
+For logos use `<em>` tags. If you're logo is acting as the main heading of the page, use a `sr-only` `<h1>` tag for screen reader users.  
 
 ```html
 <h3>Section</h3> 
