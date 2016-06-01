@@ -86,6 +86,7 @@ navigation:
   internal: true
 - text: Trainings/Videos
   url: training-videos
+  internal: true
 
 repos:
 - name: Accessibility
