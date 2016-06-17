@@ -4,7 +4,7 @@ description: 'How we work with color and contrast'
 permalink: /color/
 page_title: Color and Contrast
 ---
-There are two aspects we need to address when it comes to color, contrast and color dependence. Color contrast is the ratio of the foreground color(text) and the background color. Color dependence is the need to see color to understand the information.  
+There are two aspects we need to address when it comes to color, contrast and color dependence. Color contrast is the ratio of the foreground color(text) and the background color. Color dependence is the need to see color to understand the information. Unless specific agency requirements dictate otherwise, color contrast should meet the [WCAG 2.0 AA] minimum color contrast ratio of **4.5:1**.
 
 ### Testing 
 
@@ -12,7 +12,7 @@ There are two aspects we need to address when it comes to color, contrast and co
 
 1. Using a [color contrast checker](http://www.paciellogroup.com/resources/contrastanalyser/), select the darkest/lightest section of the text
 2. Select the darkest/lightest section of the background
-3. Check the ratio and ensure its greater than 4.5:1 (ex 5.3:1 would pass)
+3. Check the ratio and ensure its greater than [4.5:1][WCAG 2.0 AA] (ex 5.3:1 would pass)
 
 Note: Run this test for all states of the text (hover, visited, focused). This test should also be performed on images of text unless the image is a logo, which are exempt. 
 
@@ -59,3 +59,4 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 
 > This example passes because the * and the red text indicates the required field.
 
+[WCAG 2.0 AA]: https://www.w3.org/WAI/WCAG20/quickref/#visual-audio-contrast-contrast
