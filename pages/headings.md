@@ -5,11 +5,15 @@ permalink: /headings/
 page_title: Headings
 ---
 
-When laying out a page, headings provide a sementaic way to layout sections of content. Heading elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see [Landmarks](../landmarks/)
+When laying out a page, headings provide a semantic way to lay out sections of content. A heading element briefly describes the topic of the section it introduces. Heading elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see [Landmarks](../landmarks/).
 
-When using headings to layout a page, reserve the `<h1>` tag for the main content of the page. On the home page, this is usually the title of the site and this varys based on the main use of sub pages. For sub sections use `<h2>` to `<h6>` without skipping levels.
+When using heading elements, reserve the `<h1>` element for the page title. On the home page, this is usually the title of the site and on other pages, this may be the page title. Use the `<h1>` element once per page—assistive technology is unable to read multiple `<h1>`s on a single page. Other heading levels may be used more than once following document outline order and you may reset headings up to `<h2>` with the `<section>` element.
 
-For logos use `<em>` tags. If you're logo is acting as the main heading of the page, use a `sr-only` `<h1>` tag for screen reader users.  
+For sub sections, use `<h2>` to `<h6>` in document outline order. `<h1>` is the most important and `<h6>` is the least. Avoid skipping headings. Avoid breaking document outline order (you may go from `<h1>` to `<h3>`, but never `<h3>` to `<h1>`).
+
+For logos that are text-based, use `<em>` element. 
+
+If your logo is an image and acting as the main heading of the page, add an `<h1>` element for its text and use a `sr-only` rule so it's visibly hidden but accessible to screen reader users.
 
 ```html
 <h3>Section</h3> 
