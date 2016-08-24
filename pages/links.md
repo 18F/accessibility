@@ -6,7 +6,7 @@ page_title: Links and Repetitive Content
 ---
 Links are commonly used to quickly navigate a site when someone is using AT. Often, screen reader users won't read through an entire page to find what they are looking for, they simply move from link to link. 
 
-Things become problematic when links only make sense with context. Links such as 'Click Here' or 'Read more' don't make sense without that visual context. It's important that we inspect our sites for these types of links. These links can be made accessible using ```title``` or ```ARIA``` attributes, but this is not ideal. The ideal method for making these links accessible, is just writing better link text.
+Things become problematic when links only make sense with context. Links such as 'Click Here' or 'Read more' don't make sense without that visual context. It's important that we inspect our sites for these types of links. These links can be made accessible using ```title``` or ```ARIA``` attributes, but this is not ideal. The ideal method for making these links accessible is just to write better link text.
 
 The other issue screen reader and keyboard users come across is lengthy nav bars. These are usually made up of a list of links and with compound menus, they can be quite lengthy to tab through. To alleviate these pains, a skip navigation link should be provided. This is the first link on the page and jumps to an anchor with a ```tabindex='-1'```.
 
@@ -23,21 +23,21 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 #### Links that open in a New Window
 1. Identify links that open in new windows
 2. Check that ```target='_blank'```
-3. Verify that some indication is given programatically
-  *  ```<a href='#' target='_blank' aria-label='Opens in new window>```
+3. Verify that some indication is given programmatically
+  *  ```<a href='#' target='_blank' aria-label='Opens in new window'>```
   *  ```<a href='#' target='_blank' title='Opens in new window'>```
   *  ```<a href='#' target='_blank'>Link<span class='sr-only'>Opens in new window</span></a>```
 
 #### Skip Navigation
 
-1. First compare the pages on the site for links that are repeated at the beggining of the tab order
+1. First compare the pages on the site for links that are repeated at the beginning of the tab order
   * `Skip Navigation` is not needed if repetitive nav links are not used
 2. If the `Skip Navigation` link is not visible, ensure it becomes visible when it has focus
 3. Find the target of the skip navigation link
   * Verify the target is a valid id
   * Verify the target is after the repetive content and before meaningful content
   * Verify the target has a ```tabindex='-1'``` or is included in the tab order (such as a link or a button)
-   * This ensures the element will receive focus in chrome and safari
+   * This ensures the element will receive focus in Chrome and Safari
 4. Select the `Skip Navigation` link
 5. If visual focus is after the repetitive content, the test is complete
 6. If there is no visual focus, tab again to verify focus is after the repetitive content
