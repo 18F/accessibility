@@ -61,35 +61,35 @@ Keyboard Access <a href='/keyboard' aria-label="Keyboard Access">Click Here</a>
 ##### Skip Navigation
 
 ```html
-//This is the code for this very site
-<div class="skip-nav">
-	<a href="#mainContent">Skip to main content</a>
-</div>
+//This is the code used on this guide
+<a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
 ...
 <h1 id="mainContent" tabindex="-1" class='mainContent'>Links and Repetitive Content</h1>
 
 ```
 ```css
-div.skip-nav a {
-  position: absolute;
-  left: -10000;
-  top: 0;
-  width: 1px;
-  height: auto;
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
   overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
-div.skip-nav a:focus, div.skip-nav a:active {
-	position: absolute;
-	top: 5px;
-	left: 5px;
-	width: auto; 
-	height: auto;
-	z-index: 999999;
-	background-color: white;
-	padding-left: 2px;
-	padding-right: 2px;
-	overflow: visible;
- }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+a.skip-link:hover, a.skip-link:active, a.skip-link:focus {
+  background-color: #006FC9;
+  color: #fff;
+}
 
  .mainContent:focus, .mainContent:active {
  	outline: none;
