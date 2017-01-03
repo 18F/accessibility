@@ -1,7 +1,7 @@
 ---
 title: Hidden Content
 description: 'How and when to hide content'
-permalink: /hiddencontent/
+permalink: /hidden-content/
 page_title: Hidden Content
 ---
 
