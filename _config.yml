@@ -52,7 +52,7 @@ navigation:
   url: headings/
   internal: true
 - text: Hidden Content
-  url: hiddencontent/
+  url: hidden-content/
   internal: true
 - text: Landmarks
   url: landmarks/
