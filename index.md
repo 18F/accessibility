@@ -55,3 +55,5 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [VO Compatibility for iOS](http://pauljadam.com/demos/voiceover-ios-html-aria-support.html)
 * [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891)
   * Free web accessibility course by Google
+* [Viget interactive accessibility guide (WCAG) by role](http://code.viget.com/interactive-wcag/#responsibility=&level=aa)
+* [Vox Accessibility Guidelines Checklist](http://accessibility.voxmedia.com/)
