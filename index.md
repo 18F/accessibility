@@ -53,5 +53,5 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [Web Aim's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
 * [Tips for creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
 * [VO Compatibility for iOS](http://pauljadam.com/demos/voiceover-ios-html-aria-support.html)
-
-
+* [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891)
+  * Free web accessibility course by Google
