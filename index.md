@@ -54,5 +54,5 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [w3 ARIA documentation](http://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria)
   * ARIA or Accessible Rich Internet Applications is used in modern browsers to provide additional information to assistive technologies. (IE 8+, Chrome, Firefox, Mobile, [full ARIA browser list](http://caniuse.com/#feat=wai-aria))
   * Not accepted by DHS
-* [Web Aim's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
 * [WAI Tutorials](http://www.w3.org/WAI/tutorials/)
+* [Web Aim's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
