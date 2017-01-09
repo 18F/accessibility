@@ -6,7 +6,7 @@ page_title: Color and Contrast
 ---
 There are two aspects we need to address when it comes to color, contrast and color dependence. Color contrast is the ratio of the foreground color(text) and the background color. Color dependence is the need to see color to understand the information. Unless specific agency requirements dictate otherwise, color contrast should meet the [WCAG 2.0 AA] minimum color contrast ratio of **4.5:1**.
 
-### Testing 
+### Testing
 
 #### Color Contrast
 
@@ -14,7 +14,7 @@ There are two aspects we need to address when it comes to color, contrast and co
 2. Select the darkest/lightest section of the background
 3. Check the ratio and ensure its greater than [4.5:1][WCAG 2.0 AA] (ex 5.3:1 would pass)
 
-Note: Run this test for all states of the text (hover, visited, focused). This test should also be performed on images of text unless the image is a logo, which are exempt. 
+Note: Run this test for all states of the text (hover, visited, focused). This test should also be performed on images of text unless the image is a logo, which are exempt.
 
 #### Color Dependence
 
@@ -27,7 +27,7 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 
 <span style = "color:#58AA02">This text fails. </span>
 
-> This text fails because it is too light. The contrast ratio is (2.93 : 1). 
+> This text fails because it is too light. The contrast ratio is (2.93 : 1).
 
 <span style = "color:#FFFFFF; background:#8D8E90">This text fails.</span>
 
@@ -45,7 +45,7 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 
 <span style = "color:#458503">This text passes. </span>
 
-> This text passes. The contrast ratio is (4.56 : 1). 
+> This text passes. The contrast ratio is (4.56 : 1).
 
 <span style = "color:#FFFFFF; background:#757679">This text passes.</span>
 
@@ -53,9 +53,9 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 
 <span style="color:red;">* indicates a required field</span>
 
-<label for="name">First Name&nbsp;</label><input type"text" id="name">
+<label for="name-2">First Name&nbsp;</label><input type"text" id="name-2">
 
-<label for="lname" style="color:red">* Last Name&nbsp;</label><input type"text" id="lname">
+<label for="lname-2" style="color:red">* Last Name&nbsp;</label><input type"text" id="lname-2">
 
 > This example passes because the * and the red text indicates the required field.
 
