@@ -6,9 +6,9 @@ page_title: Flashing
 scripts:
 - assets/js/flashing.js
 ---
-Flashing is generally a bad idea. It can cause all sorts of issues, from seizures to motion sickness. If you absolutely must have a flashing element there are a few things to consider. 
+Flashing is generally a bad idea. It can cause all sorts of issues, from seizures to motion sickness. If you absolutely must have a flashing element there are a few things to consider.
 
-### Testing 
+### Testing
 
 * Failure at any step constitutes a 508 compliance issue
 
@@ -17,18 +17,6 @@ Flashing is generally a bad idea. It can cause all sorts of issues, from seizure
 2. Check that the rate of flashing is less than 3hz (3 times a second), or scroll delay is set to >= 400
 
 ### Examples
-
-#### Passes
-
-<marquee scrolldelay = "400">Here is a marquee, I bet you haven't seen this in a while, anyway, the scroll delay is set to 400.</marquee>
-
-```html
-<marquee scrolldelay="400">
-	Here is a marquee, I bet you haven't seen this in a while, anyway, the scroll delay is set to 400.
-</marquee>
-```
-
-> This is an example of marquee. The scrolldelay is set and it is equal to 400 meaning it is compliant. 
 
 #### Fails
 <button type='button' id='blinkbutton'>Click to see non-compliant flashing</button>
