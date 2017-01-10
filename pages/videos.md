@@ -1,13 +1,13 @@
 ---
-title: Training/Videos
+title: Training and videos
 description: 'Videos and trainings from around the web'
 permalink: /training-videos/
-page_title: Accessibility Training and Videos
+page_title: Accessibility training and videos
 ---
 
-### Training/Videos
+### Training and videos
 
-There are tons of great talks and videos about accessibility online. This is a collection of videos we found useful. 
+There are tons of great talks and videos about accessibility online. This is a collection of videos we found useful.
 
 #### #ID24 2016: The Web Accessibility Basics w/ Marco Zehe
 

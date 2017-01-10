@@ -5,21 +5,21 @@ permalink: /tables/
 page_title: Tables
 ---
 
-When tables are used to show data, the header cells that relate to the data cells need to be programatically linked. This makes table navigation for screen readers less painful. 
+When tables are used to show data, the header cells that relate to the data cells need to be programatically linked. This makes table navigation for screen readers less painful.
 
-Simple tables can have 2 levels of headers. Each header cell should have `scope='col'` or `scope='row'`. 
+Simple tables can have two levels of headers. Each header cell should have `scope='col'` or `scope='row'`.
 
-Complex tables are tables with more than 2 levels of headers. Each header should be given a unique `id` and each data cell should have a `headers` attribute with each related header cells id listed.
+Complex tables are tables with more than two levels of headers. Each header should be given a unique `id` and each data cell should have a `headers` attribute with each related header cells id listed.
 
-If a table has text associated with it, ensure the text is programatically linked to the table. This is ususally with a `<caption>` element. This element should be the first element under the `<table>` element. While a `caption` is not required, it can be very helpful to screen reader users navigating the page. A `caption` element is **strongly** encouraged on data tables as it gives context to the data. 
+If a table has text associated with it, ensure the text is programatically linked to the table. This is ususally with a `<caption>` element. This element should be the first element under the `<table>` element. While a `caption` is not required, it can be very helpful to screen reader users navigating the page. A `caption` element is **strongly** encouraged on data tables as it gives context to the data.
 
 ### Testing
 
-1. Identify 'data' tables (layout tables are exempt)
-2. View the table source code
-3. Identify the table headers
-  * Check for scope on simple tables
-  * Check for id and headers on complex tables 
+1. Identify 'data' tables (layout tables are exempt).
+2. View the table source code.
+3. Identify the table headers.
+  * Check for scope on simple tables.
+  * Check for id and headers on complex tables.
 
 ### Examples
 
@@ -170,4 +170,4 @@ If a table has text associated with it, ensure the text is programatically linke
 </table>
 ```
 
-> This is an example of a complex table, all the cells are associated to their respective headers with the ```headers``` attribute. Most tables don't require this level of complexity. 
+> This is an example of a complex table, all the cells are associated to their respective headers with the ```headers``` attribute. Most tables don't require this level of complexity.
