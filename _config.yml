@@ -2,7 +2,7 @@ markdown: redcarpet
 name: Accessibility Guide
 exclude:
   - /vendor
-  
+
 permalink: pretty
 highlighter: rouge
 
@@ -79,7 +79,7 @@ navigation:
   url: plugins/
   internal: true
 - text: Alternative Versions
-  url: alternativeversions/
+  url: alternative-versions/
   internal: true
 - text: Writing Guide
   url: writing-guide/
