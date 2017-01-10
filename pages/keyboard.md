@@ -1,19 +1,19 @@
 ---
-title: Keyboard Access
+title: Keyboard access
 description: 'How we work with keyboards only'
 permalink: /keyboard/
-page_title: Keyboard Access
+page_title: Keyboard access
 scripts:
 - assets/js/keyboard-access.js
 ---
 
-Keyboard access to a website is key to the usability of your site. All interactions and information that can be accessed with a mouse **must** be accessible with just a keyboard. This doesn't mean everyone who can't use a mouse will use a keyboard, but alternative AT inputs use keyboard-like inputs to navigate the web. 
+Keyboard access to a website is key to the usability of your site. All interactions and information that can be accessed with a mouse **must** be accessible with just a keyboard. This doesn't mean everyone who can't use a mouse will use a keyboard, but alternative AT inputs use keyboard-like inputs to navigate the web.
 
-### Testing 
+### Testing
 
 1. Identify all interactions on the page.
-2. Using the tab, enter, and space bar, navigate the page and ensure each input/interaction can be triggered.
-  * Ensure rollover / hover interactions (help text, etc.) can be triggered as well.
+2. Using the tab, enter, and space bar, navigate the page and ensure each input and interaction can be triggered.
+  * Ensure rollover and hover interactions (help text, etc) can be triggered as well.
   * __If the user cannot interact with something, or get the information another way, this is a failure__.
 3. Make sure the tab order of the page is logical and follows the visual order of elements on the page.
   * __If the tab order is confusing, this is a failure__.
@@ -51,8 +51,8 @@ Keyboard access to a website is key to the usability of your site. All interacti
 <a href='javascript:$("#hiddenContent").show().focus();'>
 	Reveal Hidden Content
 </a>
-<div id="hiddenContent" 
-	 style="display:none;" 
+<div id="hiddenContent"
+	 style="display:none;"
 	 tabindex='-1'>
 	This div was hidden, now it's not!
 </div>

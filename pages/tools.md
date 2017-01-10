@@ -8,7 +8,7 @@ page_title: Accessibility-friendly Tools
 ### Color Tools
 * [WebAIM color contrast checker](http://webaim.org/resources/contrastchecker/) compares two hex colors and tells you whether they meet WCAG AA and AAA contrast thresholds.
 * [Snook's color contrast analyzer](http://snook.ca/technical/colour_contrast/colour.html) lets you adjust RGB and HSV values and reports contrast compliance interactively.
-* [NC State palette accessibility evaluator](http://accessibility.oit.ncsu.edu/tools/color-contrast/) lets you compare contrast between 3 or more colors for WCAG AA or AAA compliance.
+* [NC State palette accessibility evaluator](http://accessibility.oit.ncsu.edu/tools/color-contrast/) lets you compare contrast between three or more colors for WCAG AA or AAA compliance.
 * [Color Safe](http://colorsafe.co/) is a guide for choosing colors that meet WCAG contrast thresholds.
 * [Color Contrast Analyzer](http://www.paciellogroup.com/resources/contrastanalyser/) is a desktop application for contrast checking that also simulates different forms of color impairment.
 
@@ -41,7 +41,7 @@ development process:
 
 * [a11y](https://github.com/addyosmani/a11y) is a Node-based accessibility auditing with both command-line and JavaScript APIs.
 * [AccessLintCI](https://github.com/accesslint/accesslint-ci) runs accessibility tests in CircleCI builds and comments on GitHub pull requests with new accessibility issues. See more information on how to add this to an 18F site [here](https://github.com/18F/development-guide/tree/master/accessibility_scanning).
-* [pa11y](http://pa11y.org/) and is like a11y, but consists of a larger suite of tools, including command-line and JavaScript APIs, a [web service](https://github.com/nature/pa11y-webservice) and a [dashboard](https://github.com/nature/pa11y-dashboard) for monitoring accessibility reports across multiple sites.
+* [pa11y](http://pa11y.org/) and is like a11y, but consists of a larger suite of tools, including command-line and JavaScript APIs, a [web service](https://github.com/nature/pa11y-webservice), and a [dashboard](https://github.com/nature/pa11y-dashboard) for monitoring accessibility reports across multiple sites.
 * [ra11y](https://github.com/benbalter/ra11y) is a Ruby-based accessibility testing tool tuned for use with [Jekyll](http://jekyllrb.com/) and static sites.
 * [webalin](http://webalin.readthedocs.org/en/latest/) is a Python-based 508 compliance linter for HTML.
 

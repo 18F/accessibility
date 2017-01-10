@@ -1,18 +1,18 @@
 ---
-title: Web Text Properties
-description: 'How we deal with Web Text Properties'
+title: Web text properties
+description: 'How we deal with web text properties'
 permalink: /properties/
-page_title: Web Text Properties
+page_title: Web text properties
 ---
-Having the HTML properties of your website set properly ensures assitive technology interacts with your site correctly. _AT_ will read foreign languages, but they need to know when the language differs from the page's default. 
+Having the HTML properties of your website set properly ensures assitive technology interacts with your site correctly. _AT_ will read foreign languages, but they need to know when the language differs from the page's default.
 
-### Testing 
+### Testing
 
-1. Open the inspector panel
-2. Locate the main ```html``` tag
+1. Open the inspector panel.
+2. Locate the main ```html``` tag.
   * __If the ```lang``` attribute isn't set to the correct language, this is a failure.__
-3. Identify any content that differs from the default language, make sure the content has its own ```lang``` attribute set with that language
-  * __Any alternate language content not set constitues a failure__
+3. Identify any content that differs from the default language, make sure the content has its own ```lang``` attribute set with that language.
+  * __Any alternate language content not set constitues a failure__.
 
 ### Examples
 
@@ -22,7 +22,7 @@ Sus ojos son verdes.
 
 > This text is Spanish and lacks a ```lang``` attribute.
 
-#### Passes 
+#### Passes
 
 <p lang="es">Sus ojos son verdes.</p>
 
