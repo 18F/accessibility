@@ -58,8 +58,10 @@ Making forms accessible is a simple process. Each form element should be associa
 
 <fieldset>
 <legend>Name</legend>
-<label for="first_name">First&nbsp;</label><input type='text' id='firstname'><br>
-<label for="1lastname">Last&nbsp;</label><input type='text' id='1lastname'>
+  <label for="first_name-2">First&nbsp;</label>
+  <input type='text' id='firstname-2'><br>
+  <label for="1lastname">Last&nbsp;</label>
+  <input type='text' id='1lastname'>
 </fieldset>
 
 <fieldset>
@@ -73,9 +75,11 @@ Making forms accessible is a simple process. Each form element should be associa
 
 ```html
 <fieldset>
-<legend>Name</legend>
-<label for="first_name">First&nbsp;</label><input type='text' id='firstname'><br>
-<label for="1lastname">Last&nbsp;</label><input type='text' id='1lastname'>
+  <legend>Name</legend>
+  <label for="first_name-2">First&nbsp;</label>
+  <input type='text' id='firstname-2'><br>
+  <label for="1lastname">Last&nbsp;</label>
+  <input type='text' id='1lastname'>
 </fieldset>
 
 <fieldset>
