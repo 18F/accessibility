@@ -30,13 +30,13 @@ If a table has text associated with it, ensure the text is programatically linke
 <table>
   <caption>User's Height and Weight</caption>
   <tr>
-    <th scope="col">
+    <th scope='col'>
       Name
     </th>
-    <th scope="col">
+    <th scope='col'>
       Height
     </th>
-    <th scope="col">
+    <th scope='col'>
       Age
     </th>
   </tr>
@@ -60,13 +60,13 @@ If a table has text associated with it, ensure the text is programatically linke
 <table>
   <caption>User's Height and Weight</caption>
   <tr>
-    <th scope="col">
+    <th scope='col'>
       Name
     </th>
-    <th scope="col">
+    <th scope='col'>
       Height
     </th>
-    <th scope="col">
+    <th scope='col'>
       Age
     </th>
   </tr>
@@ -87,7 +87,7 @@ If a table has text associated with it, ensure the text is programatically linke
 </table>
 ```
 
-> Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope="col"```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
+> Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope='col'```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
 
 ##### Complex table
 
