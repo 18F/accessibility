@@ -49,7 +49,7 @@ Making forms accessible is a simple process. Each form element should be associa
 
 <fieldset>
   <legend>Favorite Soup?</legend>
-  <input type='radio' name='soup' value='pea' id='peasoup' title='Pea Soup'>&nbsp;Pea Soup<br>
+  <input type='radio' name='soup' value='pea' id='pea' title='Pea Soup'>&nbsp;Pea Soup<br>
   <input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
   <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
 </fieldset>
@@ -71,9 +71,9 @@ Making forms accessible is a simple process. Each form element should be associa
 <fieldset>
   <legend>Favorite Soup?</legend>
   <p><span style='color:red;'>This Question Is Required</span></p>
-  <input type='radio' name='soup' value='pea' id='peasoup' title='Chick Pea Soup'>&nbsp;Pea Soup<br>
-  <input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
-  <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
+  <input type='radio' name='soup' value='pea' id='pea-2' title='Chick Pea Soup'>&nbsp;Pea Soup<br>
+  <input type='radio' name='soup' value='chicken' id='chicken-2' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
+  <input type='radio' name='soup' value='tomato' id='tomato-2' title='Tomato'>&nbsp;Tomato
 </fieldset>
 <br>
 
