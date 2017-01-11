@@ -30,7 +30,6 @@ To serve 18F Accessibility Guide locally, using `accessibility` as the name of y
 ```shell
 $ git clone https://github.com/18F/accessibility.git accessibility
 $ cd accessibility
-$ ./go init
 $ ./go serve
 ```
 
