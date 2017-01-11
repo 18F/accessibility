@@ -30,13 +30,13 @@ navigation:
 - text: Tools
   url: tools/
   internal: true
-- text: Keyboard Access
+- text: Keyboard access
   url: keyboard/
   internal: true
 - text: Images
   url: images/
   internal: true
-- text: Color and Contrast
+- text: Color and contrast
   url: color/
   internal: true
 - text: Forms
@@ -57,34 +57,34 @@ navigation:
 - text: Multimedia
   url: multimedia/
   internal: true
-- text: Time Outs
+- text: Timeouts
   url: timeouts/
   internal: true
-- text: Web Text Properties
+- text: Web text properties
   url: properties/
   internal: true
 - text: Tables
   url: tables/
   internal: true
-- text: CSS Dependence
+- text: CSS dependence
   url: css/
   internal: true
 - text: Frames
   url: frames/
   internal: true
-- text: Links and Repetitive Content
+- text: Links and repetitive content
   url: links/
   internal: true
 - text: Plug-ins
   url: plugins/
   internal: true
-- text: Alternative Versions
+- text: Alternative versions
   url: alternative-versions/
   internal: true
-- text: Writing Guide
+- text: Writing guide
   url: writing-guide/
   internal: true
-- text: Trainings/Videos
+- text: Trainings and videos
   url: training-videos
   internal: true
 
