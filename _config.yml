@@ -45,8 +45,8 @@ navigation:
 - text: Flashing
   url: flashing/
   internal: true
-- text: Page Titles
-  url: pagetitles/
+- text: Page titles
+  url: page-titles/
   internal: true
 - text: Headings
   url: headings/

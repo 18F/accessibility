@@ -1,8 +1,8 @@
 ---
-title: Page Titles
+title: Page titles
 description: 'How we deal with page titles'
-permalink: /pagetitles/
-page_title: Page Titles
+permalink: /page-titles/
+page_title: Page titles
 ---
 Page titles are important because they help a user navigate their browser. Most users have multiple tabs open at once. It's easier to jump between pages if each page title is unique. It's also helpful to have the unique portion first, usually the name of the page.
 
