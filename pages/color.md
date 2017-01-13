@@ -53,9 +53,9 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 
 <span style="color:red;">* indicates a required field</span>
 
-<label for="name">First Name&nbsp;</label><input type"text" id="name">
+<label for="name-2">First Name&nbsp;</label><input type"text" id="name-2">
 
-<label for="lname" style="color:red">* Last Name&nbsp;</label><input type"text" id="lname">
+<label for="lname-2" style="color:red">* Last Name&nbsp;</label><input type"text" id="lname-2">
 
 > This example passes because the * and the red text indicates the required field.
 

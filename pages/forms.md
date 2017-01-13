@@ -22,31 +22,35 @@ Making forms accessible is a simple process. Each form element should be associa
 #### Passes
 
 <fieldset>
-<legend>Name</legend>
-<label for="firstname">First&nbsp;</label><input type='text' id='firstname'><br>
-<label for="lastname">Last&nbsp;</label><input type='text' id='lastname'>
+  <legend>Name</legend>
+  <label for="firstname">First&nbsp;</label>
+  <input type='text' id='firstname'><br>
+  <label for="lastname">Last&nbsp;</label>
+  <input type='text' id='lastname'>
 </fieldset>
 
 <fieldset>
-<legend>Favorite Soup?</legend>
-<input type='radio' name='soup' value='pea' id='peasoup' title='Pea Soup'>&nbsp;Pea Soup<br>
-<input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
-<input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
+  <legend>Favorite Soup?</legend>
+  <input type='radio' name='soup' value='pea' id='peasoup' title='Pea Soup'>&nbsp;Pea Soup<br>
+  <input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
+  <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
 </fieldset>
 <br>
 
 ```html
 <fieldset>
-<legend>Name</legend>
-<label for="firstname">First&nbsp;</label><input type='text' id='firstname'><br>
-<label for="lastname">Last&nbsp;</label><input type='text' id='lastname'>
+  <legend>Name</legend>
+  <label for="firstname">First&nbsp;</label>
+  <input type='text' id='firstname'><br>
+  <label for="lastname">Last&nbsp;</label>
+  <input type='text' id='lastname'>
 </fieldset>
 
 <fieldset>
-<legend>Favorite Soup?</legend>
-<input type='radio' name='soup' value='pea' id='peasoup' title='Pea Soup'>&nbsp;Pea Soup<br>
-<input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
-<input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
+  <legend>Favorite Soup?</legend>
+  <input type='radio' name='soup' value='pea' id='pea' title='Pea Soup'>&nbsp;Pea Soup<br>
+  <input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
+  <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
 </fieldset>
 ```
 > ___Name:___ Each form element has a ```label```, and its associated with the ```for``` tag. The ```for``` tag refers to the ```id``` of the ```input```. When looking at this form, 'First' and 'Last' wouldn't make since without 'Name.' This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
@@ -56,33 +60,37 @@ Making forms accessible is a simple process. Each form element should be associa
 #### Fails
 
 <fieldset>
-<legend>Name</legend>
-<label for="first_name">First&nbsp;</label><input type='text' id='firstname'><br>
-<label for="1lastname">Last&nbsp;</label><input type='text' id='1lastname'>
+  <legend>Name</legend>
+  <label for="first_name-2">First&nbsp;</label>
+  <input type='text' id='firstname-2'><br>
+  <label for="1lastname">Last&nbsp;</label>
+  <input type='text' id='1lastname'>
 </fieldset>
 
 <fieldset>
-<legend>Favorite Soup?</legend>
-<p><span style='color:red;'>This Question Is Required</span></p>
-<input type='radio' name='soup' value='pea' id='peasoup' title='Chick Pea Soup'>&nbsp;Pea Soup<br>
-<input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
-<input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
+  <legend>Favorite Soup?</legend>
+  <p><span style='color:red;'>This Question Is Required</span></p>
+  <input type='radio' name='soup' value='pea' id='pea-2' title='Chick Pea Soup'>&nbsp;Pea Soup<br>
+  <input type='radio' name='soup' value='chicken' id='chicken-2' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
+  <input type='radio' name='soup' value='tomato' id='tomato-2' title='Tomato'>&nbsp;Tomato
 </fieldset>
 <br>
 
 ```html
 <fieldset>
-<legend>Name</legend>
-<label for="first_name">First&nbsp;</label><input type='text' id='firstname'><br>
-<label for="1lastname">Last&nbsp;</label><input type='text' id='1lastname'>
+  <legend>Name</legend>
+  <label for="first_name-2">First&nbsp;</label>
+  <input type='text' id='firstname-2'><br>
+  <label for="1lastname">Last&nbsp;</label>
+  <input type='text' id='1lastname'>
 </fieldset>
 
 <fieldset>
-<legend>Favorite Soup?</legend>
-<p><span style='color:red;'>This Question Is Required</span></p>
-<input type='radio' name='soup' value='pea' id='peasoup' title='Chick Pea Soup'>&nbsp;Pea Soup<br>
-<input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
-<input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
+  <legend>Favorite Soup?</legend>
+  <p><span style='color:red;'>This Question Is Required</span></p>
+  <input type='radio' name='soup' value='pea' id='peasoup' title='Chick Pea Soup'>&nbsp;Pea Soup<br>
+  <input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
+  <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
 </fieldset>
 <br>
 ```
@@ -102,7 +110,7 @@ Screen readers vary on what they read and the additional information they provid
 
 You can test these with your own screen reader. If you have a OSX you can turn voice over on by hitting command+f5.
 
-**TL;DR** Using `aria-label` or `aria-labeledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labeledby` and pass it the `for` attribute of the label and any aditional `id`s you want read. ex. `aria-labeledby='car1 car_description car-error-message'`
+**TL;DR** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any aditional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
 
 ##### No ARIA
 
@@ -138,34 +146,34 @@ Reads the `aria-label` and doesn't read the normal `label`.
 **Screen Reader reads input as:** `Car, please enter make and model Edit text`
 <hr>
 
-##### With aria-labeledby pointing at `carmakedescription`
+##### With aria-labelledby pointing at `carmakedescription`
 
-Reads only the `aria-labeledby` attribute and not the default label
+Reads only the `aria-labelledby` attribute and not the default label
 
 <label for="car_3">Car</label>
-<input type="text" id="car_3" aria-labeledby="carmakedescription_3" /><br/>
+<input type="text" id="car_3" aria-labelledby="carmakedescription_3" /><br/>
 <span id='carmakedescription_3'><i>Please enter Make and Model</i></span>
 
 ```html
 <label for="car_3">Car</label>
-<input type="text" id="car_3" aria-labeledby="carmakedescription_3" /><br/>
+<input type="text" id="car_3" aria-labelledby="carmakedescription_3" /><br/>
 <span id='carmakedescription_3'><i>Please enter Make and Model</i></span>
 ```
 
 **Screen Reader reads input as:** `Please enter Make and Model Edit text`
 <hr>
 
-##### With aria-labeledby pointing at `car carmakedescription`
+##### With aria-labelledby pointing at `car carmakedescription`
 
-Reads both labels indicated by the `aria-labeledby` attribute
+Reads both labels indicated by the `aria-labelledby` attribute
 
 <label for="car_4">Car</label>
-<input type="text" id="car_4" aria-labeledby="car_4 carmakedescription_4" /><br/>
+<input type="text" id="car_4" aria-labelledby="car_4 carmakedescription_4" /><br/>
 <span id='carmakedescription_4'><i>Please enter Make and Model</i></span>
 
 ```html
 <label for="car_4">Car</label>
-<input type="text" id="car_4" aria-labeledby="car_4 carmakedescription_4" /><br/>
+<input type="text" id="car_4" aria-labelledby="car_4 carmakedescription_4" /><br/>
 <span id='carmakedescription_4'><i>Please enter Make and Model</i></span>
 ```
 
