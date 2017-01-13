@@ -8,6 +8,28 @@ page_title: Hidden Content
 Hiding content is very useful for accessibility. We can hide things visually and only display it to screen reader users, we can hide content from screen reader users and only show it visually, or we can hide content from both. 
 
 ### Techniques
+{% capture css_display_none %}
+  ```css
+    {
+      display:none;
+    }
+  ```
+{% endcapture %}
+
+{% capture css_sr_only %}
+  ```css
+    .sr-only {
+      border: 0; 
+      clip: rect(0 0 0 0); 
+      height: 1px; 
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+  ```
+{% endcapture %}
 <table>
 <thead>
   <tr>
@@ -28,7 +50,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
 <tbody>
   <tr>
     <th scope='row'>
-      CSS:<br> <strong>{border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;}</strong>
+      CSS:<br> {{ css_sr_only | markdownify }}
     </th>
     <td>Yes</td>
     <td>No</td>
@@ -37,7 +59,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
   <tr>
     <th scope='row'>
       CSS:<br>
-      <strong>{display:none;}</strong>
+      {{ css_display_none | markdownify }}
     </th>
     <td>Yes</td>
     <td>Yes</td>
@@ -50,7 +72,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
     </th>
     <td>Yes</td>
     <td>Yes</td>
-    <td>In supported browsers, this is the same as <strong>display:none;</strong></td>
+    <td>In supported browsers, this is the same as {{ css_display_none | markdownify }}</td>
   </tr>
   <tr>
     <th scope='row'>
@@ -59,7 +81,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
     </th>
     <td>No</td>
     <td>No</td>
-    <td>This is overwritten by other techniques. i.e. Using <strong>display:none;</strong> will cause the element not to be read or seen.</td>
+    <td>This is overwritten by other techniques. i.e. Using {{ css_display_none | markdownify }} will cause the element not to be read or seen.</td>
   </tr>
   <tr>
     <th scope='row'>
