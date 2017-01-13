@@ -90,7 +90,7 @@ If an element has multiple states, it's visibility should be tracked with `aria-
 CSS can be used to hide content and allow it to still be used with the screen reader. For an example of that, see this code here, 
 
 ```css
-.visuallyhidden {
+.sr-only {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
