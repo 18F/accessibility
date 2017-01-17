@@ -53,5 +53,5 @@ It is important to note, while B and C are noted as less critical, they are stil
  * The page makes sense with or without CSS
 5. <a href='../links/'>Links are unique and contextual</a>
  * All links can be understood taken alone, i.e 'Read more - about 508'
-6. <a href='../pagetitles/'>Page titles are descriptive</a>
+6. <a href='../page-titles/'>Page titles are descriptive</a>
 7. <a href='../plugins/'>Required plugins are linked on the page</a>
