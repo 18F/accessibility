@@ -48,12 +48,12 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 
 Home <a href='../' title='home'>Click Here</a>
 
-Keyboard Access <a href='/keyboard' aria-label="Keyboard Access">Click Here</a>
+Keyboard Access <a href='/keyboard/' aria-label="Keyboard Access">Click Here</a>
 
 ```html
 Home <a href='../' title='home'>Click Here</a>
 
-Keyboard Access <a href='/keyboard' aria-label="Keyboard Access">Click Here</a>
+Keyboard Access <a href='/keyboard/' aria-label="Keyboard Access">Click Here</a>
 ```
 
 > These links are not unique, but the ```title``` attribute in the first link gives a screen reader user context and the ```aria-label``` provides the context in the second link.
