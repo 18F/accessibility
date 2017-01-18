@@ -33,13 +33,13 @@ Hiding content is very useful for accessibility. We can hide things visually and
 <table>
 <thead>
   <tr>
-    <th scop='col'>
+    <th scope='col'>
       Technique
     </th>
-    <th scop='col'>
+    <th scope='col'>
       Visually Hidden
     </th>
-    <th scop='col'>
+    <th scope='col'>
       Screen reader hidden
     </th>
     <th scope='col'>
