@@ -1,7 +1,11 @@
-markdown: redcarpet
 name: Accessibility Guide
 exclude:
   - /vendor
+
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - tables
 
 permalink: pretty
 highlighter: rouge
