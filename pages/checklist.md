@@ -8,7 +8,7 @@ This checklist helps developers identify potential accessibility issues affectin
 
 For more detail on accessibilty standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) 
 
- * A - Critical issues that will cause serious problems and/or stop most users of assitive technology from using the site
+ * A - Critical issues that will cause serious problems and/or stop most users of assistive technology from using the site
  * B - Issues that may cause problems or increased frustration for certain users
  * C - Minor issues that will cause problems or frustration for a small number of users
 

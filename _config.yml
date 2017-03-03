@@ -95,7 +95,7 @@ navigation:
   url: writing-guide/
   internal: true
 - text: Trainings and videos
-  url: training-videos
+  url: training-videos/
   internal: true
 
 repos:
