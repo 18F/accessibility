@@ -17,6 +17,7 @@ author:
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: /assets/img/18f-logo.png
 logoalt: 18f logo
+baseurl: /18f/accessibility
 
 # Navigation
 # List links that should appear in the site sidebar here
