@@ -6,5 +6,5 @@ gem 'go_script'
 gem 'accesslint-ci'
 
 group :jekyll_plugins do
-  gem 'guides_style_18f'
+  gem 'guides_style_18f', '0.4.5'
 end
