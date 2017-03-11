@@ -23,13 +23,12 @@ If you have any questions about accessiblity, 508, or would like help, please re
 ### Testing Tools
 
 * [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) - use this for a quick audit of any URL
-* [pa11y automated CLI 508 tool](http://pa11y.org/)
+* [Pa11y Automated Tool](http://pa11y.org/) - Open-source
 * [Tenon](https://tenon.io/)
+* [tanaguru contrast finder](http://contrast-finder.tanaguru.com/) - Open-source tool to find better color contrast options.
+* [Accessible color palette builder](https://toolness.github.io/accessible-color-matrix/) - Open-source
 * [Windows: Inspector](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318521%28v=vs.85%29.aspx) - This tool is used by the DHS for their Trusted Tester Program.
-* [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
-* [tanaguru contrast finder](http://contrast-finder.tanaguru.com/) - Find better color contrast options.
-* [Accessible color palette builder](https://toolness.github.io/accessible-color-matrix/)
-* [NVDA Screenreader](https://www.nvaccess.org/) - Open-source
+* [Windows: NVDA Screenreader](https://www.nvaccess.org/) - Open-source
 
 ### Browser Testing Tools
 * [FireFox: WCAG Contrast checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) - Fast way to evaluate CSS color contrast.
@@ -51,6 +50,7 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
 * [Web Accessibility Tutorials](http://www.w3.org/WAI/tutorials/)
 * [Accessible Rich Internet Applications (ARIA) Documentation](http://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria) 
+* [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
 
 ### Misc Sites and tutorials
 * [WebAIM's Blog](http://webaim.org/blog/)
