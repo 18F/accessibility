@@ -60,7 +60,6 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [ARIA practical Examples](http://heydonworks.com/practical_aria_examples/)
 * [Tips for creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
 * [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891) - Free web accessibility course by Google
-* [Viget Interactive WCAG 2.0](http://code.viget.com/interactive-wcag/#responsibility=&level=aa) - Interactive accessibility (WCAG) guide by responsibility (content, design, dev, front end, UX)
-* [VO Compatibility for iOS](http://pauljadam.com/demos/voiceover-ios-html-aria-support.html)
+* [Viget Interactive WCAG 2.0](http://code.viget.com/interactive-wcag/#responsibility=&level=aa) - Interactive accessibility  guide (W3C/WebAIM)
 * [Vox Accessibility Guidelines Checklist](http://accessibility.voxmedia.com/)
 
