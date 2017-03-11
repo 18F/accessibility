@@ -53,9 +53,10 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [ARIA documentation](http://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria) - Accessible Rich Internet Applications (ARIA) is used in modern browsers to provide additional information to assistive technologies. (IE 8+, Chrome, Firefox, Mobile, [full ARIA browser list](http://caniuse.com/#feat=wai-aria))
 
 ### Misc Sites and tutorials
-* [WebAIM's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
+* [WebAIM's Blog](http://webaim.org/blog/)
 * [The Accessibility Project](http://a11yproject.com/) - Good accessibility blog.
 * [Simply Accessible](http://simplyaccessible.com/archives/) - A great blog and resource with articles about modern accessibility.
+* [WebAIM's Accessibility Resources](http://webaim.org/resources/)
 * [ARIA practical Examples](http://heydonworks.com/practical_aria_examples/)
 * [Tips for creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
 * [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891) - Free web accessibility course by Google
