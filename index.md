@@ -50,7 +50,7 @@ If you have any questions about accessiblity, 508, or would like help, please re
 ### World Wide Web Consortium's Web Accessibility Initiative
 * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
 * [Web Accessibility Tutorials](http://www.w3.org/WAI/tutorials/)
-* [ARIA documentation](http://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria) - Accessible Rich Internet Applications (ARIA) is used in modern browsers to provide additional information to assistive technologies. (IE 8+, Chrome, Firefox, Mobile, [full ARIA browser list](http://caniuse.com/#feat=wai-aria))
+* [Accessible Rich Internet Applications (ARIA) Documentation](http://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria) 
 
 ### Misc Sites and tutorials
 * [WebAIM's Blog](http://webaim.org/blog/)
@@ -62,3 +62,4 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891) - Free web accessibility course by Google
 * [Viget Interactive WCAG 2.0](http://code.viget.com/interactive-wcag/#responsibility=&level=aa) - Interactive accessibility guide (W3C/WebAIM)
 * [Vox Accessibility Guidelines Checklist](http://accessibility.voxmedia.com/)
+* [CanIUse.com](http://caniuse.com/) - useful for HTML5, ARIA & CSS 
