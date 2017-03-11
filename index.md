@@ -25,8 +25,7 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) - use this for a quick audit of any URL
 * [pa11y automated CLI 508 tool](http://pa11y.org/)
 * [Tenon](https://tenon.io/)
-* [Windows: Inspector](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318521%28v=vs.85%29.aspx)
-  * This tool is used by the Department of Homeland Security for their Trusted Tester Program
+* [Windows: Inspector](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318521%28v=vs.85%29.aspx) - This tool is used by the DHS for their Trusted Tester Program.
 * [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
 * [tanaguru contrast finder](http://contrast-finder.tanaguru.com/) - Find better color contrast options.
 * [Accessible color palette builder](https://toolness.github.io/accessible-color-matrix/)
@@ -54,12 +53,11 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [ARIA documentation](http://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria) - Accessible Rich Internet Applications (ARIA) is used in modern browsers to provide additional information to assistive technologies. (IE 8+, Chrome, Firefox, Mobile, [full ARIA browser list](http://caniuse.com/#feat=wai-aria))
 
 ### Misc Sites and tutorials
-* [Web Aim's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
+* [WebAIM's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
 * [The Accessibility Project](http://a11yproject.com/) - Good accessibility blog.
 * [Simply Accessible](http://simplyaccessible.com/archives/) - A great blog and resource with articles about modern accessibility.
 * [ARIA practical Examples](http://heydonworks.com/practical_aria_examples/)
 * [Tips for creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
 * [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891) - Free web accessibility course by Google
-* [Viget Interactive WCAG 2.0](http://code.viget.com/interactive-wcag/#responsibility=&level=aa) - Interactive accessibility  guide (W3C/WebAIM)
+* [Viget Interactive WCAG 2.0](http://code.viget.com/interactive-wcag/#responsibility=&level=aa) - Interactive accessibility guide (W3C/WebAIM)
 * [Vox Accessibility Guidelines Checklist](http://accessibility.voxmedia.com/)
-
