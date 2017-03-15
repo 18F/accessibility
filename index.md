@@ -57,3 +57,4 @@ If you have any questions about accessiblity, 508, or would like help, please re
   * Not accepted by DHS
 * [WAI Tutorials](http://www.w3.org/WAI/tutorials/)
 * [Web Aim's 10 easy accessibility tips](http://webaim.org/blog/10-easy-accessibility-tips/)
+* [New Zealand Web Accessibility Standard 1.0 Assessment Guide](http://govtnz.github.io/web-standards/guidance/assessment-guides/web-a11y-standard-assessment-guide.html)
