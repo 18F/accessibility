@@ -182,7 +182,7 @@ Reads both labels indicated by the `aria-labelledby` attribute
 
 ##### With aria-describedby pointing at `carmakedescription`
 
-Voiceover only reads the label, Jaws should read the description as well
+Jaws reads both the label and the description. So does VoiceOver, but there is a slight delay before it reads the description.
 
 <label for="car_5">Car</label>
 <input type="text" id="car_5" aria-describedby="carmakedescription_5" /><br/>
