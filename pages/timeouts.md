@@ -29,4 +29,4 @@ Fill out this form
 <label for='t5'>Field 5</label>&nbsp;<input type='text' id='t5'><br>
 </form>
 
-> This passes becuase a timeout does occur, but you are given more than 20 seconds to request more time.
+> This passes because a timeout does occur, but you are given more than 20 seconds to request more time.
