@@ -4,7 +4,7 @@ description: 'How we deal with Plug-ins'
 permalink: /plugins/
 page_title: Plug-ins
 ---
-Plugins provide extended functionality not native to the browswer. Examples include PDF, Flash, Shockwave, Silverlight, and Java.
+Plugins provide extended functionality not native to the browser. Examples include PDF, Flash, Shockwave, Silverlight, and Java.
 
 Anytime a plugin is used on a page, they must be tested for accessiblity.
 
