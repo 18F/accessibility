@@ -71,7 +71,7 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 
 <span><a href="#" style="color:#006465; text-decoration:none; border-bottom-style: none;">Im a Link.</a> I'm just normal text  </span>
 
-> This passes because the link and the black text have a lightness ratio of 3:1, but we would recommend a greater contrast ratio for links without other visual indicators
+> This passes because the link and the black text have a contrast(lightness) ratio of 3:1, but we would recommend a greater contrast ratio for links without other visual indicators
 
 <span><a href="#" style="color:#000000; text-decoration:none; border-bottom-style: none;">Im a Link.</a> I'm just normal text  </span>
 
