@@ -47,7 +47,7 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 
 > This is a failure because the only indication of which fields are required is the color of the text label.
 
-<span><a href="#" style="color:#006061; text-decoration:none;">Im a Link.</a> I'm just normal text  </span>
+<span><a href="#" style="color:#006061; text-decoration:none; border-bottom-style: none;">Im a Link.</a> I'm just normal text  </span>
 
 > This fails because the contrast ratio between the link and surronding text is less than 3:1.
 
@@ -69,11 +69,11 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 
 > This example passes because the * and the red text indicates the required field.
 
-<span><a href="#" style="color:#006465; text-decoration:none;">Im a Link.</a> I'm just normal text  </span>
+<span><a href="#" style="color:#006465; text-decoration:none; border-bottom-style: none;">Im a Link.</a> I'm just normal text  </span>
 
 > This passes because the link and the black text have a lightness ratio of 3:1
 
-<span><a href="#" style="color:#000000; text-decoration:none;">Im a Link.</a> I'm just normal text  </span>
+<span><a href="#" style="color:#000000; text-decoration:none; border-bottom-style: none;">Im a Link.</a> I'm just normal text  </span>
 
 > This passes because all users see the link as normal text.
 
