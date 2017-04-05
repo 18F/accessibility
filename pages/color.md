@@ -4,7 +4,11 @@ description: 'How we work with color and contrast'
 permalink: /color/
 page_title: Color and contrast
 ---
-There are two aspects we need to address when it comes to color, contrast and color dependence. Color contrast is the ratio of the foreground color(text) and the background color. Color dependence is the need to see color to understand the information. Unless specific agency requirements dictate otherwise, color contrast should meet the [WCAG 2.0 AA] minimum color contrast ratio of **4.5:1**.
+There are two main accessibility concerns for color, contrast and color dependence. Color contrast is the ratio of the foreground color(text) and the background color. Text should have a ratio of 4.5:1 or greater with the background.
+
+Color dependence is the need to see color to understand the information. An example of this would be `The required fields are red.` Some users may not be able to distiguish red from other colors and would lack information to fill out this form.
+
+Links that only rely on color also fail this requirement. Links must be distinguished by more than just color (hue). Links can be distinguished by underlines, symbols, context (in a menu for example), or lightness. If the contrast between the surronding text and a link is greater than 3:1 it is acceptable. Also note, the link text itself still needs to have a contrast ratio of 4.5:1 or greater with the background. [More information about link color dependence.](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F73)
 
 ### Testing
 
@@ -20,6 +24,8 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 
 1. Identify sections which use color to convey information.
 2. Check to see if the information is conveyed in another way visually and programatically.
+3. If links are only distinguished by color surrounded by normal text
+3a. Check if the link has a contrast ratio of 3:1 with the surronding text
 
 ### Examples
 
@@ -41,6 +47,10 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 
 > This is a failure because the only indication of which fields are required is the color of the text label.
 
+<span><a href="#" style="color:#006061; text-decoration:none;">Im a Link.</a> I'm just normal text  </span>
+
+> This fails because the contrast ratio between the link and surronding text is less than 3:1.
+
 #### Passes
 
 <span style = "color:#458503">This text passes. </span>
@@ -58,5 +68,13 @@ Note: Run this test for all states of the text (hover, visited, focused). This t
 <label for="lname-2" style="color:red">* Last Name&nbsp;</label><input type"text" id="lname-2">
 
 > This example passes because the * and the red text indicates the required field.
+
+<span><a href="#" style="color:#006465; text-decoration:none;">Im a Link.</a> I'm just normal text  </span>
+
+> This passes because the link and the black text have a lightness ratio of 3:1
+
+<span><a href="#" style="color:#000000; text-decoration:none;">Im a Link.</a> I'm just normal text  </span>
+
+> This passes because all users see the link as normal text.
 
 [WCAG 2.0 AA]: https://www.w3.org/WAI/WCAG20/quickref/#visual-audio-contrast-contrast
