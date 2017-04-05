@@ -14,9 +14,9 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 #### Color Contrast
 
-1. Using a [color contrast checker](http://www.paciellogroup.com/resources/contrastanalyser/), select the darkest or lightest section of the text.
-2. Select the darkest/lightest section of the background.
-3. Check the ratio and ensure its greater than [4.5:1][WCAG 2.0 AA] (ex 5.3:1 would pass).
+1. Using a [color contrast checker](http://www.paciellogroup.com/resources/contrastanalyser/), compare the color of the text with the color of the background.
+2. In situations where the color is a gradient or cannot be determined programmatically, compare the lightest part of the text and the lightest part of the background using the color picker. Then compare the darkest part of the text with the darkest part of the background.
+3. Check that the ratios are greater than [4.5:1][WCAG 2.0 AA] (ex 5.3:1 would pass).
 
 **Note:** Run this test for all states of the text (hover, visited, focused). This test should also be performed on images of text.
 
