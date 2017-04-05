@@ -44,11 +44,25 @@ lorum ipsum
 ```html
 <div>
   <h3>Category</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+   </p>
   <h4>Sub Category 1</h4>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. 
+    Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+   </p>
   <h4>Sub Category 2</h4>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. 
+    Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+  </p>
 </div>
 ```
 
@@ -68,11 +82,26 @@ lorum ipsum
 ```html
 <div>
   <h3>Category</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. 
+    Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+  </p>
   <h2>Sub Category 1</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. 
+    Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+   </p>
   <h5>Sub Category 2</h5>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. 
+    Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+  </p>
 </div>
 ```
 
