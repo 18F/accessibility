@@ -11,7 +11,7 @@ When using images on a page, you must provide an alternate method for that conte
 1. Using the web developer tool, select images > Display Alt Attributes & Outline All Images.
 2. Inspect each Alt tag for the following:
   * A unique description of the image is provided
-  * Repeated images have the same alt text
+  * Repeated images used for controls, status indicators, or other programmatic elements have consistent alt text
   * All text in the image is included in the alt text
   * "Image of" or "Photo of" is not used
   * If the alt tag is empty, ensure the image is purely decorative
