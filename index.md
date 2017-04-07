@@ -38,7 +38,7 @@ If you have any questions about accessiblity, 508, or would like help, please re
 * [Firefox/Chrome: Web Developer](https://chrispederick.com/work/web-developer/)
 
 ### Government Sites and tutorials
-* [18F Accessibility Checklist](./checklist)
+* [18F Accessibility Checklist](./checklist/)
 * [Old Section 508 Standards](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) - The full 1997 Section 508 standards.
 * [GSA's Section 508 Policies](http://www.gsa.gov/portal/content/105254)
 * [CFPB's building accessible interfaces guide](http://cfpb.github.io/design-manual/best-practices/accessibility-best-practices)
