@@ -12,8 +12,9 @@ Another common CSS dependence issue is content order. Content can be reordered w
 
 ### Testing
 
-1. Disable CSS.
-2. Check for missing information (images, text, etc).
-3. Check for code or other items the developer doesn't want you to see.
-  * Confusing elements shouldn't be present such as CSS, JavaScript, or other code, etc.
-4. Check for overlapping text.
+1. Disable CSS
+2. Check for missing information (images, text, etc)
+3. Check for code or other items the developer doesn't want you to see
+  * Confusing elements shouldn't be present such as CSS, JavaScript, or other code, etc
+4. Check for overlapping text
+5. Check that the content order makes sense with and without CSS
