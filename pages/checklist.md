@@ -46,7 +46,7 @@ It is important to note, while B and C are noted as less critical, they are stil
  * All frames have a name element
 2. <a href='../flashing/'>Flashing elements are compliant</a>
  * Elements that flash on screen do so at a rate of less than 3hz
-3. <a href='../properties/'>Language is set</a>
+3. <a href='../language/'>Language is set</a>
  * The language for the page is set
  * The language for sections on the page that differ from the site language are set
 4. <a href='../css/'>CSS is not required to use the page</a>
