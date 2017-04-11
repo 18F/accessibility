@@ -70,8 +70,8 @@ navigation:
 - text: Timeouts
   url: timeouts/
   internal: true
-- text: Web text properties
-  url: properties/
+- text: Language
+  url: language/
   internal: true
 - text: Tables
   url: tables/
