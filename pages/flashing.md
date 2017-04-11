@@ -12,9 +12,13 @@ Flashing is generally a bad idea. It can cause all sorts of issues, from seizure
 
 * Failure at any step constitutes a 508 compliance issue
 
-1. Check if you can determine the frequency of "flashing."
-  * Note: Scrolling text is considered flashing for our purposes.
-2. Check that the rate of flashing is less than 3hz (3 times a second), or scroll delay is set to >= 400.
+1. Look for elements that contain flashing
+  * Scrolling or blinking text
+  * Scrolling or blinking page elements
+  * Videos that contain flickering or flashing
+  * GIFs that contain flickering or flashing
+2. Check if you can determine the frequency of "flashing."
+3. Check that the rate of flashing is less than 3hz (3 times a second), or scroll delay is set to >= 400.
 
 ### Examples
 
