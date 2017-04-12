@@ -9,7 +9,7 @@ When laying out a page, headings provide a semantic way to lay out sections of c
 
 When using heading elements, reserve the `<h1>` element for the page title. On the home page, this is usually the title of the site and on other pages, this may be the page title. Use the `<h1>` element once per page—some assistive technology may be unable to read multiple `<h1>`s on a single page correctly. Other heading levels may be used more than once following document outline order.
 
-Note: `<section>` and `<article>` elements may allow you to reset the heading order allowing you to "restart" heading levels at `<h1>`. At this point, we don't recommend this as it may not be fully supported by all browsers.
+**Note:** `<section>` and `<article>` elements may allow you to reset the heading order allowing you to "restart" heading levels at `<h1>` according to the HTML5 spec. At this point, we are unaware of any browsers that support this feature beyond general HTML5 conformance checkers. For this reason, we reccomend developers maintain the document outline with `h1-h6` when using HTML5 outline elements.
 
 For sub sections, use `<h2>` to `<h6>` in document outline order. `<h1>` is the most important and `<h6>` is the least. Avoid skipping headings. Avoid breaking document outline order (you may go from `<h1>` to `<h3>`, but never `<h3>` to `<h1>`).
 
