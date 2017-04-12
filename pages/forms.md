@@ -110,7 +110,7 @@ Screen readers vary on what they read and the additional information they provid
 
 You can test these with your own screen reader. If you have a OSX you can turn voice over on by hitting command+f5.
 
-**TL;DR** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any aditional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
+**Further Information** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any aditional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
 
 ##### No ARIA
 
