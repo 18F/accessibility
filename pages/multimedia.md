@@ -12,7 +12,9 @@ Videos with audio require synchronized closed captioning. Anything said in the v
 
 ### Audio description
 
-Audio description ensures any information displayed visually is conveyed via audio. The most basic example of this is text on screen. All the text on screen should be available by audio. This can be done a couple of ways. The script for the video can be written in a way that all visual information is read by the narrator. The other way is to add a separate audio track that describes the visual content. This can be done with a special player or a separate version of the video with the audio baked in.
+Audio description ensures any information displayed visually is conveyed via audio. This can be done a couple of ways. The script for the video can be written in a way that all visual information is described by the narrator. The other way is to add a separate audio track that describes the visual content. This can be done with a special player or a separate version of the video with the audio baked in.
+
+ Some examples of when audio descriptions should be used are scene transitions, characters, actions and text on screen.  
 
 ### Keyboard access
 
