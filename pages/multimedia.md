@@ -6,9 +6,9 @@ page_title: Multimedia
 ---
 When using multimedia, we must provide means for everyone to consume the media. Multimedia is anything that uses audio and video.
 
-### Closed captioning
+### Captioning
 
-Videos with audio require synchronized closed captioning. Anything said in the video must be included in the closed captioning, and anything written in the closed captioning must be said in the video. This includes names, sounds, and descriptions. In other words, the captions and audio should be equivalent. WCAG requires pre recorded video to be captioned at A, while live video requires captioning at AA. 
+Videos with audio require synchronized captioning. Captioning can be either closed, meaning they can be turned off, or open captioning, meaning it is baked into the video. Anything said in the video must be included in the captioning, and anything written in the captioning must be said in the video. This includes names, sounds, and descriptions. In other words, the captions and audio should be equivalent. WCAG requires pre recorded video to be captioned at A, while live video requires captioning at AA. 
 
 ### Audio description
 
