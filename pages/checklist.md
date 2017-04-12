@@ -18,7 +18,7 @@ It is important to note, while B and C are noted as less critical, they are stil
 
 1. <a href='../keyboard/'>Site is keyboard accessible</a>
  * All interactions can be accessed with a keyboard
-2. <a href='../keyboard/'>Site is free of keyboard traps</a>
+2. <a href='../keyboard/#keyboard-trap'>Site is free of keyboard traps</a>
  * The keyboard focus is never trapped in a loop
 4. <a href='../forms/'>All `form` inputs have explicit labels</a>
 6. <a href='../images/'>All relevant images use an `img` tag</a>
