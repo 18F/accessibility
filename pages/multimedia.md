@@ -8,7 +8,7 @@ When using multimedia, we must provide means for everyone to consume the media. 
 
 ### Closed captioning
 
-Videos with audio require synchronized closed captioning. Anything said in the video must be included in the closed captioning, and anything in the closed captioning must be said in the video. WCAG requires pre recorded video to be captioned at A, while live video requires captioning at AA. 
+Videos with audio require synchronized closed captioning. Anything said in the video must be included in the closed captioning, and anything written in the closed captioning must be said in the video. This includes names, sounds, and descriptions. In other words, the captions and audio should be equivalent. WCAG requires pre recorded video to be captioned at A, while live video requires captioning at AA. 
 
 ### Audio description
 
