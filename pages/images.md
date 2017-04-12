@@ -4,22 +4,23 @@ description: 'How we work with images'
 permalink: /images/
 page_title: Images
 ---
-When using images on a page, you must provide an alternate method for that content. This can be provided in multiple ways. You can provide this information with a caption, alt attribute (alt tag), title attribute, or aria label attribute. If an image has text, all the text in the image must be provided in the alternate content. No matter which method is used, an alt or title attribute must be provided, even if the attribute is blank.
+When using images on a page, you must provide an alternate method for that content. This can be provided in multiple ways. You can provide this information with a caption, `alt` attribute (`alt` tag), `title` attribute, or aria label attribute. If an image has text, all the text in the image must be provided in the alternate content. No matter which method is used, an `alt` or title attribute must be provided, even if the attribute is blank.
 
 ### Testing
 
 1. Using the web developer tool, select images > Display Alt Attributes & Outline All Images.
-2. Inspect each Alt attribute for the following:
+2. Inspect each `alt` attribute for the following:
   * A unique description of the image is provided
-  * Repeated images used for controls, status indicators, or other programmatic elements have consistent alt text
-  * All text in the image is included in the alt text
+  * Repeated images used for controls, status indicators, or other programmatic elements have consistent `alt` text
+  * Text included in the image should be included in the `alt` when they are important to understanding the image
+    * Note: DHS Trusted tester requires all text in an image be included in the `alt` attribute
   * "Image of" or "Photo of" is not used
-  * If the alt attribute is empty, ensure the image is purely decorative
+  * If the `alt` attribute is empty, ensure the image is purely decorative
     * If the image is not decorative, make sure the image is described on the page
-3. Check outlined images without alt attribute by doing the following:
+3. Check outlined images without `alt` attribute by doing the following:
   * Right click the image
   * Select 'Inspect Element'
-  * Check for a title attribute for the information normally found on the alt attribute
+  * Check for a title attribute for the information normally found on the `alt` attribute
 
 ### Examples
 
@@ -32,7 +33,7 @@ When using images on a page, you must provide an alternate method for that conte
 ```
 
 > Preffered method for providing alternate content.
-> Clear alt attribute with all text included.
+> Clear `alt` attribute with all text included.
 
 ---
 
@@ -56,8 +57,8 @@ When using images on a page, you must provide an alternate method for that conte
 ```
 
 > Information contained in the image is provided on the page.
-> In most instances, an alt attribute would be preferred.
-> Images marked with an empty alt (alt="") are considered "Decorative" and not read by AT.
+> In most instances, an `alt` attribute would be preferred.
+> Images marked with an empty `alt` (`alt=""`) are considered "Decorative" and not read by AT.
 
 ---
 
@@ -69,7 +70,7 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="{{site.baseurl}}/images/sign.jpg">
 ```
 
-> Image is missing an alt attribute and alternative content
+> Image is missing an `alt` attribute and alternative content
 
 ---
 
@@ -79,7 +80,7 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="{{site.baseurl}}/images/sign.jpg" alt="sign">
 ```
 
-> Alt attribute is missing text from image
+> `Alt` attribute is missing text from image
 
 ---
 
