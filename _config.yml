@@ -34,6 +34,9 @@ navigation:
 - text: Checklist
   url: checklist/
   internal: true
+- text: Roles
+  url: roles/
+  internal: true
 - text: Tools
   url: tools/
   internal: true
