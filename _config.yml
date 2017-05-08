@@ -1,6 +1,12 @@
-name: Accessibility Guide
+name: 18F Accessibility Guide
 exclude:
-  - /vendor
+- CONTRIBUTING.md
+- Gemfile
+- Gemfile.lock
+- LICENSE.md
+- README.md
+- go
+- vendor
 
 markdown: redcarpet
 redcarpet:
@@ -9,6 +15,7 @@ redcarpet:
 
 permalink: pretty
 highlighter: rouge
+incremental: true
 
 sass:
   style: :compressed
@@ -20,7 +27,7 @@ author:
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: /assets/img/18f-logo.png
-logoalt: 18f logo
+logoalt: 18F logo
 
 # Navigation
 # List links that should appear in the site sidebar here
@@ -67,8 +74,8 @@ navigation:
 - text: Timeouts
   url: timeouts/
   internal: true
-- text: Web text properties
-  url: properties/
+- text: Language
+  url: language/
   internal: true
 - text: Tables
   url: tables/

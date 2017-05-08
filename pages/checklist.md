@@ -8,7 +8,7 @@ This checklist helps developers identify potential accessibility issues affectin
 
 For more detail on accessibilty standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) 
 
- * A - Critical issues that will cause serious problems and/or stop most users of assitive technology from using the site
+ * A - Critical issues that will cause serious problems and/or stop most users of assistive technology from using the site
  * B - Issues that may cause problems or increased frustration for certain users
  * C - Minor issues that will cause problems or frustration for a small number of users
 
@@ -18,7 +18,7 @@ It is important to note, while B and C are noted as less critical, they are stil
 
 1. <a href='../keyboard/'>Site is keyboard accessible</a>
  * All interactions can be accessed with a keyboard
-2. <a href='../keyboard/'>Site is free of keyboard traps</a>
+2. <a href='../keyboard/#keyboard-trap'>Site is free of keyboard traps</a>
  * The keyboard focus is never trapped in a loop
 4. <a href='../forms/'>All `form` inputs have explicit labels</a>
 6. <a href='../images/'>All relevant images use an `img` tag</a>
@@ -46,7 +46,7 @@ It is important to note, while B and C are noted as less critical, they are stil
  * All frames have a name element
 2. <a href='../flashing/'>Flashing elements are compliant</a>
  * Elements that flash on screen do so at a rate of less than 3hz
-3. <a href='../properties/'>Language is set</a>
+3. <a href='../language/'>Language is set</a>
  * The language for the page is set
  * The language for sections on the page that differ from the site language are set
 4. <a href='../css/'>CSS is not required to use the page</a>

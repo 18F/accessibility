@@ -7,7 +7,9 @@ page_title: Headings
 
 When laying out a page, headings provide a semantic way to lay out sections of content. A heading element briefly describes the topic of the section it introduces. Heading elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see [Landmarks](../landmarks/).
 
-When using heading elements, reserve the `<h1>` element for the page title. On the home page, this is usually the title of the site and on other pages, this may be the page title. Use the `<h1>` element once per page—some assistive technology may be unable to read multiple `<h1>`s on a single page correctly. Other heading levels may be used more than once following document outline order and you may reset headings up to `<h2>` with the `<section>` element.
+When using heading elements, reserve the `<h1>` element for the page title. On the home page, this is usually the title of the site and on other pages, this may be the page title. Use the `<h1>` element once per page—some assistive technology may be unable to read multiple `<h1>`s on a single page correctly. Other heading levels may be used more than once following document outline order.
+
+**Note:** `<section>` and `<article>` elements may allow you to reset the heading order allowing you to "restart" heading levels at `<h1>` according to the HTML5 spec. At this point, we are unaware of any browsers that support this feature beyond general HTML5 conformance checkers. For this reason, we reccomend developers maintain the document outline with `h1-h6` when using HTML5 outline elements.
 
 For sub sections, use `<h2>` to `<h6>` in document outline order. `<h1>` is the most important and `<h6>` is the least. Avoid skipping headings. Avoid breaking document outline order (you may go from `<h1>` to `<h3>`, but never `<h3>` to `<h1>`).
 
@@ -44,11 +46,25 @@ lorum ipsum
 ```html
 <div>
   <h3>Category</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+   </p>
   <h4>Sub Category 1</h4>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. 
+    Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+   </p>
   <h4>Sub Category 2</h4>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. 
+    Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+  </p>
 </div>
 ```
 
@@ -68,11 +84,26 @@ lorum ipsum
 ```html
 <div>
   <h3>Category</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. 
+    Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+  </p>
   <h2>Sub Category 1</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. 
+    Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+   </p>
   <h5>Sub Category 2</h5>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam sit amet auctor lectus. Curabitur non est nibh. 
+    Suspendisse vehicula fermentum quam. 
+    Donec lobortis diam a ligula faucibus mattis.
+  </p>
 </div>
 ```
 

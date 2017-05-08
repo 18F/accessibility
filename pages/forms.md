@@ -10,13 +10,14 @@ Making forms accessible is a simple process. Each form element should be associa
 
 1. Identify each form element.
 2. Find all instructions associated with each element.
-  * __If a form element isn't programatically associated with ALL instructions, this is a failure.__
+  * __It is a failure if a form element isn't programatically associated with ALL instructions. This includes legends, labels, hint text and tooltips.__
+  * A common way of acheiving this is using `fieldset` and `legend` tags. `Fieldset` is used to group a set of elements. `Legend` is the first child of a `fieldset` tag and provides context for those fields. 
 3. Ensure all field elements are accessible via the keyboard.
   * __If the form cannot be filled out with just a keyboard, this is a failure.__
-4. Check for title tags
-  * Title tags can be a substitute for labels.
-  * __If the title tag provides all the related information it passes, if it provides extra information it fails.__
-    * Title tags are not accessible via keyboard.
+4. Check for title attributes
+  * Title attributes can be a substitute for labels.
+  * __If the title attributes provides all the related information it passes, if it provides extra information it fails.__
+    * Title attributes are not accessible via keyboard.
 
 ### Examples
 #### Passes
@@ -53,9 +54,9 @@ Making forms accessible is a simple process. Each form element should be associa
   <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
 </fieldset>
 ```
-> ___Name:___ Each form element has a ```label```, and its associated with the ```for``` tag. The ```for``` tag refers to the ```id``` of the ```input```. When looking at this form, 'First' and 'Last' wouldn't make since without 'Name.' This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
+> ___Name:___ Each form element has a ```label```, and its associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, 'First' and 'Last' wouldn't make sense without 'Name.' This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
 
-> ___Favorite Soup:___ ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` tag for assistive technology to read.
+> ___Favorite Soup:___ ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
 
 #### Fails
 
@@ -110,7 +111,7 @@ Screen readers vary on what they read and the additional information they provid
 
 You can test these with your own screen reader. If you have a OSX you can turn voice over on by hitting command+f5.
 
-**TL;DR** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any aditional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
+**Further Information** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any aditional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
 
 ##### No ARIA
 
@@ -182,7 +183,7 @@ Reads both labels indicated by the `aria-labelledby` attribute
 
 ##### With aria-describedby pointing at `carmakedescription`
 
-Voiceover only reads the label, Jaws should read the description as well
+Jaws reads both the label and the description. So does VoiceOver, but there is a slight delay before it reads the description.
 
 <label for="car_5">Car</label>
 <input type="text" id="car_5" aria-describedby="carmakedescription_5" /><br/>
@@ -196,5 +197,3 @@ Voiceover only reads the label, Jaws should read the description as well
 
 **Screen Reader reads input as:** `Car Edit text`
 <hr>
-
-
