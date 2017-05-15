@@ -13,8 +13,6 @@ permalink: pretty
 highlighter: rouge
 incremental: true
 
-asset_root: /
-
 sass:
   style: :compressed
 
