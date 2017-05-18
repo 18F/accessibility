@@ -79,8 +79,8 @@ navigation:
 - text: CSS dependence
   url: css/
   internal: true
-- text: Frames
-  url: frames/
+- text: iFrames
+  url: iframes/
   internal: true
 - text: Links and repetitive content
   url: links/
