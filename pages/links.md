@@ -16,7 +16,7 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 
 1. Identify all links on the page.
 2. Identify links with the same text.
-  * If they point at the different location, check for ```title``` or ```ARIA``` attributes to distinguish them.
+  * If the link destinations are different, check for ```title``` or ```ARIA``` attributes that distinguish them.
 3. Identify links with generic text ('Click here', 'Read more').
   * Check for the ```title``` or ```ARIA``` attributes to provide context or additional off-screen text.
 
