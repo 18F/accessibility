@@ -1,14 +1,14 @@
 ---
-title: Frames
-description: 'How we deal with Frames'
-permalink: /frames/
-page_title: Frames
+title: iframes
+description: 'How we deal with iframes'
+permalink: /iframes/
+page_title: iframes
 ---
-When using frames, it's important that all content contained in them is accessible.
+When using `iframes`, it's important that all content contained in them is accessible.
 
 ### Testing
 
-1. Identify all `frame`s / `iframe`s on a page.
+1. Identify all `iframe`s on a page.
 2. Using the keyboard, navigate to each frame to ensure content is accessible.
 3. Check the `title` or `name` attribute of each frame for a description of the content.
 
