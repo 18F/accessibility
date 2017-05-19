@@ -32,7 +32,7 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign">
 ```
 
-> Preffered method for providing alternate content.
+> Preferred method for providing alternate content.
 > Clear `alt` attribute with all text included.
 
 ---
@@ -90,4 +90,4 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="{{site.baseurl}}/images/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 ```
 
-> Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter. ie. W-A-R-N-I-N-G
+> Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter, i.e. W-A-R-N-I-N-G.
