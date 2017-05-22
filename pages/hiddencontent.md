@@ -100,7 +100,8 @@ Hiding content is very useful for accessibility. We can hide things visually and
 aria-hidden should be used in combination with these techniques. If we want to hide something from just the screen reader, you can mark it as `aria-hidden='true'`. 
 
 Items with `aria-hidden='true'` are always ignored by the screen reader.
-This is useful for: 
+This is useful for:
+
 - Collapsing Menus
 - Repetitive information
 - Off screen content
@@ -123,7 +124,9 @@ CSS can be used to hide content and allow it to still be used with the screen re
   width: 1px;
 }
 ```
+
 Using this we can:
+
 - Provide additional details about a form element
  - Hidden Labels
  - Error Details
@@ -141,6 +144,7 @@ We can also use CSS to visually hide and Screen reader hide content.
 This will hide completely and is the same as `<div aria-hidden='true' hidden>content</div>` Note that `aria-hidden='true'` should be used for additional compatibility. 
 
 `display: none;` and `hidden` can be used for:
+
 - Collapsing Menus
 - Repetitive information
 - Off screen content
