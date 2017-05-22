@@ -91,9 +91,9 @@ a.skip-link:hover, a.skip-link:active, a.skip-link:focus {
   color: #fff;
 }
 
- .mainContent:focus, .mainContent:active {
+.mainContent:focus, .mainContent:active {
  	outline: none;
- }
+}
 ```
 
 > This is how the 'Skip Navigation' was achieved for the accessibility site, feel free to use for your own site.
