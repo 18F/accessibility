@@ -13,9 +13,9 @@ When using heading elements, reserve the `<h1>` element for the page title. On t
 
 For sub sections, use `<h2>` to `<h6>` in document outline order. `<h1>` is the most important and `<h6>` is the least. Avoid skipping headings. Avoid breaking document outline order (you may go from `<h1>` to `<h3>`, but never `<h3>` to `<h1>`).
 
-For logos that are text-based, use `<em>` element. 
+For image logos that are acting as the main heading of the page, add an <h1> element for its text and use a sr-only rule so it's visibly hidden but accessible to screen reader users.
 
-If your logo is an image and acting as the main heading of the page, add an `<h1>` element for its text and use a `sr-only` rule so it's visibly hidden but accessible to screen reader users.
+For text-based logos that are not acting as the main header (or in the header structure) of the page, we recommend using the emphasis tag `<em>`. Most screen readers currently won’t indicate text is contained in `<em>` tags by default. Using `<em>` tags is semantically appropriate and should be supported in the future by more assistive technology.
 
 ```html
 <h3>Section</h3> 
