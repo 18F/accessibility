@@ -164,18 +164,18 @@ Reads only the `aria-labelledby` attribute and not the default label
 **Screen Reader reads input as:** `Please enter Make and Model Edit text`
 <hr>
 
-##### With aria-labelledby pointing at `car carmakedescription`
+##### With aria-labelledby pointing at `carlabel carmakedescription`
 
 Reads both labels indicated by the `aria-labelledby` attribute
 
-<label for="car_4">Car</label>
-<input type="text" id="car_4" aria-labelledby="car_4 carmakedescription_4" /><br/>
-<span id='carmakedescription_4'><i>Please enter Make and Model</i></span>
+<label for="car_4" id="carlabel_4">Car</label>
+<input type="text" id="car_4" aria-labelledby="carlabel_4 carmakedescription_4" /><br/>
+<span id="carmakedescription_4"><i>Please enter Make and Model</i></span>
 
 ```html
-<label for="car_4">Car</label>
-<input type="text" id="car_4" aria-labelledby="car_4 carmakedescription_4" /><br/>
-<span id='carmakedescription_4'><i>Please enter Make and Model</i></span>
+<label for="car_4" id="carlabel_4">Car</label>
+<input type="text" id="car_4" aria-labelledby="carlabel_4 carmakedescription_4" /><br/>
+<span id="carmakedescription_4"><i>Please enter Make and Model</i></span>
 ```
 
 **Screen Reader reads input as:** `Car Please enter Make and Model Edit text`
