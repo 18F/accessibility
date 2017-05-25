@@ -26,10 +26,10 @@ When using images on a page, you must provide an alternate method for that conte
 
 ### Correct
 
-<img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign">
+<img src="{{site.baseurl}}/images/sign.jpg" alt="Warning do not read this sign">
 
 ```html
-<img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign">
+<img src="{{site.baseurl}}/images/sign.jpg" alt="Warning do not read this sign">
 ```
 
 > Preffered method for providing alternate content.
@@ -37,10 +37,10 @@ When using images on a page, you must provide an alternate method for that conte
 
 ---
 
-<img src="{{site.baseurl}}/images/sign.jpg" title="Sign that reads Warning do not read this sign">
+<img src="{{site.baseurl}}/images/sign.jpg" title="Warning do not read this sign">
 
 ```html
-<img src="{{site.baseurl}}/images/sign.jpg" title="Sign that reads Warning do not read this sign">
+<img src="{{site.baseurl}}/images/sign.jpg" title="Warning do not read this sign">
 ```
 
 > Acceptable, but less compatible with certain assistive technologies.
@@ -49,11 +49,11 @@ When using images on a page, you must provide an alternate method for that conte
 ---
 
 <img src="{{site.baseurl}}/images/sign.jpg" alt="">
-<span>Sign that reads Warning do not read this sign</span>
+<span>Warning do not read this sign</span>
 
 ```html
 <img src="{{site.baseurl}}/images/sign.jpg" alt="">
-<span>Sign that reads Warning do not read this sign</span>
+<span>Warning do not read this sign</span>
 ```
 
 > Information contained in the image is provided on the page.
