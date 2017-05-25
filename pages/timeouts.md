@@ -6,7 +6,7 @@ page_title: Timeouts
 scripts:
 - assets/js/time-outs.js
 ---
-If timeouts are used, you must give the user at least 20 seconds to request more time.
+If timeouts are used, you must give the user at least 20 seconds to easily request more time.
 
 ### Testing
 
