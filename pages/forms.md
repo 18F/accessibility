@@ -195,5 +195,5 @@ Jaws reads both the label and the description. So does VoiceOver, but there is a
 <span id='carmakedescription_5'><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Car Edit text`
+**Screen Reader reads input as:** `Car Edit text Please enter Make and Model`
 <hr>
