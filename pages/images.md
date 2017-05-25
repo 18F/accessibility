@@ -13,7 +13,7 @@ When using images on a page, you must provide an alternate method for that conte
   * A unique description of the image is provided
   * Repeated images used for controls, status indicators, or other programmatic elements have consistent `alt` text
   * Text included in the image should be included in the `alt` when they are important to understanding the image
-    * Note: DHS Trusted tester requires all text in an image be included in the `alt` attribute
+    * Note: [DHS Trusted Tester](https://www.dhs.gov/trusted-tester) requires all text in an image be included in the `alt` attribute
   * "Image of" or "Photo of" is not used
   * If the `alt` attribute is empty, ensure the image is purely decorative
     * If the image is not decorative, make sure the image is described on the page
