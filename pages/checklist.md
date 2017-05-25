@@ -42,7 +42,7 @@ It is important to note, while B and C are noted as less critical, they are stil
  * Heading elements are nested in a logical way
 
 ### C - Minor
-1. <a href='../frames/'>Frames are named</a>
+1. <a href='../iframes/'>Frames are named</a>
  * All frames have a name element
 2. <a href='../flashing/'>Flashing elements are compliant</a>
  * Elements that flash on screen do so at a rate of less than 3hz
