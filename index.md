@@ -14,9 +14,9 @@ Accessibility works best when incorporated into an agile production environment.
 
 Here at 18F we follow [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) as our standard for accessibility. We do this for a couple of reasons. WCAG has long been the gold standard for accessibility on the web. The access board has also been working on a refresh to the correct 508 standards to incorporate WCAG2.0 AA into the standards. This sets us up for a smooth transition when that happens. Finally, under 1194.5 of the section 508 standards allows us to use a set of standards that meet the current standards.
 
-If you have any questions about accessiblity, 508, or would like help, please reach out on the [GitHub Repo](https://github.com/18F/accessibility).
+If you have any questions about accessibility, 508, or would like help, please reach out on the [GitHub Repo](https://github.com/18F/accessibility).
 
-<b>Disclaimer:</b> This resource is intended to help 18f develop accessible products and is not a replacement for the standards defined by the Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
+<b>Disclaimer:</b> This resource is intended to help 18F develop accessible products and is not a replacement for the standards defined by the Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
 
 ## Resources
 
