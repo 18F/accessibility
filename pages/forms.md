@@ -6,7 +6,58 @@ page_title: Forms
 ---
 Making forms accessible is a simple process. Each form element should be associated with its instructions and errors, and everything should be accessible via the keyboard.
 
-### Testing
+### Recommendations
+
+#### Use a proper `<label>` element
+
+Match all data entry fields with labels so that screen reader users can easily tell what type of information they should enter. When data fields are properly labeled, folks using screen readers can complete the form using forms mode. 
+
+The `<label>` tag associates a single label tag to a single form element (text field, radio button, checklist item, and so on). Use the `for` attribute to associate a label with a form element by matching the value of the `for` attribute to the value of the element's `id` attribute:
+
+```html
+<form action="/signup" method="post">
+  <label for=”myinput”>Label text</label>
+  <input id=”myinput” name=”textfield” type=”text”>
+</form>
+```
+
+#### Use `<fieldset>` and `<legend>` for grouping
+
+Use `<fieldset>` and `<legend>` tags to group related input elements, particularly with sets of radio buttons and checkboxes. Fieldsets display with a border, which is helpful for all users (especially those living with cognitive disabilities). Be sure to accompany all fieldsets with legend tags, which describe the associations:
+
+```html
+<form action="/subscribe" method="post">
+  <fieldset>
+    <legend>Choose your favorite sport:</legend>
+    <input id="soccer" type="checkbox" name="sports" value="soccer">
+    <label for="soccer">Soccer</label><br>
+    <input id="basketball" type="checkbox" name="sports" value="basketball">
+    <label for="basketball">Basketball</label><br>
+    <input id="quidditch" type="checkbox" name="sports" value="quidditch">
+    <label for="quidditch">Quidditch</label><br>
+  </fieldset>
+</form>
+```
+
+#### Follow a logical tab order
+
+Not everyone uses a mouse; many people navigate forms using their keyboards. By default, the keyboard focuses on form elements, but it’s possible to break this behavior with JavaScript. 
+
+Tabbing should take users from field to field in a logical order. Bouncing from "first name" to "address" to "last name" can cause non-sighted and visually impaired users to wonder if they’ve missed any fields. To prevent confusion, make sure tabbing moves through your form fields in a way that makes sense.
+
+#### Indicate optional fields and use proper error handling
+
+Call out optional fields using a symbol or text, not just a change in color. Embed your chosen symbol in the `<label>` tag. 
+
+Even if you clearly label fields as required or optional, people completing your form may make mistakes (and that’s OK). Provide your users with helpful feedback — your error messages should identify the fields that contain errors and should describe the nature of the error. 
+
+#### Use submission-type buttons
+
+Include a separate Submit (submission-type) button to initiate form submission. As a person is navigating through data-entry form controls, their making a selection should not reload the page; please keep this in mind as you’re creating a form.
+
+Keyboard users should be able to complete the each page of a form sequentially. Their making a selection should not force them to start back at the top of the page and tab back to where they were. Programmatically set focus to the last field they were in so they can continue sequentially tabbing through the page.
+
+### Testing your form
 
 1. Identify each form element.
 2. Find all instructions associated with each element.
