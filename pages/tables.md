@@ -153,6 +153,7 @@ If a table has text associated with it, ensure the text is programatically linke
     <th id='inches' headers='height'>
       Inches
     </th>
+  </tr>
   <tr>
     <th headers='name' id='walter'>
       Walter
