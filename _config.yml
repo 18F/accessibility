@@ -1,4 +1,3 @@
-markdown: redcarpet
 name: 18F Accessibility Guide
 exclude:
 - CONTRIBUTING.md
@@ -8,6 +7,11 @@ exclude:
 - README.md
 - go
 - vendor
+
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - tables
 
 permalink: pretty
 highlighter: rouge
