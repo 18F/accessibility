@@ -54,7 +54,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
     </th>
     <td>Yes</td>
     <td>No</td>
-    <td>There are multiple ways to accomplish this with CSS. This is the current way we are reccomending it.</td>
+    <td>There are multiple ways to accomplish this with CSS. This is the current way we are recommending it.</td>
   </tr>
   <tr>
     <th scope='row'>
