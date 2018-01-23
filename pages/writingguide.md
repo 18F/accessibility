@@ -19,7 +19,7 @@ While related in ways, the Rehabilitation Act is not part of the Americans with 
 
 ### Key Words
 
-* <b>Conformance:</b> We conform with the standards of Section 508, not the law of section 508.
+* <b>Conformance:</b> We conform to the standards of Section 508, not the law of section 508.
 
 * <b>Compliance:</b> A government agency is in compliance with the law.
 
