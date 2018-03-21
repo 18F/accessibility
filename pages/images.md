@@ -4,6 +4,9 @@ description: 'How we work with images'
 permalink: /images/
 page_title: Images
 ---
+
+test
+
 When using images on a page, you must provide an alternate method for that content. This can be provided in multiple ways. You can provide this information with a caption, `alt` attribute (`alt` tag), `title` attribute, or aria label attribute. If an image has text, all the text in the image must be provided in the alternate content. No matter which method is used, an `alt` or title attribute must be provided, even if the attribute is blank.
 
 ### Testing
