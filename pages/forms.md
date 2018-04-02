@@ -10,7 +10,7 @@ Making forms accessible is a simple process. Each form element should be associa
 
 1. Identify each form element.
 2. Find all instructions associated with each element.
-  * __It is a failure if a form element isn't programatically associated with ALL instructions. This includes legends, labels, hint text and tooltips.__
+  * __It is a failure if a form element isn't programatically associated with _all_ instructions. This includes legends, labels, hint text and tooltips.__
   * A common way of achieving this is using `fieldset` and `legend` tags. `Fieldset` is used to group a set of elements. `Legend` is the first child of a `fieldset` tag and provides context for those fields. 
 3. Ensure all field elements are accessible via the keyboard.
   * __If the form cannot be filled out with just a keyboard, this is a failure.__
@@ -164,18 +164,18 @@ Reads only the `aria-labelledby` attribute and not the default label
 **Screen Reader reads input as:** `Please enter Make and Model Edit text`
 <hr>
 
-##### With aria-labelledby pointing at `car carmakedescription`
+##### With aria-labelledby pointing at `carlabel carmakedescription`
 
 Reads both labels indicated by the `aria-labelledby` attribute
 
-<label for="car_4">Car</label>
-<input type="text" id="car_4" aria-labelledby="car_4 carmakedescription_4" /><br/>
-<span id='carmakedescription_4'><i>Please enter Make and Model</i></span>
+<label for="car_4" id="carlabel_4">Car</label>
+<input type="text" id="car_4" aria-labelledby="carlabel_4 carmakedescription_4" /><br/>
+<span id="carmakedescription_4"><i>Please enter Make and Model</i></span>
 
 ```html
-<label for="car_4">Car</label>
-<input type="text" id="car_4" aria-labelledby="car_4 carmakedescription_4" /><br/>
-<span id='carmakedescription_4'><i>Please enter Make and Model</i></span>
+<label for="car_4" id="carlabel_4">Car</label>
+<input type="text" id="car_4" aria-labelledby="carlabel_4 carmakedescription_4" /><br/>
+<span id="carmakedescription_4"><i>Please enter Make and Model</i></span>
 ```
 
 **Screen Reader reads input as:** `Car Please enter Make and Model Edit text`
@@ -195,5 +195,5 @@ Jaws reads both the label and the description. So does VoiceOver, but there is a
 <span id='carmakedescription_5'><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Car Edit text`
+**Screen Reader reads input as:** `Car Edit text Please enter Make and Model`
 <hr>

@@ -30,7 +30,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
 7. If an interaction reveals hidden content.
   * Ensure the focus is moved to the revealed content.
     * If this does not happen, check for a programatic description of the change.
-8. Check for title tags providing information not on the screen.
+8. Check for title attributes providing information not on the screen.
   * __Title attributes which can only be exposed by hovering the mouse over the element are a failure of keyboard access__.
 9. Check that the focus never goes to elements that won't be available to somebody using a mouse.
   * __If the keyboard focus goes to an offscreen element that has been temporarily hidden (items in a non-expanded drop-down menu, offscreen modals which haven't been triggered, etc.), this is a failure__.
