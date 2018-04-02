@@ -4,7 +4,7 @@ description: 'How we work with images'
 permalink: /images/
 page_title: Images
 ---
-When using images on a page, you must provide an alternate method for that content. This can be provided in multiple ways. You can provide this information with a caption, `alt` attribute (`alt` tag), `title` attribute, or aria label attribute. If an image has text, all the text in the image must be provided in the alternate content. No matter which method is used, an `alt` or title attribute must be provided, even if the attribute is blank.
+When using images on a page, you must provide an alternate method for that content. This can be provided in multiple ways. You can provide this information with a caption, `alt` attribute (`alt` tag), `title` attribute, or `aria-label` attribute. If an image has text, all the text in the image must be provided in the alternate content. No matter which method is used, an `alt` or title attribute must be provided, even if the attribute is blank.
 
 ### Testing
 
@@ -24,7 +24,7 @@ When using images on a page, you must provide an alternate method for that conte
 
 ### Examples
 
-### Correct
+#### Correct
 
 <img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign">
 
@@ -32,7 +32,7 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign">
 ```
 
-> Preffered method for providing alternate content.
+> Preferred method for providing alternate content.
 > Clear `alt` attribute with all text included.
 
 ---
@@ -90,4 +90,4 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="{{site.baseurl}}/images/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 ```
 
-> Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter. ie. W-A-R-N-I-N-G
+> Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter, i.e. W-A-R-N-I-N-G.

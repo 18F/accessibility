@@ -4,7 +4,7 @@ description: 'How we deal with iframes'
 permalink: /iframes/
 page_title: iframes
 ---
-When using `iframes`, it's important that all content contained in them is accessible.
+When using `iframe`s, it's important that all content contained in them is accessible.
 
 ### Testing
 

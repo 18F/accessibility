@@ -14,7 +14,7 @@ Here at 18F we follow [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) as our standar
 
 If you have any questions about accessibility, 508, or would like help, please reach out on the [GitHub Repo](https://github.com/18F/accessibility).
 
-<b>Disclaimer:</b> This resource is intended to help 18F develop accessible products and is not a replacement for the standards defined by the Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
+__Disclaimer:__ This resource is intended to help 18F develop accessible products and is not a replacement for the standards defined by the Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
 
 ## Resources
 

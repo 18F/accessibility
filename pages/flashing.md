@@ -18,7 +18,7 @@ Flashing is generally a bad idea. It can cause all sorts of issues, from seizure
   * Videos that contain flickering or flashing
   * GIFs that contain flickering or flashing
 2. Check if you can determine the frequency of "flashing."
-3. Check that the rate of flashing is less than 3hz (3 times a second), or scroll delay is set to >= 400.
+3. Check that the rate of flashing is less than 3 Hz (3 times a second), or scroll delay is set to >= 400.
 
 ### Examples
 
@@ -26,4 +26,4 @@ Flashing is generally a bad idea. It can cause all sorts of issues, from seizure
 <button type='button' id='blinkbutton'>Click to see non-compliant flashing</button>
 <span class='blink' style='display:none;'>This text is blinking</span>
 
-> ___Failure:___ This blinking text fails because the rate of flashing can't be determined and its greater than 3hz.
+> ___Failure:___ This blinking text fails because the rate of flashing can't be determined and its greater than 3 Hz.
