@@ -11,7 +11,7 @@ Making forms accessible is a simple process. Each form element should be associa
 1. Identify each form element.
 2. Find all instructions associated with each element.
   * __It is a failure if a form element isn't programatically associated with _all_ instructions. This includes legends, labels, hint text and tooltips.__
-  * A common way of acheiving this is using `fieldset` and `legend` tags. `Fieldset` is used to group a set of elements. `Legend` is the first child of a `fieldset` tag and provides context for those fields. 
+  * A common way of achieving this is using `fieldset` and `legend` tags. `Fieldset` is used to group a set of elements. `Legend` is the first child of a `fieldset` tag and provides context for those fields. 
 3. Ensure all field elements are accessible via the keyboard.
   * __If the form cannot be filled out with just a keyboard, this is a failure.__
 4. Check for title attributes
