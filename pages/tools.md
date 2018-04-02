@@ -35,6 +35,8 @@ These JavaScript widgets produce HTML with [ARIA autocomplete] attributes:
 * [Select2](https://select2.github.io/) also requires jQuery
 
 ### Automated Testing
+
+Automated testing tools can help you find some of the more common accessibility mistakes quickly, however no automated tool can detect all accessibility issues. [A recent experiment by the UK's Government Digital Service](https://accessibility.blog.gov.uk/2017/02/24/what-we-found-when-we-tested-tools-on-the-worlds-least-accessible-webpage/) found that the best automated tools only caught about 40 percent of the errors on a test site; some of the most popular tools caught less than 20 percent. Whatever automated tool you use, be sure to also do manual testing. 
 These tools can be used in automated tests and with continuous integration
 tools to help you ensure that your sites remain accessible throughout the
 development process:
