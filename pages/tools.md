@@ -35,13 +35,15 @@ These JavaScript widgets produce HTML with [ARIA autocomplete] attributes:
 * [Select2](https://select2.github.io/) also requires jQuery
 
 ### Automated Testing
+
+Automated testing tools can help you find some of the more common accessibility mistakes quickly, however no automated tool can detect all accessibility issues. [A recent experiment by the UK's Government Digital Service](https://accessibility.blog.gov.uk/2017/02/24/what-we-found-when-we-tested-tools-on-the-worlds-least-accessible-webpage/) found that the best automated tools only caught about 40 percent of the errors on a test site; some of the most popular tools caught less than 20 percent. Whatever automated tool you use, be sure to also do manual testing. 
 These tools can be used in automated tests and with continuous integration
 tools to help you ensure that your sites remain accessible throughout the
 development process:
 
 * [a11y](https://github.com/addyosmani/a11y) is a Node-based accessibility auditing with both command-line and JavaScript APIs.
 * [AccessLintCI](https://github.com/accesslint/accesslint-ci) runs accessibility tests in CircleCI builds and comments on GitHub pull requests with new accessibility issues. See more information on how to add this to an 18F site [here](https://github.com/18F/development-guide/tree/master/accessibility_scanning).
-* [pa11y](http://pa11y.org/) and is like a11y, but consists of a larger suite of tools, including command-line and JavaScript APIs, a [web service](https://github.com/nature/pa11y-webservice), and a [dashboard](https://github.com/nature/pa11y-dashboard) for monitoring accessibility reports across multiple sites.
+* [pa11y](http://pa11y.org/) is like a11y, but consists of a larger suite of tools, including command-line and JavaScript APIs, a [web service](https://github.com/nature/pa11y-webservice), and a [dashboard](https://github.com/nature/pa11y-dashboard) for monitoring accessibility reports across multiple sites.
 * [ra11y](https://github.com/benbalter/ra11y) is a Ruby-based accessibility testing tool tuned for use with [Jekyll](http://jekyllrb.com/) and static sites.
 * [webalin](http://webalin.readthedocs.org/en/latest/) is a Python-based 508 compliance linter for HTML.
 

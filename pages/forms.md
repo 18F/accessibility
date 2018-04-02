@@ -54,7 +54,7 @@ Making forms accessible is a simple process. Each form element should be associa
   <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
 </fieldset>
 ```
-> ___Name:___ Each form element has a ```label```, and its associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, 'First' and 'Last' wouldn't make sense without 'Name.' This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
+> ___Name:___ Each form element has a ```label```, and it's associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, 'First' and 'Last' wouldn't make sense without 'Name.' This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
 
 > ___Favorite Soup:___ ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
 
@@ -105,13 +105,13 @@ Making forms accessible is a simple process. Each form element should be associa
 > ___Failure:___ The ```title``` tag for Pea Soup indicates it's 'Chick Pea Soup.' This information is not available to keyboard, sighted users.
 
 
-#### How ARIA afects form inputs
+#### How ARIA affects form inputs
 
 Screen readers vary on what they read and the additional information they provide by default. This is a broad summary of what is read based on VoiceOver for Mac OSX.
 
-You can test these with your own screen reader. If you have a OSX you can turn voice over on by hitting command+f5.
+You can test these with your own screen reader. If you have a OSX you can turn VoiceOver on by hitting command+F5.
 
-**Further Information** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any aditional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
+**Further Information** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any additional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
 
 ##### No ARIA
 

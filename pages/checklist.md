@@ -6,7 +6,7 @@ page_title: checklist
 ---
 This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: A, B and C. Please check and address these issues in the order in which they appear.
 
-For more detail on accessibilty standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) 
+For more detail on accessibility standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) 
 
  * A - Critical issues that will cause serious problems and/or stop most users of assistive technology from using the site
  * B - Issues that may cause problems or increased frustration for certain users
@@ -45,7 +45,7 @@ It is important to note, while B and C are noted as less critical, they are stil
 1. <a href='../frames/'>Frames are named</a>
  * All frames have a name element
 2. <a href='../flashing/'>Flashing elements are compliant</a>
- * Elements that flash on screen do so at a rate of less than 3hz
+ * Elements that flash on screen do so at a rate of less than 3 Hz
 3. <a href='../language/'>Language is set</a>
  * The language for the page is set
  * The language for sections on the page that differ from the site language are set

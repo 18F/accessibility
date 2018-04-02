@@ -35,7 +35,7 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 2. If the `Skip Navigation` link is not visible, ensure it becomes visible when it has focus.
 3. Find the target of the skip navigation link.
   * Verify the target is a valid id.
-  * Verify the target is after the repetive content and before meaningful content.
+  * Verify the target is after the repetitive content and before meaningful content.
   * Verify the target has a ```tabindex='-1'``` or is included in the tab order (such as a link or a button).
    * This ensures the element will receive focus in Chrome and Safari.
 4. Select the `Skip Navigation` link.
@@ -91,9 +91,9 @@ a.skip-link:hover, a.skip-link:active, a.skip-link:focus {
   color: #fff;
 }
 
- .mainContent:focus, .mainContent:active {
+.mainContent:focus, .mainContent:active {
  	outline: none;
- }
+}
 ```
 
-> This is how the 'Skip Navigation' was achieved for the accessiblity site, feel free to use for your own site.
+> This is how the 'Skip Navigation' was achieved for the accessibility site, feel free to use for your own site.

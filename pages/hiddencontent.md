@@ -54,7 +54,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
     </th>
     <td>Yes</td>
     <td>No</td>
-    <td>There are multiple ways to accomplish this with CSS. This is the current way we are reccomending it.</td>
+    <td>There are multiple ways to accomplish this with CSS. This is the current way we are recommending it.</td>
   </tr>
   <tr>
     <th scope='row'>
@@ -100,7 +100,8 @@ Hiding content is very useful for accessibility. We can hide things visually and
 aria-hidden should be used in combination with these techniques. If we want to hide something from just the screen reader, you can mark it as `aria-hidden='true'`. 
 
 Items with `aria-hidden='true'` are always ignored by the screen reader.
-This is useful for: 
+This is useful for:
+
 - Collapsing Menus
 - Repetitive information
 - Off screen content
@@ -123,12 +124,14 @@ CSS can be used to hide content and allow it to still be used with the screen re
   width: 1px;
 }
 ```
+
 Using this we can:
+
 - Provide additional details about a form element
  - Hidden Labels
  - Error Details
 - Provide Context to page elements
-- Add aditional instructions for navigation
+- Add additional instructions for navigation
 
 We can also use CSS to visually hide and Screen reader hide content. 
 
@@ -138,9 +141,10 @@ We can also use CSS to visually hide and Screen reader hide content.
 }
 ```
 
-This will hide completly and is the same as `<div aria-hidden='true' hidden>content</div>` Note that `aria-hidden='true'` should be used for additional compatibility. 
+This will hide completely and is the same as `<div aria-hidden='true' hidden>content</div>` Note that `aria-hidden='true'` should be used for additional compatibility. 
 
 `display: none;` and `hidden` can be used for:
+
 - Collapsing Menus
 - Repetitive information
 - Off screen content
