@@ -23,7 +23,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
   * __If you ever need your mouse to get back to an element, this is a failure__.
 6. Keyboard users must be able to easily use and dismiss modal dialog boxes, lightboxes, or other pop-ups.
   * Modal dialog boxes need to trap the keyboard. When a modal dialog box is triggered, the keyboard focus needs to immediately move to the first actionable element in the modal.
-  * The keyboard cannot use the modal dialog box until it is dismissed. When a user moves the keyboard focus past the last element in the modal dialog box, it needs to loop to the beginning of the dialog box.
+  * The keyboard use is confined to the modal dialog box until it is dismissed. When a user moves the keyboard focus past the last element in the modal dialog box, it needs to loop to the beginning of the dialog box.
   * The keyboard user needs to be able to access all controls in the dialog box, especially the controls to dismiss the dialog.
   * __If the keyboard user cannot do all of these things, this is a failure__.
   * Ideally, the keyboard user should also be able to dismiss the modal dialog box with the Escape key.
