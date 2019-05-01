@@ -21,7 +21,7 @@ jobs:
           path: /tmp
       - run:
           name: test
-          command: bundle exec jekyll serve --detach && bundle exec axe http://localhost:4000
+          command: bundle exec jekyll serve --detach && axe http://localhost:4000
 workflows:
   version: 2
   commit:
