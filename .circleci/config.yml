@@ -12,7 +12,7 @@ jobs:
           command: |
             echo $(node --version)
             echo $(npm --version)
-      - run: sudo npm install -g axe-cli
+      - run: sudo npm install -g axe-cli --unsafe-perm
       - run: gem install bundler
       - run: bundle install
       - run: bundle exec jekyll build
