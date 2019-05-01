@@ -7,6 +7,11 @@ jobs:
       ACCESSLINT_MASTER_BRANCH: 18f-pages
     steps:
       - checkout
+      - run:
+          name: Display versions
+          command: |
+            echo $(node --version)
+            echo $(npm --version)
       - run: sudo npm install -g axe-cli
       - run: gem install bundler
       - run: bundle install
