@@ -7,7 +7,7 @@ jobs:
       ACCESSLINT_MASTER_BRANCH: 18f-pages
     steps:
       - checkout
-      - run: npm install -g accesslint-cli
+      - run: npm install axe-cli -g
       - run: gem install bundler
       - run: bundle install
       - run: bundle exec jekyll build
@@ -15,7 +15,7 @@ jobs:
           path: /tmp
       - run:
           name: test
-          command: bundle exec jekyll serve --detach && bundle exec accesslint-ci scan http://localhost:4000
+          command: bundle exec jekyll serve --detach && bundle exec axe http://localhost:4000
 workflows:
   version: 2
   commit:
