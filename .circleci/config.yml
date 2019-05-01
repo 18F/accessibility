@@ -7,7 +7,7 @@ jobs:
       ACCESSLINT_MASTER_BRANCH: 18f-pages
     steps:
       - checkout
-      - run: sudo npm install axe-cli -g
+      - run: sudo npm install -g axe-cli
       - run: gem install bundler
       - run: bundle install
       - run: bundle exec jekyll build
