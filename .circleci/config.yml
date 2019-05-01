@@ -13,10 +13,9 @@ jobs:
       - run: bundle exec jekyll build
       - store_artifacts:
           path: /tmp
-      - test:
-          post:
-            - bundle exec jekyll serve --detach && bundle exec accesslint-ci scan http://localhost:4000
-      # - run: ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000/site
+      - run:
+        name: test
+        command: bundle exec jekyll serve --detach && bundle exec accesslint-ci scan http://localhost:4000
 workflows:
   version: 2
   commit:
