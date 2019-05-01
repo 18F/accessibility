@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.2-node
+      - image: circleci/ruby:2.3-node
     environment:
       ACCESSLINT_MASTER_BRANCH: 18f-pages
     steps:
@@ -10,6 +10,7 @@ jobs:
       - run:
           name: Display versions
           command: |
+            echo $(ruby --version)
             echo $(node --version)
             echo $(npm --version)
       - run: sudo npm install -g axe-cli --unsafe-perm
