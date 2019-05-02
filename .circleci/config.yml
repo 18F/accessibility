@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby-browsers:2.3-node
+      - image: circleci/ruby:2.3-node-browsers
     environment:
       ACCESSLINT_MASTER_BRANCH: 18f-pages
     steps:
