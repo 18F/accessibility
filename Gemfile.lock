@@ -1,3 +1,15 @@
+GIT
+  remote: git://github.com/18F/guides-style.git
+  revision: 80bbf2308ea85b52a0d6d778981499e55cec4f72
+  branch: v0.4.10
+  specs:
+    guides_style_18f (0.4.10)
+      jekyll
+      jekyll_pages_api
+      jekyll_pages_api_search
+      rouge
+      sass
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -11,12 +23,6 @@ GEM
     go_script (0.1.9)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
-    guides_style_18f (0.4.9)
-      jekyll
-      jekyll_pages_api
-      jekyll_pages_api_search
-      rouge
-      sass
     htmlentities (4.3.4)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
@@ -36,7 +42,7 @@ GEM
     jekyll_pages_api (0.1.6)
       htmlentities (~> 4.3)
       jekyll (>= 2.0, < 4.0)
-    jekyll_pages_api_search (0.4.4)
+    jekyll_pages_api_search (0.5.0)
       jekyll_pages_api (~> 0.1.4)
       sass (~> 3.4)
     kramdown (1.13.2)
@@ -71,7 +77,7 @@ PLATFORMS
 DEPENDENCIES
   accesslint-ci
   go_script
-  guides_style_18f
+  guides_style_18f!
   jekyll (~> 3.1.0)
   redcarpet
   rouge
