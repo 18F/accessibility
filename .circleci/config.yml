@@ -13,7 +13,7 @@ jobs:
             echo $(ruby --version)
             echo $(node --version)
             echo $(npm --version)
-      - run: sudo npm install -g axe-cli --unsafe-perm
+      - run: sudo npm install -g axe-cli@3.0.0 --unsafe-perm
       - run: gem install bundler
       - run: bundle install
       - run: bundle exec jekyll build
@@ -22,10 +22,10 @@ jobs:
       - run: mkdir test-reports
       - run:
           name: Download Selenium
-          command: curl -O https://selenium-release.storage.googleapis.com/3.9/selenium-server-standalone-3.9.1.jar
+          command: curl -O https://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.5.3.jar
       - run:
           name: Start Selenium
-          command: java -jar selenium-server-standalone-3.9.1.jar -log test-reports/selenium.log
+          command: java -jar selenium-server-standalone-3.5.3.jar -log test-reports/selenium.log
           background: true
       - run:
           name: test
