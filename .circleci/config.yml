@@ -25,7 +25,7 @@ jobs:
           command: curl -O https://selenium-release.storage.googleapis.com/4.0/selenium-server-standalone-4.0.0-alpha-2.jar
       - run:
           name: Start Selenium
-          command: java -jar selenium-server-standalone-3.5.3.jar -log test-reports/selenium.log
+          command: java -jar selenium-server-standalone-4.0.0-alpha-2 -log test-reports/selenium.log
           background: true
       - run:
           name: test
