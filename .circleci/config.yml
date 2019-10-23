@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.3-node-browsers-legacy
+      - image: circleci/ruby:2.3-node-browsers
     environment:
       ACCESSLINT_MASTER_BRANCH: 18f-pages
     steps:
@@ -13,7 +13,7 @@ jobs:
             echo $(ruby --version)
             echo $(node --version)
             echo $(npm --version)
-      - run: sudo npm install -g a11y@0.5.1
+      - run: sudo npm install -g axe-cli@3.0.0 --unsafe-perm
       - run: gem install bundler
       - run: bundle install
       - run: bundle exec jekyll build
@@ -21,8 +21,15 @@ jobs:
           path: /tmp
       - run: mkdir test-reports
       - run:
+          name: Download Selenium
+          command: curl -O http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.5.3.jar
+      - run:
+          name: Start Selenium
+          command: java -jar selenium-server-standalone-3.5.3.jar -log test-reports/selenium.log
+          background: true
+      - run:
           name: test
-          command: npx a11y '_site/**/*.html'
+          command: bundle exec jekyll serve --detach && axe http://localhost:4000
 workflows:
   version: 2
   commit:
