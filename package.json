@@ -6,7 +6,7 @@
   "scripts": {
     "build:jekyll": "bundle exec jekyll build",
     "postinstall": "bundle install",
-    "test": "bundle exec htmlproofer _site; npx a11y '_site/**/*.html'",
+    "test": "npx a11y '_site/**/*.html'",
     "postinstall": "bundle install"
   },
   "author": "",
