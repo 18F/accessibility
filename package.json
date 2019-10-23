@@ -8,7 +8,7 @@
     "postinstall": "bundle install",
     "start": "bundle exec jekyll serve",
     "test": "bundle exec htmlproofer _site; npx a11y '_site/**/*.html'",
-    "postinstall": "bundle install",
+    "postinstall": "bundle install"
   },
   "author": "",
   "license": "CC0-1.0",
