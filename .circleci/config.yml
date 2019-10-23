@@ -7,14 +7,31 @@ jobs:
       ACCESSLINT_MASTER_BRANCH: 18f-pages
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - v1-npm-{{ checksum "package-lock.json" }}
+            - v1-npm-
+      - run: npm install
+      - save_cache:
+          key: v1-npm-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+      - restore_cache:
+          keys:
+            - v1-bundle-{{ checksum "Gemfile.lock" }}
+            - v1-bundle-
+      - run: bundle install --path vendor/bundle
+      - save_cache:
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
       - run:
           name: Display versions
           command: |
             echo $(ruby --version)
             echo $(node --version)
             echo $(npm --version)
-      - run: gem install bundler
-      - run: npm run build
+      - run: npm run build:jekyll
       - run: npm run test
 workflows:
   version: 2
