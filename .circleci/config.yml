@@ -13,16 +13,9 @@ jobs:
             echo $(ruby --version)
             echo $(node --version)
             echo $(npm --version)
-      - run: sudo npm install -g a11y@0.5.1
       - run: gem install bundler
-      - run: bundle install
-      - run: bundle exec jekyll build
-      - store_artifacts:
-          path: /tmp
-      - run: mkdir test-reports
-      - run:
-          name: test
-          command: npx a11y '_site/**/*.html'
+      - run: npm run build
+      - run: npm run test
 workflows:
   version: 2
   commit:
