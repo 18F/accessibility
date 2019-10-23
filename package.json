@@ -13,6 +13,6 @@
   "author": "",
   "license": "CC0-1.0",
   "dependencies": {
-    "a11y": "^0.5.1",
+    "a11y": "^0.5.1"
   }
 }
