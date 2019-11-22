@@ -1,4 +1,3 @@
-markdown: redcarpet
 title: 18F Accessibility Guide
 exclude:
 - CONTRIBUTING.md
@@ -11,8 +10,10 @@ exclude:
 
 theme: uswds-jekyll
 
-permalink: pretty
+markdown: kramdown
 highlighter: rouge
+permalink: pretty
+
 incremental: true
 
 defaults:
