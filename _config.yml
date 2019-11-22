@@ -9,6 +9,8 @@ exclude:
 - go
 - vendor
 
+theme: uswds-jekyll
+
 permalink: pretty
 highlighter: rouge
 incremental: true

@@ -14,13 +14,6 @@ GEM
     go_script (0.1.9)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
-    guides_style_18f (1.0.6)
-      jekyll
-      jekyll_pages_api
-      jekyll_pages_api_search
-      rouge
-      sass
-    htmlentities (4.3.4)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     jekyll (3.6.3)
@@ -38,12 +31,6 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
-    jekyll_pages_api (0.1.6)
-      htmlentities (~> 4.3)
-      jekyll (>= 2.0, < 4.0)
-    jekyll_pages_api_search (0.5.0)
-      jekyll_pages_api (~> 0.1.4)
-      sass (~> 3.4)
     kramdown (1.17.0)
     liquid (4.0.3)
     listen (3.1.5)
@@ -78,6 +65,8 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
+    uswds-jekyll (4.2.0)
+      jekyll (~> 3.4)
 
 PLATFORMS
   ruby
@@ -85,10 +74,10 @@ PLATFORMS
 DEPENDENCIES
   accesslint-ci
   go_script
-  guides_style_18f (~> 1.0.6)
   jekyll (~> 3.6.3)
   redcarpet
   rouge
+  uswds-jekyll
 
 BUNDLED WITH
-   1.13.6
+   1.17.2
