@@ -12,28 +12,6 @@ top:
   text: Return to top
   href: '#'
 
-# Configuration for "Edit this page" link in the footer.
-# Customize with 'text' property.
-# Uncomment the following line to show.
-# edit_page:
-#   text: Edit this page
-
-# Configuration for "Last updated" date and time.
-# Uncomment the following line to show.
-# last_updated: true
-
-# Configuration for which links show at the top of the footer.
-# this is a key into _data/navigation.yml
-links: footer
-
-# Configuration for the big footer's email sign-up form.
-# Set to true to make the form visible.
-# Hooking it up to send the data somewhere is up to you :)
-big_footer_signup_form: false
-
-# Configuration for footer heading. (optional)
-heading: Name of agency
-
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
@@ -41,31 +19,3 @@ logos:
     alt: 18F
     external: true
 
-# Configuration for footer contact links
-contact:
-# Configuration for social media links
-# Comment out links you don't want to use (RSS is an example)
-  social_links:
-    - text: Facebook
-      href: https://facebook.com
-      external: true
-      type: facebook
-    - text: Twitter
-      href: https://twitter.com
-      external: true
-      type: twitter
-    - text: YouTube
-      href: https://youtube.com
-      external: true
-      type: youtube
-  # - text: RSS Feed
-  #   href: https://usa.gov/
-  #   external: true
-  #   type: rss
-  heading: Agency contact center
-# Configuration for contact links for email, phone, etc...
-  contact_links:
-    - text: (800) CALL-GOVT
-      href: tel:1-800-555-5555
-    - text: info@agency.gov
-      href: mailto:info@agency.gov

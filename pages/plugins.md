@@ -3,6 +3,8 @@ title: Plug-ins
 description: 'How we deal with Plug-ins'
 permalink: /plugins/
 page_title: Plug-ins
+layout: post
+sidenav: docs
 ---
 Plugins provide extended functionality not native to the browser. Examples include PDF, Flash, Shockwave, Silverlight, and Java.
 

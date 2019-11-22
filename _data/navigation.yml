@@ -1,4 +1,9 @@
 # _data/navigation.yml
+secondary:
+  - text: More 18F guides
+    href: https://18f.gsa.gov/guides/
+    external: true
+
 docs:
   - text: Home
     href: /

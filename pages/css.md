@@ -3,6 +3,8 @@ title: CSS dependence
 description: 'How we deal with CSS'
 permalink: /css/
 page_title: CSS dependence
+layout: post
+sidenav: docs
 ---
 CSS dependence refers to sites that rely on CSS to be functional or understandable. This is a concern for accessibility because most assistive technology ignores CSS. 
 

@@ -3,6 +3,8 @@ title: Multimedia
 description: 'How we deal with multimedia'
 permalink: /multimedia/
 page_title: Multimedia
+layout: post
+sidenav: docs
 ---
 When using multimedia, we must provide means for everyone to consume the media. Multimedia is anything that uses audio and video.
 

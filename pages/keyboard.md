@@ -3,6 +3,8 @@ title: Keyboard access
 description: 'How we work with keyboards only'
 permalink: /keyboard/
 page_title: Keyboard access
+layout: post
+sidenav: docs
 scripts:
 - assets/js/keyboard-access.js
 ---

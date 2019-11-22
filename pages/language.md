@@ -3,6 +3,8 @@ title: Language
 description: 'How we tell assistive technology what language a page is in'
 permalink: /language/
 page_title: Language
+layout: post
+sidenav: docs
 ---
 Setting the language of your site allows assistive technology interacts with your content correctly. Assistive technology will read foreign languages, but they need to know when the main language of the page and when the content's language differs from the page's default.
 

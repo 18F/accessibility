@@ -3,6 +3,8 @@ title: Timeouts
 description: 'How we deal with Time Outs'
 permalink: /timeouts/
 page_title: Timeouts
+layout: post
+sidenav: docs
 scripts:
 - assets/js/time-outs.js
 ---

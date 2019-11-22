@@ -3,6 +3,8 @@ title: Training and videos
 description: 'Videos and trainings from around the web'
 permalink: /training-videos/
 page_title: Accessibility training and videos
+layout: post
+sidenav: docs
 ---
 
 ### Training and videos

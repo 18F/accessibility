@@ -39,7 +39,7 @@
   </div>
   {% endif %}
 
-  {% if footer.logos or footer.heading or footer.contact or footer.edit_page %}
+  {% if footer.logos or footer.heading or footer.contact %}
   <div class="usa-footer-secondary_section">
     <div class="usa-grid">
       <div class="usa-footer-logo usa-width-one-half">
@@ -56,41 +56,15 @@
         {% endif %}
 
         {% if footer.heading %}
-        <h3 class="usa-footer-logo-heading">{{ footer.heading }}</h3>
+        <!-- h3 class="usa-footer-logo-heading">{{ footer.heading }}</h3 -->
         {% endif %}
       </div>
-
-      {% if footer.contact %}
       <div class="usa-footer-contact-links usa-width-one-half">
-        {% assign social_links = site.data.footer.contact.social_links %}
-        {% if footer.contact.contact_links %}
-          {% for _link in social_links %}
-            <a class="usa-link-{{ _link.type | default: 'generic' }}" href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
-              <span>{{ _link.text }}</span>
-            </a>
-          {% endfor %}
-        {% endif %}
-        {% if footer.contact.heading %}
-          <h3 class="usa-footer-contact-heading">{{ footer.contact.heading }}</h3>
-          {% endif %}
-          {% if footer.contact.contact_links %}
-            <address>
-              {% assign contact_links = site.data.footer.contact.contact_links %}
-              {% for _link in contact_links %}
-                <div class="usa-footer-primary-content usa-footer-contact_info">
-                  <p>
-                    <a href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
-                      {{ _link.text }}
-                    </a>
-                  </p>
-                </div>
-              {% endfor %}
-            </address>
-        {% endif %}
-      {% endif %}
-      {% if footer.edit_page %}
-        {% include components/github-edit.html footer=footer path=page.path %}
-      {% endif %}
+        <ul class="usa-unstyled-list">
+          <li><a href="https://github.com/18F/uswds-jekyll">18F USWDS-Jekyll theme</a></li>
+          <li>Hosted by <a href="https://federalist.18f.gov/">Federalist</a></li>
+          <li>Maintained by <a href="https://18f.gsa.gov/">18F</a></li>
+        </ul>
       </div>
     </div>
   </div>

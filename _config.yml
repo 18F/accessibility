@@ -1,5 +1,5 @@
 markdown: redcarpet
-name: 18F Accessibility Guide
+title: 18F Accessibility Guide
 exclude:
 - CONTRIBUTING.md
 - Gemfile
@@ -15,6 +15,13 @@ permalink: pretty
 highlighter: rouge
 incremental: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+
 sass:
   style: :compressed
 
@@ -25,80 +32,11 @@ author:
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: /assets/img/18f-logo.png
-logoalt: 18F logo
+logoalt: 18F
 
-# Navigation
-# List links that should appear in the site sidebar here
-navigation:
-- text: Home
-  url: index.html
-  internal: true
-- text: Checklist
-  url: checklist/
-  internal: true
-- text: Tools
-  url: tools/
-  internal: true
-- text: Keyboard access
-  url: keyboard/
-  internal: true
-- text: Images
-  url: images/
-  internal: true
-- text: Color and contrast
-  url: color/
-  internal: true
-- text: Forms
-  url: forms/
-  internal: true
-- text: Flashing
-  url: flashing/
-  internal: true
-- text: Page titles
-  url: page-titles/
-  internal: true
-- text: Headings
-  url: headings/
-  internal: true
-- text: Hidden Content
-  url: hidden-content/
-  internal: true
-- text: Landmarks
-  url: landmarks/
-  internal: true
-- text: Multimedia
-  url: multimedia/
-  internal: true
-- text: Timeouts
-  url: timeouts/
-  internal: true
-- text: Language
-  url: language/
-  internal: true
-- text: Tables
-  url: tables/
-  internal: true
-- text: CSS dependence
-  url: css/
-  internal: true
-- text: iFrames
-  url: iframes/
-  internal: true
-- text: Links and repetitive content
-  url: links/
-  internal: true
-- text: Plug-ins
-  url: plugins/
-  internal: true
-- text: Alternative versions
-  url: alternative-versions/
-  internal: true
-- text: Writing guide
-  url: writing-guide/
-  internal: true
-- text: Trainings and videos
-  url: training-videos/
-  internal: true
+back_link:
+  url: "https://guides.18f.gov/"
+  text: Read more 18F Guides
 
 repos:
 - name: Accessibility
@@ -106,15 +44,4 @@ repos:
   url: https://github.com/18F/accessibility
 
 google_analytics_ua: UA-48605964-19
-
-back_link:
-  url: "https://pages.18f.gov/guides/"
-  text: Read more 18F Guides
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: ""
 
