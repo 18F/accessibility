@@ -6,6 +6,7 @@ page_title: Flashing
 layout: post
 sidenav: docs
 scripts:
+- assets/js/vendor/jquery.min.js
 - assets/js/flashing.js
 ---
 Flashing is generally a bad idea. It can cause all sorts of issues, from seizures to motion sickness. If you absolutely must have a flashing element there are a few things to consider.

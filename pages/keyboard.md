@@ -6,6 +6,7 @@ page_title: Keyboard access
 layout: post
 sidenav: docs
 scripts:
+- assets/js/vendor/jquery.min.js
 - assets/js/keyboard-access.js
 ---
 
