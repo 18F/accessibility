@@ -35,7 +35,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
 <table>
 <thead>
   <tr>
-    <th scope='col'>
+    <th style="width:40%;" scope='col'>
       Technique
     </th>
     <th scope='col'>
