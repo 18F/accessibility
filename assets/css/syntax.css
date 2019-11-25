@@ -208,6 +208,8 @@
   background-color: #f8f8f8;
   font-size: 1.4rem;
   white-space: pre-wrap;
-  padding: 0.2rem;
   border-radius: 0.6rem;
+}
+pre.highlight {
+  padding: 1.2rem;
 }
