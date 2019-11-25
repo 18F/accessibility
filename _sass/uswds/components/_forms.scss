@@ -7,9 +7,10 @@ $usa-form-width: 32rem;
 }
 
 fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
+  border: 1px solid #393939;
+  border-radius: 0.6rem;
+  padding: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .usa-form {
