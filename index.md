@@ -63,4 +63,4 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 * [Viget Interactive WCAG 2.0](http://code.viget.com/interactive-wcag/#responsibility=&level=aa) - Interactive accessibility guide (W3C/WebAIM)
 * [Vox Accessibility Guidelines Checklist](http://accessibility.voxmedia.com/)
 * [CanIUse.com](http://caniuse.com/) - useful for HTML5, ARIA & CSS 
-* [New Zealand Web Accessibility Standard 1.0 Assessment Guide](http://govtnz.github.io/web-standards/guidance/assessment-guides/web-a11y-standard-assessment-guide.html)
+* [New Zealand Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/)
