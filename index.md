@@ -22,7 +22,7 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 
 ### Testing Tools
 
-* [Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin and Windows application for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
+* [Accessibility Insights](https://accessibilityinsights.io/) - Windows application for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
 * [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) - Mac and Windows application to test for color contrast against WCAG 2.0 and 2.1 guidelines.
 * [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) - use this for a quick audit of any URL
 * [Pa11y Automated Tool](http://pa11y.org/) - Open-source
@@ -33,7 +33,8 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 * [Windows: NVDA Screenreader](https://www.nvaccess.org/) - Open-source
 
 ### Browser Testing Tools
-* [FireFox: WCAG Contrast checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) - Fast way to evaluate CSS color contrast.
+* [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
+* [Firefox: WCAG Contrast checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) - Fast way to evaluate CSS color contrast.
 * [Chrome:  Color Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) - Great for gradients & images.
 * [Chrome: Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
 * [Firefox/Chrome: WAVE Toolbar](http://wave.webaim.org/extension/)
