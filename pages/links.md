@@ -3,6 +3,8 @@ title: Links and repetitive content
 description: 'How we deal with links and repetitive content'
 permalink: /links/
 page_title: Links and Repetitive Content
+layout: post
+sidenav: docs
 ---
 Links are commonly used to quickly navigate a site when someone is using AT. Often, screen reader users won't read through an entire page to find what they are looking for. They simply move from link to link.
 

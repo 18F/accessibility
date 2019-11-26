@@ -1,0 +1,21 @@
+# This is the configuration for the site footer.
+
+# Configuration for type of footer.
+# Footer types can be 'slim', 'medium', or 'big'.
+# https://designsystem.digital.gov/components/footers/
+type: medium
+
+# Configuration for "Return to top" link.
+# Customize with 'text' and 'href' properties.
+# Comment out to the following section to hide.
+top:
+  text: Return to top
+  href: '#'
+
+# Configuration for agency logo(s) (shown side by side).
+# If the logo is external add external: true
+logos:
+  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
+    alt: 18F
+    external: true
+

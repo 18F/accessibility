@@ -1,0 +1,53 @@
+# _data/navigation.yml
+secondary:
+  - text: More 18F guides
+    href: https://18f.gsa.gov/guides/
+    external: true
+
+docs:
+  - text: Home
+    href: /
+  - text: Checklist
+    href: /checklist/
+  - text: Tools
+    href: /tools/
+  - text: Keyboard access
+    href: /keyboard/
+  - text: Images
+    href: /images/
+  - text: Color and contrast
+    href: /color/
+  - text: Forms
+    href: /forms/
+  - text: Flashing
+    href: /flashing/
+  - text: Page titles
+    href: /page-titles/
+  - text: Headings
+    href: /headings/
+  - text: Hidden Content
+    href: /hidden-content/
+  - text: Landmarks
+    href: /landmarks/
+  - text: Multimedia
+    href: /multimedia/
+  - text: Timeouts
+    href: /timeouts/
+  - text: Language
+    href: /language/
+  - text: Tables
+    href: /tables/
+  - text: CSS dependence
+    href: /css/
+  - text: iFrames
+    href: /iframes/
+  - text: Links and repetitive content
+    href: /links/
+  - text: Plug-ins
+    href: /plugins/
+  - text: Alternative versions
+    href: /alternative-versions/
+  - text: Writing guide
+    href: writing-guide/
+  - text: Trainings and videos
+    href: /training-videos/

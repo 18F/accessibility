@@ -3,6 +3,8 @@ title: Tools
 description: 'Tools we use to improve and test accessibility'
 permalink: /tools/
 page_title: Accessibility-friendly Tools
+layout: post
+sidenav: docs
 ---
 
 ### Color Tools

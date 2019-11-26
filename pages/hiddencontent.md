@@ -3,6 +3,8 @@ title: Hidden Content
 description: 'How and when to hide content'
 permalink: /hidden-content/
 page_title: Hidden Content
+layout: post
+sidenav: docs
 ---
 
 Hiding content is very useful for accessibility. We can hide things visually and only display it to screen reader users, we can hide content from screen reader users and only show it visually, or we can hide content from both. 
@@ -33,7 +35,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
 <table>
 <thead>
   <tr>
-    <th scope='col'>
+    <th style="width:40%;" scope='col'>
       Technique
     </th>
     <th scope='col'>

@@ -3,6 +3,8 @@ title: Color and contrast
 description: 'How we work with color and contrast'
 permalink: /color/
 page_title: Color and contrast
+layout: post
+sidenav: docs
 ---
 There are two main accessibility concerns for color, contrast and color dependence. Color contrast is the ratio of the foreground color(text) and the background color. Text should have a ratio of 4.5:1 or greater with the background.
 

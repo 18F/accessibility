@@ -3,6 +3,8 @@ title: Forms
 description: 'How we work with forms'
 permalink: /forms/
 page_title: Forms
+layout: post
+sidenav: docs
 ---
 Making forms accessible is a simple process. Each form element should be associated with its instructions and errors, and everything should be accessible via the keyboard.
 
@@ -24,34 +26,34 @@ Making forms accessible is a simple process. Each form element should be associa
 
 <fieldset>
   <legend>Name</legend>
-  <label for="firstname">First&nbsp;</label>
-  <input type='text' id='firstname'><br>
-  <label for="lastname">Last&nbsp;</label>
+  <label for="firstname">First</label>
+  <input type='text' id='firstname'>
+  <label for="lastname">Last</label>
   <input type='text' id='lastname'>
 </fieldset>
 
 <fieldset>
   <legend>Favorite Soup?</legend>
-  <input type='radio' name='soup' value='pea' id='peasoup' title='Pea Soup'>&nbsp;Pea Soup<br>
-  <input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
-  <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
+  <input type='radio' name='soup' value='pea' id='peasoup' title='Pea Soup'><label for="peasoup">Pea Soup</label>
+  <input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'><label for="chicken">Chicken Noodle</label>
+  <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'><label for="tomato">Tomato</label>
 </fieldset>
 <br>
 
 ```html
 <fieldset>
   <legend>Name</legend>
-  <label for="firstname">First&nbsp;</label>
+  <label for="firstname">First</label>
   <input type='text' id='firstname'><br>
-  <label for="lastname">Last&nbsp;</label>
+  <label for="lastname">Last</label>
   <input type='text' id='lastname'>
 </fieldset>
 
 <fieldset>
   <legend>Favorite Soup?</legend>
-  <input type='radio' name='soup' value='pea' id='pea' title='Pea Soup'>&nbsp;Pea Soup<br>
-  <input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
-  <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
+  <input type='radio' name='soup' value='pea' id='peasoup' title='Pea Soup'><label for="peasoup">Pea Soup</label>
+  <input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'><label for="chicken">Chicken Noodle</label>
+  <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'><label for="tomato">Tomato</label>
 </fieldset>
 ```
 > ___Name:___ Each form element has a ```label```, and it's associated with the ```for``` attribute. The ```for``` attribute refers to the ```id``` of the ```input```. When looking at this form, 'First' and 'Last' wouldn't make sense without 'Name.' This is associated with the ```fieldset``` and ```legend```. All elements are wrapped in a ```fieldset```. There can only be one ```legend``` tag per ```fieldset```. Anything in the ```legend``` tag will be associated.
@@ -62,36 +64,36 @@ Making forms accessible is a simple process. Each form element should be associa
 
 <fieldset>
   <legend>Name</legend>
-  <label for="first_name-2">First&nbsp;</label>
-  <input type='text' id='firstname-2'><br>
-  <label for="1lastname">Last&nbsp;</label>
+  <label for="first_name-2">First</label>
+  <input type='text' id='firstname-2'>
+  <label for="1lastname">Last</label>
   <input type='text' id='1lastname'>
 </fieldset>
 
 <fieldset>
   <legend>Favorite Soup?</legend>
-  <p><span style='color:red;'>This Question Is Required</span></p>
-  <input type='radio' name='soup' value='pea' id='pea-2' title='Chick Pea Soup'>&nbsp;Pea Soup<br>
-  <input type='radio' name='soup' value='chicken' id='chicken-2' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
-  <input type='radio' name='soup' value='tomato' id='tomato-2' title='Tomato'>&nbsp;Tomato
+  <span style='color:#990000;'>This Question Is Required</span>
+  <input type='radio' name='soup' value='pea' id='pea-2' title='Chick Pea Soup'><label for="pea-2">Pea Soup</label>
+  <input type='radio' name='soup' value='chicken' id='chicken-2' title='Chicken Noodle'><label for="chicken-2">Chicken Noodle</label>
+  <input type='radio' name='soup' value='tomato' id='tomato-2' title='Tomato'><label for="tomato-2">Tomato</label>
 </fieldset>
 <br>
 
 ```html
 <fieldset>
   <legend>Name</legend>
-  <label for="first_name-2">First&nbsp;</label>
-  <input type='text' id='firstname-2'><br>
-  <label for="1lastname">Last&nbsp;</label>
+  <label for="first_name-2">First</label>
+  <input type='text' id='firstname-2'>
+  <label for="1lastname">Last</label>
   <input type='text' id='1lastname'>
 </fieldset>
 
 <fieldset>
   <legend>Favorite Soup?</legend>
-  <p><span style='color:red;'>This Question Is Required</span></p>
-  <input type='radio' name='soup' value='pea' id='peasoup' title='Chick Pea Soup'>&nbsp;Pea Soup<br>
-  <input type='radio' name='soup' value='chicken' id='chicken' title='Chicken Noodle'>&nbsp;Chicken Noodle<br>
-  <input type='radio' name='soup' value='tomato' id='tomato' title='Tomato'>&nbsp;Tomato
+  <span style='color:#990000;'>This Question Is Required</span>
+  <input type='radio' name='soup' value='pea' id='pea-2' title='Chick Pea Soup'><label for="pea-2">Pea Soup</label>
+  <input type='radio' name='soup' value='chicken' id='chicken-2' title='Chicken Noodle'><label for="chicken-2">Chicken Noodle</label>
+  <input type='radio' name='soup' value='tomato' id='tomato-2' title='Tomato'><label for="tomato-2">Tomato</label>
 </fieldset>
 <br>
 ```

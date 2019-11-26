@@ -3,6 +3,8 @@ title: iframes
 description: 'How we deal with iframes'
 permalink: /iframes/
 page_title: iframes
+layout: post
+sidenav: docs
 ---
 When using `iframe`s, it's important that all content contained in them is accessible.
 
