@@ -22,6 +22,8 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 
 ### Testing Tools
 
+* [Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin and Windows application for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
+* [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) - Mac and Windows application to test for color contrast against WCAG 2.0 and 2.1 guidelines.
 * [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) - use this for a quick audit of any URL
 * [Pa11y Automated Tool](http://pa11y.org/) - Open-source
 * [Tenon](https://tenon.io/)
@@ -48,13 +50,16 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 
 ### World Wide Web Consortium's Web Accessibility Initiative
 * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
-* [Web Accessibility Tutorials](http://www.w3.org/WAI/tutorials/)
-* [Accessible Rich Internet Applications (ARIA) Documentation](http://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria) 
+* [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
+* [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
+* [Accessible Rich Internet Applications (ARIA) Documentation](https://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria) 
 * [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
 
 ### Misc Sites and tutorials
+* [Inclusive Components](https://inclusive-components.design/) - A blog about designing inclusive web interfaces, piece by piece.
 * [WebAIM's Blog](http://webaim.org/blog/)
 * [The Accessibility Project](http://a11yproject.com/) - Good accessibility blog.
+* [Knowbility's Blog - WCAG 2.1 Series](https://knowbility.org/blog/2018/WCAG21-intro/)
 * [Simply Accessible](http://simplyaccessible.com/archives/) - A great blog and resource with articles about modern accessibility.
 * [WebAIM's Accessibility Resources](http://webaim.org/resources/)
 * [ARIA practical Examples](http://heydonworks.com/practical_aria_examples/)
