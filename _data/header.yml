@@ -27,7 +27,7 @@ type: extended
 
 # this is a key into _data/navigation.yml
 # primary:
-#  links: primary
+# links: primary
 
 # this is a key into _data/navigation.yml
 secondary:

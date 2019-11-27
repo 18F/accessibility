@@ -22,6 +22,8 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 
 ### Testing Tools
 
+* [Accessibility Insights](https://accessibilityinsights.io/) - Windows application for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
+* [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) - Mac and Windows application to test for color contrast against WCAG 2.0 and 2.1 guidelines.
 * [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) - use this for a quick audit of any URL
 * [Pa11y Automated Tool](http://pa11y.org/) - Open-source
 * [Tenon](https://tenon.io/)
@@ -31,15 +33,17 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 * [Windows: NVDA Screenreader](https://www.nvaccess.org/) - Open-source
 
 ### Browser Testing Tools
-* [FireFox: WCAG Contrast checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) - Fast way to evaluate CSS color contrast.
+* [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
+* [Firefox: WCAG Contrast checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) - Fast way to evaluate CSS color contrast.
 * [Chrome:  Color Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) - Great for gradients & images.
 * [Chrome: Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
 * [Firefox/Chrome: WAVE Toolbar](http://wave.webaim.org/extension/)
 * [Firefox/Chrome: Web Developer](https://chrispederick.com/work/web-developer/)
 
 ### Government Sites and tutorials
+* [Section 508](https://section508.gov/)
+* [Accessibility for Teams](https://accessibility.digital.gov/)
 * [18F Accessibility Checklist](./checklist/)
-* [Old Section 508 Standards](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) - The full 1997 Section 508 standards.
 * [GSA's Section 508 Policies](http://www.gsa.gov/portal/content/105254)
 * [CFPB's building accessible interfaces guide](http://cfpb.github.io/design-manual/best-practices/accessibility-best-practices)
 * [Creating Accessible PDFs](http://www.section508.va.gov/support/tutorials/pdf/index.asp)
@@ -48,13 +52,16 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 
 ### World Wide Web Consortium's Web Accessibility Initiative
 * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
-* [Web Accessibility Tutorials](http://www.w3.org/WAI/tutorials/)
-* [Accessible Rich Internet Applications (ARIA) Documentation](http://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria) 
+* [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
+* [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
+* [Accessible Rich Internet Applications (ARIA) Documentation](https://www.w3.org/html/wg/drafts/html/master/dom.html#wai-aria) 
 * [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
 
 ### Misc Sites and tutorials
+* [Inclusive Components](https://inclusive-components.design/) - A blog about designing inclusive web interfaces, piece by piece.
 * [WebAIM's Blog](http://webaim.org/blog/)
 * [The Accessibility Project](http://a11yproject.com/) - Good accessibility blog.
+* [Knowbility's Blog - WCAG 2.1 Series](https://knowbility.org/blog/2018/WCAG21-intro/)
 * [Simply Accessible](http://simplyaccessible.com/archives/) - A great blog and resource with articles about modern accessibility.
 * [WebAIM's Accessibility Resources](http://webaim.org/resources/)
 * [ARIA practical Examples](http://heydonworks.com/practical_aria_examples/)
