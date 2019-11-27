@@ -1,14 +1,4 @@
 # _data/navigation.yml
-primary:
-  - text: Accessibility for Teams
-    href: https://accessibility.digital.gov/
-    external: true
-  - text: Section 508
-    href: https://section508.gov/
-    external: true
-  - text: 18F Home
-    href: https://18f.gsa.gov/
-    external: true
 
 secondary:
   - text: More 18F guides
