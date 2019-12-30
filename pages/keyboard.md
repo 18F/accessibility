@@ -36,7 +36,6 @@ Keyboard access to a website is key to the usability of your site. All interacti
 8. Check for title attributes providing information not on the screen.
   * __Title attributes which can only be exposed by hovering the mouse over the element are a failure of keyboard access__.
 9. Check that the focus never goes to elements that won't be available to somebody using a mouse.
-  * __If the keyboard focus goes to an offscreen element that has been temporarily hidden (items in a non-expanded drop-down menu, offscreen modals which haven't been triggered, etc.), this is a failure__.
 
 ### Examples
 
@@ -44,15 +43,15 @@ Keyboard access to a website is key to the usability of your site. All interacti
 
 <a href="#">Link to nowhere 2</a>
 
-<a href='javascript:$("#hiddenContent").show().focus();'>Reveal Hidden Content</a>
+<a href="javascript:var link = document.getElementById('hiddenContent'); link.setAttribute('style', 'display: block'); link.focus();">Reveal Hidden Content</a>
 
 <div id="hiddenContent" style="display:none;" tabindex='-1'>This div was hidden, now it's not!</div>
 
 ```html
 <a href="#">Link to nowhere 1</a>
 <a href="#">Link to nowhere 2</a>
-<a href='javascript:$("#hiddenContent").show().focus();'>
-	Reveal Hidden Content
+<a href="javascript:var link = document.getElementById('hiddenContent'); link.setAttribute('style', 'display: block'); link.focus();">
+  Reveal Hidden Content
 </a>
 <div id="hiddenContent"
 	 style="display:none;"
