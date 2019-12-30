@@ -6,7 +6,6 @@ page_title: Timeouts
 layout: post
 sidenav: docs
 scripts:
-- assets/js/vendor/jquery.min.js
 - assets/js/time-outs.js
 ---
 If timeouts are used, you must give the user at least 20 seconds to easily request more time.
