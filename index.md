@@ -8,15 +8,15 @@ layout: post
 sidenav: docs
 ---
 
-Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into account. And least of all, it is required by law for all federal EIT products to be accessible (with a few minor exceptions).
+Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into account. And least of all, it is required by law for all federal electronic and information technology (EIT) products to be accessible (with a few minor exceptions).
 
-Accessibility works best when incorporated into an agile production environment. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straightforward and cost effective. The best and perhaps only way to ensure this is done, is training and education. Every member of a production team should be aware of what accessibility concerns are and have a basic understanding of how they are addressed.
+Accessibility works best when incorporated into an agile production environment. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straightforward and cost effective. The best way to ensure this is done is through training and education. Every member of a production team should be aware of what accessibility concerns are and have a basic understanding of how they are addressed.
 
-Here at 18F we follow [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) as our standard for accessibility. We do this for a couple of reasons. WCAG has long been the gold standard for accessibility on the web. The access board has also been working on a refresh to the correct 508 standards to incorporate WCAG2.0 AA into the standards. This sets us up for a smooth transition when that happens. Finally, under 1194.5 of the section 508 standards allows us to use a set of standards that meet the current standards.
+The Web Content Accessibility Guidelines (WCAG) have long been the gold standard for accessibility on the web. Here at 18F we follow [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) as our minimum standard for accessibility.  
 
-If you have any questions about accessibility, 508, or would like help, please reach out on the [GitHub Repo](https://github.com/18F/accessibility).
+If you have questions about accessibility or would like help, please reach out on the [GitHub Repo](https://github.com/18F/accessibility).
 
-__Disclaimer:__ This resource is intended to help 18F develop accessible products and is not a replacement for the standards defined by the Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
+__Disclaimer:__ This resource is intended to help 18F develop accessible products and is not a replacement for the standards defined by the U.S. Access Board. Please visit the [Access Board's Section 508 Standards for EIT](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for more information.
 
 ## Resources
 
@@ -44,9 +44,9 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 * [Section 508](https://section508.gov/)
 * [Accessibility for Teams](https://accessibility.digital.gov/)
 * [18F Accessibility Checklist](./checklist/)
-* [GSA's Section 508 Policies](http://www.gsa.gov/portal/content/105254)
-* [CFPB's building accessible interfaces guide](http://cfpb.github.io/design-manual/best-practices/accessibility-best-practices)
-* [Creating Accessible PDFs](http://www.section508.va.gov/support/tutorials/pdf/index.asp)
+* [U.S. Web Design System Accessibility Tips](https://designsystem.digital.gov/documentation/accessibility/)
+* [GSA Accessibility Aids](https://www.gsa.gov/website-information/accessibility-aids)
+* [Create Accessible PDFs](https://www.section508.gov/create/pdfs)
 * [Required fixes for PDFs](http://www.hhs.gov/web/section-508/making-files-accessible/pdf-required/index.html)
 * [Making Files Accessible PDF, Word, Excel, Powerpoint](http://www.hhs.gov/web/section-508/making-files-accessible/index.html)
 
@@ -64,10 +64,8 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 * [Knowbility's Blog - WCAG 2.1 Series](https://knowbility.org/blog/2018/WCAG21-intro/)
 * [Simply Accessible](http://simplyaccessible.com/archives/) - A great blog and resource with articles about modern accessibility.
 * [WebAIM's Accessibility Resources](http://webaim.org/resources/)
-* [ARIA practical Examples](http://heydonworks.com/practical_aria_examples/)
 * [Tips for creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
 * [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891) - Free web accessibility course by Google
-* [Viget Interactive WCAG 2.0](http://code.viget.com/interactive-wcag/#responsibility=&level=aa) - Interactive accessibility guide (W3C/WebAIM)
 * [Vox Accessibility Guidelines Checklist](http://accessibility.voxmedia.com/)
 * [CanIUse.com](http://caniuse.com/) - useful for HTML5, ARIA & CSS 
 * [New Zealand Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/)
