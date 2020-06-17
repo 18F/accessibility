@@ -8,6 +8,10 @@ exclude:
 - go
 - vendor
 
+url: "https://accessibility.18f.gov"
+plugins:
+  - jekyll-sitemap
+
 theme: uswds-jekyll
 
 markdown: kramdown
@@ -45,4 +49,3 @@ repos:
   url: https://github.com/18F/accessibility
 
 google_analytics_ua: UA-48605964-19
-
