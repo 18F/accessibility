@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/18F/uswds-jekyll.git
-  revision: 7cf641447784b9769950bc15a21121a81ef29bea
-  branch: update-uswds-2.0
-  specs:
-    uswds-jekyll (5.0.0)
-      jekyll (>= 4.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -89,6 +81,8 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    uswds-jekyll (5.0.0)
+      jekyll (>= 4.0, < 5)
 
 PLATFORMS
   ruby
@@ -100,7 +94,7 @@ DEPENDENCIES
   jekyll-sitemap
   redcarpet
   rouge
-  uswds-jekyll!
+  uswds-jekyll
 
 BUNDLED WITH
    1.17.2
