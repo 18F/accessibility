@@ -1,4 +1,5 @@
 # _data/navigation.yml
+sidenav-breakpoint: 'desktop'
 
 secondary:
   - text: More 18F guides
