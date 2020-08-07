@@ -94,7 +94,7 @@ DEPENDENCIES
   jekyll-sitemap
   redcarpet
   rouge
-  uswds-jekyll
+  uswds-jekyll (= 5.0)
 
 BUNDLED WITH
    1.17.2
