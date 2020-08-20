@@ -23,6 +23,7 @@ sidenav: docs
 ### Accessibility Review Tools
 These tools can be used to test sites for Section 508 and WCAG compliance in browser:
 
+* [Accessibility Insights for Web](https://accessibilityinsights.io/) is an [extension for Chrome](https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni) and Microsoft Edge that helps developers find and fix accessibility issues in web apps and sites. 
 * [achecker](http://achecker.ca/) is an accessibility reporter for HTML only.
 * [Google's Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en) is a Chrome plugin for running basic accessibility tests from the comfort of your browser.
 * [Web Accessibility Toolbar (WAT)](https://www.paciellogroup.com/resources/wat/) is an IE tool that has been developed to aid manual examination of web pages for a variety of aspects of accessibility. It is used by [DHS's Trusted Tester program](https://www.dhs.gov/trusted-tester).
