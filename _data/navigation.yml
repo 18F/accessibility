@@ -1,4 +1,16 @@
 # _data/navigation.yml
+primary:
+  - text: Home
+    href: /
+  - text: Accessibility for Teams
+    href: https://accessibility.digital.gov/
+    external: true
+  - text: Section508.gov
+    href: http://section508.gov/
+    external: true
+  - text: More 18F guides
+    href: https://18f.gsa.gov/guides/
+    external: true
 
 secondary:
   - text: More 18F guides
@@ -6,8 +18,6 @@ secondary:
     external: true
 
 docs:
-  - text: Home
-    href: /
   - text: Checklist
     href: /checklist/
   - text: Tools
