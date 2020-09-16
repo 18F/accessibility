@@ -2,12 +2,8 @@
 primary:
   - text: Home
     href: /
-  - text: Accessibility for Teams
-    href: https://accessibility.digital.gov/
-    external: true
-  - text: Section508.gov
-    href: http://section508.gov/
-    external: true
+  - text: Other .Gov Accessibility Sites
+    href: /gov-resources/
   - text: More 18F guides
     href: https://18f.gsa.gov/guides/
     external: true
