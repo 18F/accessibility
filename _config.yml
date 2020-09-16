@@ -21,7 +21,7 @@ url: "https://accessibility.18f.gov" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username:  jekyll
 
-include: ['_pages']
+include: ['pages']
 
 # Build settings
 markdown: kramdown
@@ -56,13 +56,6 @@ highlighter: rouge
 permalink: pretty
 
 incremental: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: post
 
 sass:
   style: :compressed
