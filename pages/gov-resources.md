@@ -4,7 +4,6 @@ description: 'Other accessibility resources from the U.S. Government'
 permalink: /gov-resources/
 page_title: Government Accessibility Resources
 layout: post
-sidenav: docs
 ---
 This 18F Accessibility Guide is just one of many helpful accessibility sites and resources available from the U.S. Government. Here are some others:
 
