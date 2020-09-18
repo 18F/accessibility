@@ -1,4 +1,12 @@
 # _data/navigation.yml
+primary:
+  - text: Home
+    href: /
+  - text: Other .Gov Accessibility Sites
+    href: /gov-resources/
+  - text: More 18F guides
+    href: https://18f.gsa.gov/guides/
+    external: true
 
 secondary:
   - text: More 18F guides
@@ -6,8 +14,6 @@ secondary:
     external: true
 
 docs:
-  - text: Home
-    href: /
   - text: Checklist
     href: /checklist/
   - text: Tools

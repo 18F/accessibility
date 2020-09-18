@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.3-node-browsers
+      - image: circleci/ruby:2.7-node-browsers
     environment:
       ACCESSLINT_MASTER_BRANCH: 18f-pages
     steps:
@@ -13,7 +13,7 @@ jobs:
             echo $(ruby --version)
             echo $(node --version)
             echo $(npm --version)
-      - run: sudo npm install -g axe-cli@3.0.0 --unsafe-perm
+      - run: sudo npm install -g axe-cli@3.2.0 --unsafe-perm
       - run: gem install bundler
       - run: bundle install
       - run: bundle exec jekyll build

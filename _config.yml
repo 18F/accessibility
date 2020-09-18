@@ -1,4 +1,47 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: 18F Accessibility Guide
+description: >-
+  This is the 18F Accessibility Guide.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://accessibility.18f.gov" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+include: ['pages']
+
+# Build settings
+markdown: kramdown
+theme: uswds-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Google Analytics & DAP tracking code for handbook
+google_analytics_ua: UA-48605964-19
+dap_agency: GSA
+
+# Add search site handle to enable search
+search_site_handle: 18f-accessibility
+
+scripts:
+  - assets/uswds/js/uswds.min.js
+  - javascripts/private-eye.js
+  - javascripts/application.js
+
 exclude:
 - CONTRIBUTING.md
 - Gemfile
@@ -8,24 +51,11 @@ exclude:
 - go
 - vendor
 
-url: "https://accessibility.18f.gov"
-plugins:
-  - jekyll-sitemap
-
-theme: uswds-jekyll
-
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
 incremental: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page
 
 sass:
   style: :compressed
@@ -47,6 +77,3 @@ repos:
 - name: Accessibility
   description: Main repository
   url: https://github.com/18F/accessibility
-
-google_analytics_ua: UA-48605964-19
-dap_agency: GSA
