@@ -60,7 +60,7 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
-    uswds-jekyll (5.0.0)
+    uswds-jekyll (5.0.1)
       jekyll (>= 4.0, < 5)
 
 PLATFORMS
