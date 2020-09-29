@@ -33,6 +33,7 @@ plugins:
 # Google Analytics & DAP tracking code for handbook
 google_analytics_ua: UA-48605964-19
 dap_agency: GSA
+dap_subagency: TTS
 
 # Add search site handle to enable search
 search_site_handle: 18f-accessibility
