@@ -5,7 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.7)
-    em-websocket (0.5.1)
+    em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
@@ -60,7 +60,7 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
-    uswds-jekyll (5.0.0)
+    uswds-jekyll (5.0.1)
       jekyll (>= 4.0, < 5)
 
 PLATFORMS
