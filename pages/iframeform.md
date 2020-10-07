@@ -3,8 +3,6 @@ title: iframe form
 description: Fill out this form
 permalink: /iframeform/
 page_title: iFrame
-layout: post
-sidenav: docs
 ---
 
 <label for='fname'>First Name&nbsp;</label><input type='text' id='fname'>
