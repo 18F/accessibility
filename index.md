@@ -34,7 +34,7 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 
 ### Browser Testing Tools
 * [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
-* [Accessible Name & Description Inspector (ANDI) Tool](https://www.ssa.gov/accessibility/andi/help/install.html)
+* [Accessible Name & Description Inspector (ANDI) Tool](https://www.ssa.gov/accessibility/andi/help/install.html) - A web accessibility inspection tool maintained by the Accessible Solutions Branch within the Social Security Administration.
 * [Firefox: WCAG Contrast checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) - Fast way to evaluate CSS color contrast.
 * [Chrome:  Color Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) - Great for gradients & images.
 * [Chrome: Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
