@@ -34,6 +34,7 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 
 ### Browser Testing Tools
 * [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
+* [Accessible Name & Description Inspector (ANDI) Tool](https://www.ssa.gov/accessibility/andi/help/install.html)
 * [Firefox: WCAG Contrast checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) - Fast way to evaluate CSS color contrast.
 * [Chrome:  Color Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) - Great for gradients & images.
 * [Chrome: Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
@@ -45,6 +46,7 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 * [Accessibility for Teams](https://accessibility.digital.gov/)
 * [18F Accessibility Checklist](./checklist/)
 * [U.S. Web Design System Accessibility Tips](https://designsystem.digital.gov/documentation/accessibility/)
+* [ANDI video training series (GSA)](https://www.section508.gov/test/web-software/andi-training-videos)
 * [GSA Accessibility Aids](https://www.gsa.gov/website-information/accessibility-aids)
 * [Create Accessible PDFs](https://www.section508.gov/create/pdfs)
 * [Required fixes for PDFs](http://www.hhs.gov/web/section-508/making-files-accessible/pdf-required/index.html)
