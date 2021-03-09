@@ -51,6 +51,7 @@ exclude:
 - README.md
 - go
 - vendor
+- node_modules
 
 markdown: kramdown
 highlighter: rouge
