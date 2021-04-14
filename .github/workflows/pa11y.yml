@@ -1,0 +1,28 @@
+name: pa11y tests
+
+on: [pull_request]
+
+jobs:
+  build:
+    name: Building site and running pa11y-ci tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source.
+        uses: actions/checkout@v2
+
+      - name: Install jekyll site dependencies.
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+          bundler-cache: true
+
+      - name: Install pa11y-ci dependencies.
+        run: npm install
+
+      - name: Start up jekyll server.
+        run: npm run start-detached
+
+      - name: Run pa11y-ci.
+        run: npm run pa11y-ci:sitemap
+
