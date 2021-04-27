@@ -68,7 +68,7 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
-    uswds-jekyll (5.3.0)
+    uswds-jekyll (5.4.0)
       jekyll (>= 4.0, < 5)
       jekyll-autoprefixer
       mini_racer
@@ -81,7 +81,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.15, >= 0.15.0)
   jekyll-sitemap (>= 1.4.0)
   tzinfo-data
-  uswds-jekyll (~> 5.0, >= 5.0.1)
+  uswds-jekyll (~> 5.4)
 
 BUNDLED WITH
    2.1.4
