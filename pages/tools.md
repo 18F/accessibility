@@ -23,6 +23,7 @@ sidenav: docs
 ### Accessibility Review Tools
 These tools can be used to test sites for Section 508 and WCAG compliance in browser:
 
+* [Accessibility Insights for Web](https://accessibilityinsights.io/) is an [extension for Chrome](https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni) and Microsoft Edge that helps developers find and fix accessibility issues in web apps and sites. 
 * [achecker](http://achecker.ca/) is an accessibility reporter for HTML only.
 * [Accessibility Insights](https://accessibilityinsights.io/) - Windows application for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
 * Accessibility Management Platform (AMP): [GSA-specific info](https://insite.gsa.gov/employee-resources/information-technology/508-accessibility/accessibility-management-platform-amp) and [general product info](https://www.levelaccess.com/solutions/software/amp/)
