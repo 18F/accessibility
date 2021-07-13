@@ -23,8 +23,7 @@ sidenav: docs
 ### Accessibility Review Tools
 These tools can be used to test sites for Section 508 and WCAG compliance in browser:
 
-* [achecker](http://achecker.ca/) is an accessibility reporter for HTML only.
-* [Accessibility Insights](https://accessibilityinsights.io/) - Windows application for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
+* [Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin (Chrome, Edge), Android and Windows applications for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
 * Accessibility Management Platform (AMP): [GSA-specific info](https://insite.gsa.gov/employee-resources/information-technology/508-accessibility/accessibility-management-platform-amp) and [general product info](https://www.levelaccess.com/solutions/software/amp/)
 * [Google's Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en) is a Chrome plugin for running basic accessibility tests from the comfort of your browser.
 * [Web Accessibility Toolbar (WAT)](https://www.paciellogroup.com/resources/wat/) is an IE tool that has been developed to aid manual examination of web pages for a variety of aspects of accessibility. It is used by [DHS's Trusted Tester program](https://www.dhs.gov/trusted-tester).
@@ -45,8 +44,9 @@ These tools can be used in automated tests and with continuous integration
 tools to help you ensure that your sites remain accessible throughout the
 development process:
 
-* [a11y](https://github.com/addyosmani/a11y) is a Node-based accessibility auditing with both command-line and JavaScript APIs.
+* [Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin (Chrome, Edge), Android and Windows applications for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
 * [AccessLintCI](https://github.com/accesslint/accesslint-ci) runs accessibility tests in CircleCI builds and comments on GitHub pull requests with new accessibility issues. See more information on how to add this to an 18F site [here](https://github.com/18F/development-guide/tree/master/accessibility_scanning).
+* [axe](https://www.deque.com/axe/) - Suite of automated accessibility testing tools built around the open source [axe-core testing engine/ruleset](https://github.com/dequelabs/axe-core), by Deque.
 * [pa11y](http://pa11y.org/) is like a11y, but consists of a larger suite of tools, including command-line and JavaScript APIs, a [web service](https://github.com/nature/pa11y-webservice), and a [dashboard](https://github.com/nature/pa11y-dashboard) for monitoring accessibility reports across multiple sites.
 * [ra11y](https://github.com/benbalter/ra11y) is a Ruby-based accessibility testing tool tuned for use with [Jekyll](http://jekyllrb.com/) and static sites.
 * [webalin](http://webalin.readthedocs.org/en/latest/) is a Python-based 508 compliance linter for HTML.

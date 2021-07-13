@@ -22,25 +22,7 @@ __Disclaimer:__ This resource is intended to help 18F develop accessible product
 
 ### Testing Tools
 
-* [Accessibility Insights](https://accessibilityinsights.io/) - Windows application for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
-* Accessibility Management Platform (AMP): [GSA-specific info](https://insite.gsa.gov/employee-resources/information-technology/508-accessibility/accessibility-management-platform-amp) and [general product info](https://www.levelaccess.com/solutions/software/amp/)
-* [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) - Mac and Windows application to test for color contrast against WCAG 2.0 and 2.1 guidelines.
-* [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) - use this for a quick audit of any URL
-* [Pa11y Automated Tool](http://pa11y.org/) - Open-source
-* [Tenon](https://tenon.io/)
-* [tanaguru contrast finder](http://contrast-finder.tanaguru.com/) - Open-source tool to find better color contrast options.
-* [Accessible color palette builder](https://toolness.github.io/accessible-color-matrix/) - Open-source
-* [Windows: Inspector](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318521%28v=vs.85%29.aspx) - This tool is used by the DHS for their Trusted Tester Program.
-* [Windows: NVDA Screenreader](https://www.nvaccess.org/) - Open-source
-
-### Browser Testing Tools
-* [Chrome/Edge: Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
-* [Accessible Name & Description Inspector (ANDI) Tool](https://www.ssa.gov/accessibility/andi/help/install.html) - A web accessibility inspection tool maintained by the Accessible Solutions Branch within the Social Security Administration.
-* [Firefox: WCAG Contrast checker](https://addons.mozilla.org/EN-US/firefox/addon/wcag-contrast-checker/) - Fast way to evaluate CSS color contrast.
-* [Chrome:  Color Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) - Great for gradients & images.
-* [Chrome: Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
-* [Firefox/Chrome: WAVE Toolbar](http://wave.webaim.org/extension/)
-* [Firefox/Chrome: Web Developer](https://chrispederick.com/work/web-developer/)
+Please see [our tools page for a listing of accessibility testing tools](tools/). 
 
 ### Government Sites and tutorials
 * [Section 508](https://section508.gov/)
