@@ -19,6 +19,8 @@ $color-gray-divider:  color("gray-20");
 
 $color-gray-border:   color("base-dark");
 
+$logo-size-lg: 3rem;
+$logo-size-md: 2rem;
 
 // Typography
 .usa-prose{
@@ -74,6 +76,26 @@ a:hover {
 
 .usa-nav__secondary-links {
   display: none;
+}
+
+// logo
+.usa-header.usa-header--extended .usa-logo-img {
+  height: $logo-size-md;
+}
+
+.usa-logo__text {
+  line-height: $logo-size-md;
+}
+
+
+@include at-media('desktop') {
+  .usa-header.usa-header--extended .usa-logo-img {
+    height: $logo-size-lg;
+  }
+
+  .usa-logo__text {
+    line-height: $logo-size-lg;
+  }
 }
 
 // usa-sidenav
