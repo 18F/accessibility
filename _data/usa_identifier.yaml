@@ -1,7 +1,6 @@
-# Anchor component data
-# See usa_anchor.html for the template
+# Identifier data
 
-anchor_data:
+identifier_data:
   - site_name: 18F Accessibility Guide
     site_email: 18F@gsa.gov
     site_url: https://accessibility.18f.gov

@@ -201,5 +201,8 @@ a[href^="https://gsa-tts.slack.com"]::before {
   }
 }
 
-@import '_usa_anchor';
+.usa-identifier {
+  margin-top: auto;
+}
+
 @import 'syntax';
