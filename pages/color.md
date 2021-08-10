@@ -43,11 +43,11 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 > This text fails because the background isn't dark enough. The contrast ratio is (3.28 : 1).
 
-<span style="color:red;">Red text indicates a required field</span>
+<span style="color:#AA0000;">Red text indicates a required field</span>
 
 <label for="name">First Name&nbsp;</label><input type"text" id="name">
 
-<label for="lname" style="color:red">Last Name&nbsp;</label><input type"text" id="lname">
+<label for="lname" style="color:#AA0000">Last Name&nbsp;</label><input type"text" id="lname">
 
 > This is a failure because the only indication of which fields are required is the color of the text label.
 
@@ -65,11 +65,11 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 > This text passes. The contrast ratio is (4.54 : 1).
 
-<span style="color:red;">* indicates a required field</span>
+<span style="color:#AA0000;">* indicates a required field</span>
 
 <label for="name-2">First Name&nbsp;</label><input type"text" id="name-2">
 
-<label for="lname-2" style="color:red">* Last Name&nbsp;</label><input type"text" id="lname-2">
+<label for="lname-2" style="color:AA0000">* Last Name&nbsp;</label><input type"text" id="lname-2">
 
 > This example passes because the * and the red text indicates the required field.
 
