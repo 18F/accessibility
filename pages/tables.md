@@ -17,7 +17,7 @@ Complex tables are tables with more than two levels of headers. Each header shou
 
 If a table has text associated with it, ensure the text is programatically linked to the table. This is usually with a `<caption>` element. This element should be the first element under the `<table>` element. While a `caption` is not required, it can be very helpful to screen reader users navigating the page. A `caption` element is **strongly** encouraged on data tables as it gives context to the data.
 
-### Testing
+## Testing
 
 1. Identify 'data' tables (layout tables are exempt).
 2. View the table source code.
@@ -25,11 +25,11 @@ If a table has text associated with it, ensure the text is programatically linke
   * Check for scope on simple tables.
   * Check for id and headers on complex tables.
 
-### Examples
+## Examples
 
-#### Passes
+### Passes
 
-##### Simple Table
+#### Simple Table
 
 <table>
   <caption>User's Height and Weight</caption>
@@ -93,7 +93,7 @@ If a table has text associated with it, ensure the text is programatically linke
 
 > Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope='col'```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
 
-##### Complex table
+#### Complex table
 
 <table>
   <caption>User's Height and Weight</caption>

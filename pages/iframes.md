@@ -1,5 +1,5 @@
 ---
-title: iframes
+title: Inline frames (iframes)
 description: 'How we deal with iframes'
 permalink: /iframes/
 page_title: iframes
@@ -8,16 +8,16 @@ sidenav: docs
 ---
 When using `iframe`s, it's important that all content contained in them is accessible.
 
-### Testing
+## Testing
 
 1. Identify all `iframe`s on a page.
 2. Using the keyboard, navigate to each frame to ensure content is accessible.
 3. Check the `title` or `name` attribute of each frame for a description of the content.
 
-### Examples
+## Examples
 
 
-#### Failure
+### Failures
 
 <iframe src="../iframeform/"></iframe>
 
@@ -35,7 +35,7 @@ When using `iframe`s, it's important that all content contained in them is acces
 
 > This `name` isn't correct.
 
-#### Passes
+### Passes
 
 <iframe src="../iframeform/" title='Provide Name Form'></iframe>
 

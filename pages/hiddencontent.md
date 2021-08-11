@@ -9,7 +9,7 @@ sidenav: docs
 
 Hiding content is very useful for accessibility. We can hide things visually and only display it to screen reader users, we can hide content from screen reader users and only show it visually, or we can hide content from both. 
 
-### Techniques
+## Techniques
 {% capture css_display_none %}
   ```css
     {
@@ -97,7 +97,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
 </tbody>
 </table>
  
-### Aria Hidden
+## Aria Hidden
 
 aria-hidden should be used in combination with these techniques. If we want to hide something from just the screen reader, you can mark it as `aria-hidden='true'`. 
 
@@ -110,7 +110,7 @@ This is useful for:
 
 If an element has multiple states, it's visibility should be tracked with `aria-hidden` `true/false`. An element with `aria-hidden='false'` is treated by the screen reader as if it didn't have the `aria-hidden` attribute and is read or not read based on other factors, such as CSS. 
 
-### CSS
+## CSS
 
 CSS can be used to hide content and allow it to still be used with the screen reader. For an example of that, see this code here, 
 
@@ -151,7 +151,7 @@ This will hide completely and is the same as `<div aria-hidden='true' hidden>con
 - Repetitive information
 - Off screen content
 
-### Additional Resources
+## Additional Resources
 
 For more information on this topic, see these articles. 
 

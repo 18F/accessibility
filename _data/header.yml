@@ -25,6 +25,12 @@ type: extended
 #  alt: 18F
 #  external: true
 
+title: Accessibility Guide
+
+logo:
+  src: /images/18f-logo-black.svg
+  alt: 18f
+
 # this is a key into _data/navigation.yml
 # primary:
 # links: primary

@@ -32,7 +32,7 @@ docs:
     href: /page-titles/
   - text: Headings
     href: /headings/
-  - text: Hidden Content
+  - text: Hidden content
     href: /hidden-content/
   - text: Landmarks
     href: /landmarks/
@@ -46,7 +46,7 @@ docs:
     href: /tables/
   - text: CSS dependence
     href: /css/
-  - text: iFrames
+  - text: Inline frames
     href: /iframes/
   - text: Links and repetitive content
     href: /links/

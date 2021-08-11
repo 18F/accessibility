@@ -10,16 +10,16 @@ scripts:
 ---
 If timeouts are used, you must give the user at least 20 seconds to easily request more time.
 
-### Testing
+## Testing
 
 1. Identify any timeouts on the page.
   * Contact the developer to find these.
 2. Trigger the time out.
   * __If you're not able to request more time or the request lasts less than 20 seconds, it's a failure__.
 
-### Examples
+## Examples
 
-#### Passes
+### Passes
 
 Fill out this form
 
