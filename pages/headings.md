@@ -26,15 +26,15 @@ lorum ipsum
 lorum ipsum
 ``` 
 
-### Testing
+## Testing
 
 1. Identify visual 'heading' elements 
 2. Check that all visual 'heading' elements use an `<h>` tag
 3. Verify that all sub heading elements have a higher number
 
-### Examples
+## Examples
 
-#### Passes
+### Passes
 
 <div>
   <h3>Category</h3>
@@ -72,7 +72,7 @@ lorum ipsum
 
 > This section has a main category and two sub categories. The sub categories are on the same level and as such use the the same heading element.
 
-#### Fails
+### Fails
 
 <div>
   <h3>Category</h3>

@@ -11,7 +11,7 @@ scripts:
 
 Keyboard access to a website is key to the usability of your site. All interactions and information that can be accessed with a mouse **must** be accessible with just a keyboard. This doesn't mean everyone who can't use a mouse will use a keyboard, but alternative AT inputs use keyboard-like inputs to navigate the web.
 
-### Testing
+## Testing
 
 1. Identify all interactions on the page.
 2. Using the tab, enter, and space bar, navigate the page and ensure each input and interaction can be triggered.
@@ -36,7 +36,7 @@ Keyboard access to a website is key to the usability of your site. All interacti
   * __Title attributes which can only be exposed by hovering the mouse over the element are a failure of keyboard access__.
 9. Check that the focus never goes to elements that won't be available to somebody using a mouse.
 
-### Examples
+## Examples
 
 <a href="#">Link to nowhere 1</a>
 
