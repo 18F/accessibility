@@ -62,7 +62,7 @@ Making forms accessible is a simple process. Each form element should be associa
 
 ### Fails
 
-<fieldset>
+<fieldset class="exampleFailure">
   <legend>Name</legend>
   <label for="first_name-2">First</label>
   <input type='text' id='firstname-2'>
@@ -70,7 +70,7 @@ Making forms accessible is a simple process. Each form element should be associa
   <input type='text' id='1lastname'>
 </fieldset>
 
-<fieldset>
+<fieldset class="exampleFailure">
   <legend>Favorite Soup?</legend>
   <span style='color:#990000;'>This Question Is Required</span>
   <input type='radio' name='soup' value='pea' id='pea-2' title='Chick Pea Soup'><label for="pea-2">Pea Soup</label>
@@ -99,8 +99,6 @@ Making forms accessible is a simple process. Each form element should be associa
 ```
 
 > ___Failure:___ First name label ```for``` and ```id``` don't match.
-
-> ___Failure:___ Last name has an invalid ```id```.
 
 > ___Failure:___ "This Question Is Required" is not associated with the form fields.
 

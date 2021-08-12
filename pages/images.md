@@ -39,7 +39,7 @@ When using images on a page, you must provide an alternate method for that conte
 
 ---
 
-<img src="{{site.baseurl}}/images/sign.jpg" title="Warning do not read this sign">
+<img src="{{site.baseurl}}/images/sign.jpg" title="Warning do not read this sign" class="exampleFailure">
 
 ```html
 <img src="{{site.baseurl}}/images/sign.jpg" title="Warning do not read this sign">
@@ -66,7 +66,7 @@ When using images on a page, you must provide an alternate method for that conte
 
 ### Incorrect
 
-<img src="{{site.baseurl}}/images/sign.jpg" >
+<img src="{{site.baseurl}}/images/sign.jpg" class="exampleFailure">
 
 ```html
 <img src="{{site.baseurl}}/images/sign.jpg">

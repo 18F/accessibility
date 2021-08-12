@@ -35,11 +35,11 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 ### Failures
 
-<span style = "color:#58AA02">This text fails. </span>
+<span style = "color:#58AA02" class="exampleFailure">This text fails. </span>
 
 > This text fails because it's too light. The contrast ratio is (2.93 : 1).
 
-<span style = "color:#FFFFFF; background:#8D8E90">This text fails.</span>
+<span style = "color:#FFFFFF; background:#8D8E90" class="exampleFailure">This text fails.</span>
 
 > This text fails because the background isn't dark enough. The contrast ratio is (3.28 : 1).
 
