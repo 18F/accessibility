@@ -74,7 +74,7 @@ lorum ipsum
 
 ### Fails
 
-<div>
+<div class="exampleFailure">
   <h3>Category</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
   <h2>Sub Category 1</h2>
