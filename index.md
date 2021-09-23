@@ -54,3 +54,4 @@ Please see [our tools page for a listing of accessibility testing tools](tools/)
 * [Vox Accessibility Guidelines Checklist](http://accessibility.voxmedia.com/)
 * [CanIUse.com](http://caniuse.com/) - useful for HTML5, ARIA & CSS 
 * [New Zealand Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/)
+* [CivicActions Accessibility Playbook and Guide](https://accessibility.civicactions.com/)
