@@ -78,10 +78,10 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.1.1)
-  jekyll-feed (~> 0.15, >= 0.15.0)
+  jekyll-feed (~> 0.15, >= 0.15.1)
   jekyll-sitemap (>= 1.4.0)
   tzinfo-data
-  uswds-jekyll (~> 5.0, >= 5.0.1)
+  uswds-jekyll (~> 5.3, >= 5.3.0)
 
 BUNDLED WITH
    2.1.4
