@@ -27,7 +27,7 @@ Links that only rely on color also fail this requirement. Links must be distingu
 ### Color Dependence
 
 1. Identify sections which use color to convey information.
-2. Check to see if the information is conveyed in another way visually and programatically.
+2. Check to see if the information is conveyed in another way visually and programmatically.
 3. If links are only distinguished by color surrounded by normal text
   1. Check if the link has a contrast ratio of 3:1 with the surrounding text
 
