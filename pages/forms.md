@@ -111,7 +111,7 @@ Screen readers vary on what they read and the additional information they provid
 
 You can test these with your own screen reader. If you have a OSX you can turn VoiceOver on by hitting command+F5.
 
-**Further Information** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any additional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
+**Further information** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any additional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
 
 #### No ARIA
 
@@ -127,7 +127,7 @@ Reads just the `label` and not the description
 <span id="carmakedescription_1"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Car Edit text`
+**Screen reader reads input as:** `Car Edit text`
 <hr>
 
 #### With aria-label
@@ -144,7 +144,7 @@ Reads the `aria-label` and doesn't read the normal `label`.
 <span id="carmakedescription_2"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Car, please enter make and model Edit text`
+**Screen reader reads input as:** `Car, please enter make and model Edit text`
 <hr>
 
 #### With aria-labelledby pointing at `carmakedescription`
@@ -161,7 +161,7 @@ Reads only the `aria-labelledby` attribute and not the default label
 <span id='carmakedescription_3'><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Please enter Make and Model Edit text`
+**Screen reader reads input as:** `Please enter Make and Model Edit text`
 <hr>
 
 #### With aria-labelledby pointing at `carlabel carmakedescription`
@@ -178,7 +178,7 @@ Reads both labels indicated by the `aria-labelledby` attribute
 <span id="carmakedescription_4"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Car Please enter Make and Model Edit text`
+**Screen reader reads input as:** `Car Please enter Make and Model Edit text`
 <hr>
 
 #### With aria-describedby pointing at `carmakedescription`
@@ -195,5 +195,5 @@ JAWS reads both the label and the description. So does VoiceOver, but there is a
 <span id='carmakedescription_5'><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Car Edit text Please enter Make and Model`
+**Screen reader reads input as:** `Car Edit text Please enter Make and Model`
 <hr>

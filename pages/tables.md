@@ -29,7 +29,7 @@ If a table has text associated with it, ensure the text is programmatically link
 
 ### Passes
 
-#### Simple Table
+#### Simple table
 
 <table>
   <caption>User's Height and Weight</caption>

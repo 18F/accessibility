@@ -14,7 +14,7 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 ## Testing
 
-### Color Contrast
+### Color contrast
 
 1. Using a [color contrast checker](http://www.paciellogroup.com/resources/contrastanalyser/), compare the color of the text with the color of the background.
 2. In situations where the color is a gradient or cannot be determined programmatically, compare the lightest part of the text with the lightest part of the background using the color picker. Then compare the darkest part of the text with the darkest part of the background.
@@ -24,7 +24,7 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 **Note:** Logos, disabled form fields, and disabled buttons are **exempt** from this test and don't need to be tested for contrast.
 
-### Color Dependence
+### Color dependence
 
 1. Identify sections which use color to convey information.
 2. Check to see if the information is conveyed in another way visually and programmatically.
