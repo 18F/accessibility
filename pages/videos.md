@@ -7,8 +7,6 @@ layout: post
 sidenav: docs
 ---
 
-## Training and videos
-
 There are tons of great talks and videos about accessibility online. This is a collection of videos we found useful.
 
 ### #ID24 2016: The Web Accessibility Basics w/ Marco Zehe

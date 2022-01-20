@@ -7,7 +7,7 @@ layout: post
 sidenav: docs
 ---
 
-## The Law
+## The law
 
 Section 508 is part of the 'Rehabilitation Act of 1973.' The law was amended in 1998 to add 508 which requires that government agencies provide equal access to information to disabled employees.
 
@@ -19,13 +19,13 @@ The correct way to refer to the law is:
 
 While related in ways, the Rehabilitation Act is not part of the Americans with Disabilities Act.
 
-## Key Words
+## Key words
 
 * __Conformance:__ We conform with the standards of Section 508, not the law of section 508.
 
 * __Compliance:__ A government agency is in compliance with the law.
 
-## Talking Points
+## Talking points
 
 * The goal of accessibility at 18F is to build sites that are usable by everyone, not to meet minimum standards
 * We focus on building accessibility into every step of a project, from design to each sprint review

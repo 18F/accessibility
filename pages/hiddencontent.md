@@ -1,5 +1,5 @@
 ---
-title: Hidden Content
+title: Hidden content
 description: 'How and when to hide content'
 permalink: /hidden-content/
 page_title: Hidden Content
@@ -39,13 +39,13 @@ Hiding content is very useful for accessibility. We can hide things visually and
       Technique
     </th>
     <th scope='col'>
-      Visually Hidden
+      Visually hidden
     </th>
     <th scope='col'>
       Screen reader hidden
     </th>
     <th scope='col'>
-      Additional Info
+      Additional info
     </th>
   </tr>
 </thead>
@@ -97,7 +97,7 @@ Hiding content is very useful for accessibility. We can hide things visually and
 </tbody>
 </table>
  
-## Aria Hidden
+## Aria hidden
 
 aria-hidden should be used in combination with these techniques. If we want to hide something from just the screen reader, you can mark it as `aria-hidden='true'`. 
 
@@ -151,7 +151,7 @@ This will hide completely and is the same as `<div aria-hidden='true' hidden>con
 - Repetitive information
 - Off screen content
 
-## Additional Resources
+## Additional resources
 
 For more information on this topic, see these articles. 
 

@@ -14,7 +14,7 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 
 ## Testing
 
-### Unique Links
+### Unique links
 
 1. Identify all links on the page.
 2. Identify links with the same text.
@@ -22,7 +22,7 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
 3. Identify links with generic text ('Click here', 'Read more').
   * Check for the ```title``` or ```ARIA``` attributes to provide context or additional off-screen text.
 
-### Links that open in a New Window
+### Links that open in a new window
 1. Identify links that open in new windows.
 2. Check that ```target='_blank'```.
 3. Verify that some indication is given programmatically.
@@ -30,7 +30,7 @@ The other issue screen reader and keyboard users come across is lengthy nav bars
   *  ```<a href='#' target='_blank' title='Opens in new window'>```
   *  ```<a href='#' target='_blank'>Link<span class='sr-only'>Opens in new window</span></a>```
 
-### Skip Navigation
+### Skip navigation
 
 1. First compare the pages on the site for links that are repeated at the beginning of the tab order.
   * `Skip Navigation` is not needed if repetitive nav links are not used.
@@ -60,7 +60,7 @@ Keyboard Access <a href='../keyboard/' aria-label="Keyboard Access">Click Here</
 
 > These links are not unique, but the ```title``` attribute in the first link gives a screen reader user context and the ```aria-label``` provides the context in the second link.
 
-#### Skip Navigation
+#### Skip navigation
 
 ```html
 //This is the code used on this guide
