@@ -7,7 +7,7 @@ layout: post
 sidenav: docs
 ---
 
-When tables are used to show data, the header cells that relate to the data cells need to be programatically linked. This makes table navigation for screen readers less painful.
+When tables are used to show data, the header cells that relate to the data cells need to be programmatically linked. This makes table navigation for screen readers less painful.
 
 **Simple tables** can have up to two levels of headings. One row of headers and/or one column of headings. A table with more than one row or more than one column of headings, is considered to be a complex table. Each table header cell should have `<th scope='col'>` or `<th scope='row'>`.
 
@@ -15,7 +15,7 @@ When tables are used to show data, the header cells that relate to the data cell
 
 Complex tables are tables with more than two levels of headers. Each header should be given a unique `id` and each data cell should have a `headers` attribute with each related header cell's id listed.
 
-If a table has text associated with it, ensure the text is programatically linked to the table. This is usually with a `<caption>` element. This element should be the first element under the `<table>` element. While a `caption` is not required, it can be very helpful to screen reader users navigating the page. A `caption` element is **strongly** encouraged on data tables as it gives context to the data.
+If a table has text associated with it, ensure the text is programmatically linked to the table. This is usually with a `<caption>` element. This element should be the first element under the `<table>` element. While a `caption` is not required, it can be very helpful to screen reader users navigating the page. A `caption` element is **strongly** encouraged on data tables as it gives context to the data.
 
 ## Testing
 
@@ -91,7 +91,7 @@ If a table has text associated with it, ensure the text is programatically linke
 </table>
 ```
 
-> Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope='col'```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
+> Looking at this table, the column headers all relate to the cells below. This is done programmatically with ```scope='col'```. Each height and age value is related to the person and this is done programmatically with ```scope="row"```.
 
 #### Complex table
 
