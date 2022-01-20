@@ -30,7 +30,7 @@ These tools can be used to test sites for Section 508 and WCAG compliance in bro
 * The [W3C](http://www.w3.org/) maintains a comprehensive [list of web accessibility evaluation tools](http://www.w3.org/WAI/ER/tools/).
 
 ## Autocomplete widgets
-These JavaScript widgets produce HTML with ARIA autocomplete attributes:
+These JavaScript widgets produce HTML with [ARIA autocomplete](https://www.w3.org/TR/wai-aria/#aria-autocomplete) attributes:
 
 * [Awesomplete](http://leaverou.github.io/awesomplete/) is dependency-free
 * [jQuery UI autocomplete](http://jqueryui.com/autocomplete/) requires jQuery
