@@ -29,11 +29,11 @@ Please see [our tools page for a listing of accessibility testing tools](tools/)
 * [Accessibility for Teams](https://accessibility.digital.gov/)
 * [18F Accessibility Checklist](./checklist/)
 * [U.S. Web Design System Accessibility Tips](https://designsystem.digital.gov/documentation/accessibility/)
-* [ANDI video training series (GSA)](https://www.section508.gov/test/web-software/andi-training-videos)
+* [ANDI video training series (GSA)](https://www.section508.gov/training/web-software/andi-training-videos/)
 * [GSA Accessibility Aids](https://www.gsa.gov/website-information/accessibility-aids)
 * [Create Accessible PDFs](https://www.section508.gov/create/pdfs)
-* [Required fixes for PDFs](http://www.hhs.gov/web/section-508/making-files-accessible/pdf-required/index.html)
-* [Making Files Accessible PDF, Word, Excel, Powerpoint](http://www.hhs.gov/web/section-508/making-files-accessible/index.html)
+* [Required fixes for PDFs](https://www.hhs.gov/web/section-508/making-files-accessible/pdf-required/)
+* [Making Files Accessible PDF, Word, Excel, PowerPoint](https://www.hhs.gov/web/section-508/os-training-resources/)
 
 ### World Wide Web Consortium's Web Accessibility Initiative
 * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
@@ -45,12 +45,12 @@ Please see [our tools page for a listing of accessibility testing tools](tools/)
 ### Misc Sites and tutorials
 * [Inclusive Components](https://inclusive-components.design/) - A blog about designing inclusive web interfaces, piece by piece.
 * [WebAIM's Blog](http://webaim.org/blog/)
-* [The Accessibility Project](http://a11yproject.com/) - Good accessibility blog.
+* [The Accessibility Project](https://a11yproject.com/) - Good accessibility blog.
 * [Knowbility's Blog - WCAG 2.1 Series](https://knowbility.org/blog/2018/WCAG21-intro/)
 * [Simply Accessible](http://simplyaccessible.com/archives/) - A great blog and resource with articles about modern accessibility.
-* [WebAIM's Accessibility Resources](http://webaim.org/resources/)
-* [Tips for creating Accessible SVGs](http://www.sitepoint.com/tips-accessible-svg/)
+* [WebAIM's Accessibility Resources](https://webaim.org/resources/)
+* [Tips for creating Accessible SVGs](https://www.sitepoint.com/tips-accessible-svg/)
 * [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891) - Free web accessibility course by Google
-* [Vox Accessibility Guidelines Checklist](http://accessibility.voxmedia.com/)
-* [CanIUse.com](http://caniuse.com/) - useful for HTML5, ARIA & CSS 
+* [Vox Accessibility Guidelines Checklist](https://accessibility.voxmedia.com/)
+* [CanIUse.com](https://caniuse.com/) - useful for HTML5, ARIA & CSS 
 * [New Zealand Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/)
