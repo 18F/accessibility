@@ -8,7 +8,7 @@ sidenav: docs
 ---
 Links are commonly used to quickly navigate a site when someone is using assistive technology. Often, screen reader users won’t read through an entire page to find what they are looking for. They may simply move from link to link.
 
-Things become problematic when links only make sense with additional context. Links such as ‘Click Here’ or ‘Read more’ don’t make sense without that visual context. It’s important that we inspect our sites for these types of links. These links can be made accessible using ```title``` or ```ARIA``` attributes, but this isn’t ideal. The best method for making these links accessible is to write better link text.
+Things become problematic when links only make sense with additional context. Links such as ‘Click Here’ or ‘Read more’ don’t make sense without that visual context. It’s important that we inspect our sites for these types of links. These links can be made accessible using ```title``` or ```ARIA``` attributes, but this isn’t ideal. **The best method for making links accessible is to write better link text.**
 
 The other issue screen reader and keyboard users come across is lengthy nav bars. These are usually made up of a list of links and compound menus. They can be quite lengthy to tab through. To alleviate these pains, a skip navigation link should be provided. This is the first focusable element on the page and jumps to an anchor with a ```tabindex='-1'```.
 
