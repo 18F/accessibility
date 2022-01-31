@@ -155,5 +155,5 @@ This will hide completely and is the same as `<div aria-hidden='true' hidden>con
 
 For more information on this topic, see these articles. 
 
-- [HTML5 Accessibility Chops: hidden and aria-hidden](https://www.paciellogroup.com/blog/2012/05/html5-accessibility-chops-hidden-and-aria-hidden/)
-- [The state of hidden content support in 2016](https://www.paciellogroup.com/blog/2016/01/the-state-of-hidden-content-support-in-2016/)
+- [HTML5 Accessibility Chops: hidden and aria-hidden](https://www.tpgi.com/html5-accessibility-chops-hidden-and-aria-hidden/)
+- [The state of hidden content support in 2016](https://www.tpgi.com/the-state-of-hidden-content-support-in-2016/)
