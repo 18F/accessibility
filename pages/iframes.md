@@ -6,7 +6,7 @@ page_title: iframes
 layout: post
 sidenav: docs
 ---
-When using `iframe`s, it's important that all content contained in them is accessible.
+When using `iframe`s, it’s important that all content contained in them is accessible.
 
 ## Testing
 
@@ -25,7 +25,7 @@ When using `iframe`s, it's important that all content contained in them is acces
 <iframe src="../iframeform/"></iframe>
 ```
 
-> This `iframe` doesn't have a title or name.
+> This `iframe` doesn’t have a `title` or `name`.
 
 <iframe src="../iframeform/" name='Provide an address form' class="exampleFailure"></iframe>
 
@@ -33,7 +33,7 @@ When using `iframe`s, it's important that all content contained in them is acces
 <iframe src="../iframeform/" name='Provide an address form'></iframe>
 ```
 
-> This `name` isn't correct.
+> This `name` isn’t correct.
 
 ### Passes
 
