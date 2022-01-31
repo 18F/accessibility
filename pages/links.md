@@ -64,37 +64,46 @@ Keyboard Access <a href='../keyboard/' aria-label="Keyboard Access">Click Here</
 
 ```html
 //This is the code used on this guide
-<a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
 ...
-<h1 id="mainContent" tabindex="-1" class='mainContent'>Links and Repetitive Content</h1>
+<main id="main-content" tabindex="-1" ...>
 
 ```
 ```css
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-}
-a.skip-link:hover, a.skip-link:active, a.skip-link:focus {
-  background-color: #006FC9;
-  color: #fff;
+.usa-skipnav {
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1.08rem;
+    line-height: 1.6;
+    color: #005ea2;
+    text-decoration: underline;
+    background: transparent;
+    left: 0;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: -3.8rem;
+    transition: 0.2s ease-in-out;
+    z-index: 100;
 }
 
-.mainContent:focus, .mainContent:active {
- 	outline: none;
+.usa-skipnav:focus {
+    z-index: 9999;
+}
+
+.usa-skipnav:focus, .usa-skipnav.usa-focus {
+    background: #fff;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.usa-skipnav:focus {
+    outline: 0.25rem solid #2491ff;
+    outline-offset: 0;
+}
+
+.usa-skipnav:active {
+    color: #11181d;
 }
 ```
 
