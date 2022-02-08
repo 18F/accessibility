@@ -108,7 +108,7 @@ This is useful for:
 - Repetitive information
 - Off screen content
 
-If an element has multiple states, it's visibility should be tracked with `aria-hidden` `true/false`. An element with `aria-hidden='false'` is treated by the screen reader as if it didn't have the `aria-hidden` attribute and is read or not read based on other factors, such as CSS. 
+If an element has multiple states, its visibility should be tracked with `aria-hidden` `true/false`. An element with `aria-hidden='false'` is treated by the screen reader as if it didn't have the `aria-hidden` attribute and is read or not read based on other factors, such as CSS. 
 
 ## CSS
 
@@ -130,12 +130,12 @@ CSS can be used to hide content and allow it to still be used with the screen re
 Using this we can:
 
 - Provide additional details about a form element
- - Hidden Labels
- - Error Details
-- Provide Context to page elements
+  - Hidden labels
+  - Error details
+- Provide context to page elements
 - Add additional instructions for navigation
 
-We can also use CSS to visually hide and Screen reader hide content. 
+We can also use CSS to hide content visually and from screen readers. 
 
 ```css
 {
@@ -147,13 +147,13 @@ This will hide completely and is the same as `<div aria-hidden='true' hidden>con
 
 `display: none;` and `hidden` can be used for:
 
-- Collapsing Menus
+- Collapsing menus
 - Repetitive information
-- Off screen content
+- Off-screen content
 
 ## Additional resources
 
 For more information on this topic, see these articles. 
 
-- [HTML5 Accessibility Chops: hidden and aria-hidden](https://www.paciellogroup.com/blog/2012/05/html5-accessibility-chops-hidden-and-aria-hidden/)
-- [The state of hidden content support in 2016](https://www.paciellogroup.com/blog/2016/01/the-state-of-hidden-content-support-in-2016/)
+- [HTML5 Accessibility Chops: hidden and aria-hidden](https://www.tpgi.com/html5-accessibility-chops-hidden-and-aria-hidden/)
+- [The state of hidden content support in 2016](https://www.tpgi.com/the-state-of-hidden-content-support-in-2016/)

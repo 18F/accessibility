@@ -16,9 +16,9 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 ### Color contrast
 
-1. Using a [color contrast checker](http://www.paciellogroup.com/resources/contrastanalyser/), compare the color of the text with the color of the background.
+1. Using a [color contrast checker](https://www.tpgi.com/color-contrast-checker//), compare the color of the text with the color of the background.
 2. In situations where the color is a gradient or cannot be determined programmatically, compare the lightest part of the text with the lightest part of the background using the color picker. Then compare the darkest part of the text with the darkest part of the background.
-3. Check that the ratios are greater than [4.5:1][WCAG 2.0 AA] (ex 5.3:1 would pass).
+3. Check that the ratios are greater than [4.5:1][https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0#contrast-minimum] (ex 5.3:1 would pass).
 
 **Note:** Run this test for all states of the text (hover, visited, focused). This test should also be performed on images of text.
 
@@ -45,9 +45,9 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 <span style="color:#AA0000;">Red text indicates a required field</span>
 
-<label for="name">First Name&nbsp;</label><input type"text" id="name">
+<label for="name">First Name&nbsp;</label><input type="text" id="name">
 
-<label for="lname" style="color:#AA0000">Last Name&nbsp;</label><input type"text" id="lname">
+<label for="lname" style="color:#AA0000">Last Name&nbsp;</label><input type="text" id="lname">
 
 > This is a failure because the only indication of which fields are required is the color of the text label.
 
@@ -67,9 +67,9 @@ Links that only rely on color also fail this requirement. Links must be distingu
 
 <span style="color:#AA0000;">* indicates a required field</span>
 
-<label for="name-2">First Name&nbsp;</label><input type"text" id="name-2">
+<label for="name-2">First Name&nbsp;</label><input type="text" id="name-2">
 
-<label for="lname-2" style="color:AA0000">* Last Name&nbsp;</label><input type"text" id="lname-2">
+<label for="lname-2" style="color:#AA0000">* Last Name&nbsp;</label><input type="text" id="lname-2">
 
 > This example passes because the * and the red text indicates the required field.
 

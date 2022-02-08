@@ -19,10 +19,12 @@ For logos that are text-based, use `<em>` element.
 
 If your logo is an image and acting as the main heading of the page, add an `<h1>` element for its text and use a `sr-only` rule so it's visibly hidden but accessible to screen reader users.
 
+The following code snippet shows one example of proper section and subsection heading hierarchy.
+
 ```html
-<h3>Section</h3> 
+<h2>Section</h2> 
 lorum ipsum 
-<h2>Sub Section</h2>
+<h3>Sub Section</h3>
 lorum ipsum
 ``` 
 
