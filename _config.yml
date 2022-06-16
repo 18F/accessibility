@@ -53,14 +53,13 @@ exclude:
 - vendor
 - node_modules
 
-markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
 incremental: true
 
 sass:
-  style: :compressed
+  style: compressed
 
 # Author/Organization info to be displayed in the templates
 author:
