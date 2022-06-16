@@ -25,24 +25,27 @@ $ brew update
 $ brew install ruby
 ```
 
+You will also need the the [Bundler gem](http://bundler.io/) for this project:
+
+```shell
+$ gem install bundler 
+```
+
 To serve 18F Accessibility Guide locally, using `accessibility` as the name of your new repository:
 
 ```shell
 $ git clone https://github.com/18F/accessibility.git accessibility
 $ cd accessibility
-$ ./go serve
+$ bundle install
+$ bundle exec jekyll serve
 ```
 
-This will check that your Ruby version is supported, install the [Bundler
-gem](http://bundler.io/) if it is not yet installed, install all the gems
-needed by the template, and launch a running instance on
-`http://localhost:4000/`. (Make sure to include the trailing slash! The built-in
-Jekyll webserver doesn’t redirect to it.) You can see how your local copy of accessibility renders
+This will install all the gems needed by the template, and launch a running instance on
+`http://localhost:4000`. You can see how your local copy of accessibility renders
 at any time by going to that URL. To stop serving locally, simply type `Ctrl+C`
 into the terminal again.
 
-After going through these steps, run `./go` to see a list of available
-commands. The `serve` command is the most common for routine development.
+Note: The main branch of this project is 18f-pages. Please submit all PRs against that branch.
 
 ### Forking into your own repository
 
