@@ -6,8 +6,13 @@
       <div class="grid-container">
         <div class="grid-row grid-gap">
           <div class="usa-footer__contact-links mobile-lg:grid-col-12">
-            <div class="usa-footer grid-row grid-gap-1">
-              <div class="grid-col-auto text-base-darkest">
+            <div class="usa-footer grid-row">
+              <div class="grid-col-auto">
+                This project is maintained by <a class="usa-link" href="https://18f.gsa.gov/">18F</a>
+                </div>
+            </div>
+            <div class="usa-footer grid-row">
+              <div class="grid-col-auto">
                 Have questions or would like to contact us? Email us at <a class="usa-link" href="mailto:{{ identifier.site_email }}">{{ identifier.site_email }}</a>
               </div>
             </div>
@@ -38,35 +43,40 @@
       <div class="usa-identifier__container">
         <ul class="usa-identifier__required-links-list">
           <li class="usa-identifier__required-links-item">
-            <a class="usa-identifier__required-link usa-link" href="{{ identifier.fraud_waste_abuse_url }}" title="Report fraud, waste, or abuse to the Office of the Inspector General">
-              Report fraud, waste, or abuse to the Office of the Inspector General
-            </a>
-          </li>
-          <li class="usa-identifier__required-links-item">
-            <a class="usa-identifier__required-link usa-link" href="{{ identifier.foia_request_url }}" title="Submit a Freedom of Information Act (FOIA) request">
-              Submit a Freedom of Information Act (FOIA) request
-            </a>
-          </li>
-          <li class="usa-identifier__required-links-item">
-            <a class="usa-identifier__required-link usa-link" href="{{ identifier.budget_performance_url }}" title="View budget and performance reports">
-              View budget and performance reports
+            <a class="usa-identifier__required-link usa-link" href="{{ identifier.agency_about_url }}" title="About GSA">
+              About GSA
             </a>
           </li>
           <li class="usa-identifier__required-links-item">
             <a class="usa-identifier__required-link usa-link" href="{{ identifier.accessibility_url }}" title="View accessibility statement">
-              View accessibility statement
+              Accessibility support
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a class="usa-identifier__required-link usa-link" href="{{ identifier.foia_request_url }}" title="Submit a Freedom of Information Act (FOIA) request">
+              FOIA requests
             </a>
           </li>
           <li class="usa-identifier__required-links-item">
             <a class="usa-identifier__required-link usa-link" href="{{ identifier.no_fear_act_url }}" title="View No FEAR Act data">
-              View No FEAR Act data
+              No FEAR Act data
+            </a>
+          </li> 
+          <li class="usa-identifier__required-links-item">
+            <a class="usa-identifier__required-link usa-link" href="{{ identifier.fraud_waste_abuse_url }}" title="Office of the Inspector General">
+              Office of the Inspector General
+            </a>
+          </li>                   
+          <li class="usa-identifier__required-links-item">
+            <a class="usa-identifier__required-link usa-link" href="{{ identifier.budget_performance_url }}" title="View budget and performance reports">
+              Performance reports
             </a>
           </li>
           <li class="usa-identifier__required-links-item">
-            <a class="usa-identifier__required-link usa-link" href="{{ identifier.privacy_policy_url }}" title="View privacy policy">
+            <a class="usa-identifier__required-link usa-link" href="{{ identifier.privacy_policy-url }}" title="Our privacy policy">
               Privacy policy
             </a>
-          </li>
+          </li>       
         </ul>
       </div>
     </nav>
