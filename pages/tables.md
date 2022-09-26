@@ -7,32 +7,32 @@ layout: post
 sidenav: docs
 ---
 
-When tables are used to show data, the header cells that relate to the data cells need to be programatically linked. This makes table navigation for screen readers less painful.
+When tables are used to show data, the header cells that relate to the data cells need to be programmatically linked. This makes table navigation for screen readers more accurate and meaningful.
 
-**Simple tables** can have up to two levels of headings. One row of headers and/or one column of headings. A table with more than one row or more than one column of headings, is considered to be a complex table. Each table header cell should have `<th scope='col'>` or `<th scope='row'>`.
+**Simple tables** can have up to two levels of headings; one row of headers and/or one column of headings. A table with more than one row or more than one column of headings is considered to be a complex table. Each table header cell should have `<th scope='col'>` or `<th scope='row'>`.
 
-**Note:** Simple tables with headers in the first row and/or column don't actually need the scope attribute for assistive technology to read them correctly. However, 508 test procedures within the federal government require table headings to have either scope or id attributes. 
+**Note:** Simple tables with headers in the first row and/or column don’t actually need the scope attribute for assistive technology to read them correctly. However, 508 test procedures within the federal government require table headings to have either `scope` or `id` attributes. 
 
-Complex tables are tables with more than two levels of headers. Each header should be given a unique `id` and each data cell should have a `headers` attribute with each related header cell's id listed.
+**Complex tables** are tables with more than two levels of `headers`. Each header (`th`) should be given a unique `id`, and each data cell (`td`) should have a `headers` attribute with each related header cell’s `id` listed.
 
-If a table has text associated with it, ensure the text is programatically linked to the table. This is usually with a `<caption>` element. This element should be the first element under the `<table>` element. While a `caption` is not required, it can be very helpful to screen reader users navigating the page. A `caption` element is **strongly** encouraged on data tables as it gives context to the data.
+If a table has text associated with it, ensure the text is programmatically linked to the table. This is usually accomplished with a `<caption>` element. This element should be the first element under the `<table>` element. While a `caption` is not required, it can be very helpful to screen reader users navigating the page. A `caption` element is **strongly** encouraged on data tables to give context to the data.
 
-### Testing
+## Testing
 
 1. Identify 'data' tables (layout tables are exempt).
 2. View the table source code.
-3. Identify the table headers.
-  * Check for scope on simple tables.
-  * Check for id and headers on complex tables.
+3. Identify the table `headers`.
+  * Check for `scope` on simple tables.
+  * Check for `id` and headers on complex tables.
 
-### Examples
+## Examples
 
-#### Passes
+### Passes
 
-##### Simple Table
+#### Simple table
 
 <table>
-  <caption>User's Height and Weight</caption>
+  <caption>User’s Height and Age</caption>
   <tr>
     <th scope='col'>
       Name
@@ -62,7 +62,7 @@ If a table has text associated with it, ensure the text is programatically linke
 
 ```html
 <table>
-  <caption>User's Height and Weight</caption>
+  <caption>User’s Height and Age</caption>
   <tr>
     <th scope='col'>
       Name
@@ -91,12 +91,12 @@ If a table has text associated with it, ensure the text is programatically linke
 </table>
 ```
 
-> Looking at this table, the column headers all relate to the cells below. This is done programatically with ```scope='col'```. Each height and age value is related to the person and this is done programatically with ```scope="row"```.
+> Looking at this table, the column `headers` all relate to the cells below. This is done programmatically with ```scope='col'```. Each height and age value is programmatically related to the person via ```scope="row"```.
 
-##### Complex table
+#### Complex table
 
 <table>
-  <caption>User's Height and Weight</caption>
+  <caption>User’s Height and Weight</caption>
   <tr>
     <th rowspan='2' id='name' scope='col'>
       Name
@@ -175,4 +175,4 @@ If a table has text associated with it, ensure the text is programatically linke
 </table>
 ```
 
-> This is an example of a complex table, all the cells are associated to their respective headers with the ```headers``` attribute. Most tables don't require this level of complexity.
+> This is an example of a complex table. All the cells are associated with their respective headers via the ```headers``` attribute. Most tables don’t require this level of complexity.

@@ -8,11 +8,11 @@ sidenav: docs
 ---
 Making forms accessible is a simple process. Each form element should be associated with its instructions and errors, and everything should be accessible via the keyboard.
 
-### Testing
+## Testing
 
 1. Identify each form element.
 2. Find all instructions associated with each element.
-  * __It is a failure if a form element isn't programatically associated with _all_ instructions. This includes legends, labels, hint text and tooltips.__
+  * __It is a failure if a form element isn't programmatically associated with _all_ instructions. This includes legends, labels, hint text and tooltips.__
   * A common way of achieving this is using `fieldset` and `legend` tags. `Fieldset` is used to group a set of elements. `Legend` is the first child of a `fieldset` tag and provides context for those fields. 
 3. Ensure all field elements are accessible via the keyboard.
   * __If the form cannot be filled out with just a keyboard, this is a failure.__
@@ -21,8 +21,8 @@ Making forms accessible is a simple process. Each form element should be associa
   * __If the title attributes provides all the related information it passes, if it provides extra information it fails.__
     * Title attributes are not accessible via keyboard.
 
-### Examples
-#### Passes
+## Examples
+### Passes
 
 <fieldset>
   <legend>Name</legend>
@@ -60,9 +60,9 @@ Making forms accessible is a simple process. Each form element should be associa
 
 > ___Favorite Soup:___ ```Fieldset``` and ```legend``` is often used for radio buttons as its the easiest way to associate the radio buttons with the question. Notice there are no ```label```s for the radio buttons, but each button has a ```title``` attribute for assistive technology to read.
 
-#### Fails
+### Fails
 
-<fieldset>
+<fieldset class="exampleFailure">
   <legend>Name</legend>
   <label for="first_name-2">First</label>
   <input type='text' id='firstname-2'>
@@ -70,7 +70,7 @@ Making forms accessible is a simple process. Each form element should be associa
   <input type='text' id='1lastname'>
 </fieldset>
 
-<fieldset>
+<fieldset class="exampleFailure">
   <legend>Favorite Soup?</legend>
   <span style='color:#990000;'>This Question Is Required</span>
   <input type='radio' name='soup' value='pea' id='pea-2' title='Chick Pea Soup'><label for="pea-2">Pea Soup</label>
@@ -100,22 +100,20 @@ Making forms accessible is a simple process. Each form element should be associa
 
 > ___Failure:___ First name label ```for``` and ```id``` don't match.
 
-> ___Failure:___ Last name has an invalid ```id```.
-
 > ___Failure:___ "This Question Is Required" is not associated with the form fields.
 
 > ___Failure:___ The ```title``` tag for Pea Soup indicates it's 'Chick Pea Soup.' This information is not available to keyboard, sighted users.
 
 
-#### How ARIA affects form inputs
+### How ARIA affects form inputs
 
 Screen readers vary on what they read and the additional information they provide by default. This is a broad summary of what is read based on VoiceOver for Mac OSX.
 
 You can test these with your own screen reader. If you have a OSX you can turn VoiceOver on by hitting command+F5.
 
-**Further Information** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any additional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
+**Further information** Using `aria-label` or `aria-labelledby` will cause a screen reader to only read them and not the default label. If you want an input to read from multiple things like an error message, use `aria-labelledby` and pass it the `for` attribute of the label and any additional `id`s you want read. ex. `aria-labelledby='car1 car_description car-error-message'`
 
-##### No ARIA
+#### No ARIA
 
 Reads just the `label` and not the description
 
@@ -129,10 +127,10 @@ Reads just the `label` and not the description
 <span id="carmakedescription_1"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Car Edit text`
+**Screen reader reads input as:** `Car Edit text`
 <hr>
 
-##### With aria-label
+#### With aria-label
 
 Reads the `aria-label` and doesn't read the normal `label`.
 
@@ -146,10 +144,10 @@ Reads the `aria-label` and doesn't read the normal `label`.
 <span id="carmakedescription_2"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Car, please enter make and model Edit text`
+**Screen reader reads input as:** `Car, please enter make and model Edit text`
 <hr>
 
-##### With aria-labelledby pointing at `carmakedescription`
+#### With aria-labelledby pointing at `carmakedescription`
 
 Reads only the `aria-labelledby` attribute and not the default label
 
@@ -163,10 +161,10 @@ Reads only the `aria-labelledby` attribute and not the default label
 <span id='carmakedescription_3'><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Please enter Make and Model Edit text`
+**Screen reader reads input as:** `Please enter Make and Model Edit text`
 <hr>
 
-##### With aria-labelledby pointing at `carlabel carmakedescription`
+#### With aria-labelledby pointing at `carlabel carmakedescription`
 
 Reads both labels indicated by the `aria-labelledby` attribute
 
@@ -180,12 +178,12 @@ Reads both labels indicated by the `aria-labelledby` attribute
 <span id="carmakedescription_4"><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Car Please enter Make and Model Edit text`
+**Screen reader reads input as:** `Car Please enter Make and Model Edit text`
 <hr>
 
-##### With aria-describedby pointing at `carmakedescription`
+#### With aria-describedby pointing at `carmakedescription`
 
-Jaws reads both the label and the description. So does VoiceOver, but there is a slight delay before it reads the description.
+JAWS reads both the label and the description. So does VoiceOver, but there is a slight delay before it reads the description.
 
 <label for="car_5">Car</label>
 <input type="text" id="car_5" aria-describedby="carmakedescription_5" /><br/>
@@ -197,5 +195,5 @@ Jaws reads both the label and the description. So does VoiceOver, but there is a
 <span id='carmakedescription_5'><i>Please enter Make and Model</i></span>
 ```
 
-**Screen Reader reads input as:** `Car Edit text Please enter Make and Model`
+**Screen reader reads input as:** `Car Edit text Please enter Make and Model`
 <hr>

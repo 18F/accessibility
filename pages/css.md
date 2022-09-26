@@ -12,7 +12,7 @@ For example, images displayed through CSS are completely ignored by assistive te
 
 Another common CSS dependence issue is content order. Content can be reordered with CSS. This can be an issue because assistive technology will read the content in a different order. Content should be ordered without CSS. 
 
-### Testing
+## Testing
 
 1. Disable CSS
 2. Check for missing information (images, text, etc)

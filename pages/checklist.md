@@ -16,7 +16,7 @@ For more detail on accessibility standards, please see [WCAG2.0 AA](https://www.
 
 It is important to note, while B and C are noted as less critical, they are still required to be truly 508 compliant. This checklist should be used as a reference for development and is not a substitute for compliance checks by a section 508 coordinator.
 
-###  A - Critical
+##  A - Critical
 
 1. <a href='../keyboard/'>Site is keyboard accessible</a>
  * All interactions can be accessed with a keyboard
@@ -30,7 +30,7 @@ It is important to note, while B and C are noted as less critical, they are stil
 7. <a href='../color/'>Text has sufficient color contrast</a>
  * All text has a contrast ratio of 4.5:1 with the background
 
-### B - Less Critical
+## B - Less Critical
 
 1. <a href='../keyboard/'>Site never loses focus</a>
  * Focus is always visible when moving through the page with the keyboard
@@ -43,7 +43,7 @@ It is important to note, while B and C are noted as less critical, they are stil
 6. <a href='../headings/'>Headings are nested properly</a>
  * Heading elements are nested in a logical way
 
-### C - Minor
+## C - Minor
 1. <a href='../iframes/'>Frames are named</a>
  * All frames have a name element
 2. <a href='../flashing/'>Flashing elements are compliant</a>
@@ -54,6 +54,6 @@ It is important to note, while B and C are noted as less critical, they are stil
 4. <a href='../css/'>CSS is not required to use the page</a>
  * The page makes sense with or without CSS
 5. <a href='../links/'>Links are unique and contextual</a>
- * All links can be understood taken alone, i.e 'Read more - about 508'
+ * All links can be understood taken alone, e.g., 'Read more - about 508'
 6. <a href='../page-titles/'>Page titles are descriptive</a>
 7. <a href='../plugins/'>Required plugins are linked on the page</a>

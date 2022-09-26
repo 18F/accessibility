@@ -19,22 +19,24 @@ For logos that are text-based, use `<em>` element.
 
 If your logo is an image and acting as the main heading of the page, add an `<h1>` element for its text and use a `sr-only` rule so it's visibly hidden but accessible to screen reader users.
 
+The following code snippet shows one example of proper section and subsection heading hierarchy.
+
 ```html
-<h3>Section</h3> 
+<h2>Section</h2> 
 lorum ipsum 
-<h2>Sub Section</h2>
+<h3>Sub Section</h3>
 lorum ipsum
 ``` 
 
-### Testing
+## Testing
 
 1. Identify visual 'heading' elements 
 2. Check that all visual 'heading' elements use an `<h>` tag
 3. Verify that all sub heading elements have a higher number
 
-### Examples
+## Examples
 
-#### Passes
+### Passes
 
 <div>
   <h3>Category</h3>
@@ -53,14 +55,14 @@ lorum ipsum
     Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. 
     Donec lobortis diam a ligula faucibus mattis.
    </p>
-  <h4>Sub Category 1</h4>
+  <h4>Sub category 1</h4>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Nam sit amet auctor lectus. Curabitur non est nibh. 
     Suspendisse vehicula fermentum quam. 
     Donec lobortis diam a ligula faucibus mattis.
    </p>
-  <h4>Sub Category 2</h4>
+  <h4>Sub category 2</h4>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Nam sit amet auctor lectus. Curabitur non est nibh. 
@@ -72,9 +74,9 @@ lorum ipsum
 
 > This section has a main category and two sub categories. The sub categories are on the same level and as such use the the same heading element.
 
-#### Fails
+### Fails
 
-<div>
+<div class="exampleFailure">
   <h3>Category</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet auctor lectus. Curabitur non est nibh. Suspendisse vehicula fermentum quam. Donec lobortis diam a ligula faucibus mattis.</p>
   <h2>Sub Category 1</h2>
@@ -92,14 +94,14 @@ lorum ipsum
     Suspendisse vehicula fermentum quam. 
     Donec lobortis diam a ligula faucibus mattis.
   </p>
-  <h2>Sub Category 1</h2>
+  <h2>Sub category 1</h2>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Nam sit amet auctor lectus. Curabitur non est nibh. 
     Suspendisse vehicula fermentum quam. 
     Donec lobortis diam a ligula faucibus mattis.
    </p>
-  <h5>Sub Category 2</h5>
+  <h5>Sub category 2</h5>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Nam sit amet auctor lectus. Curabitur non est nibh. 

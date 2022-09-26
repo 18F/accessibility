@@ -32,7 +32,7 @@ docs:
     href: /page-titles/
   - text: Headings
     href: /headings/
-  - text: Hidden Content
+  - text: Hidden content
     href: /hidden-content/
   - text: Landmarks
     href: /landmarks/
@@ -46,15 +46,13 @@ docs:
     href: /tables/
   - text: CSS dependence
     href: /css/
-  - text: iFrames
+  - text: Inline frames
     href: /iframes/
   - text: Links and repetitive content
     href: /links/
-  - text: Plug-ins
-    href: /plugins/
   - text: Alternative versions
     href: /alternative-versions/
   - text: Writing guide
-    href: writing-guide/
+    href: /writing-guide/
   - text: Trainings and videos
     href: /training-videos/

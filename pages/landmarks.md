@@ -11,20 +11,18 @@ All elements on a page should be contained in a landmark element. This helps use
 
 When using HTML4 use ARIA role on divs to define landmark elements such as `role="main"`.
 
-
-
-### Testing
+## Testing
 
 1. Identify content in the source code
 2. Check that all rendered content is contained by a landmark element
 
-### Examples
+## Examples
 
-#### HTML5
+### HTML5
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Sample page</title>
@@ -47,12 +45,12 @@ When using HTML4 use ARIA role on divs to define landmark elements such as `role
 </html>
 ```
 
-#### HTML4
+### HTML4
 
 ```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
         "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Sample page</title>
