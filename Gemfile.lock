@@ -81,7 +81,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.16)
   jekyll-sitemap (>= 1.4.0)
   tzinfo-data
-  uswds-jekyll (~> 5.3, >= 5.3.0)
+  uswds-jekyll (~> 5.4)
 
 BUNDLED WITH
    2.1.4
