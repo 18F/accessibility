@@ -57,3 +57,8 @@ It is important to note, while B and C are noted as less critical, they are stil
  * All links can be understood taken alone, e.g., 'Read more - about 508'
 6. <a href='../page-titles/'>Page titles are descriptive</a>
 7. <a href='../plugins/'>Required plugins are linked on the page</a>
+
+### Checklist for accessible files
+We also need to create accessible files and assets. This includes slides, documents, forms, charts, and diagrams. 
+
+Use this [Google tools checklist](https://docs.google.com/document/d/1DXiU7pBxMQogH5G4MFC79ki5xCMt1VlED5Mq-XUINmA/edit?usp=sharing) for creating more accessible files and assets. 
