@@ -61,4 +61,4 @@ It is important to note, while B and C are noted as less critical, they are stil
 ### Checklist for accessible files
 We also need to create accessible files and assets. This includes slides, documents, forms, charts, and diagrams. 
 
-Use this [Google tools checklist](https://docs.google.com/document/d/1DXiU7pBxMQogH5G4MFC79ki5xCMt1VlED5Mq-XUINmA/edit?usp=sharing) for creating more accessible files and assets. 
+Use this [GSA only: Google tools checklist](https://docs.google.com/document/d/1DXiU7pBxMQogH5G4MFC79ki5xCMt1VlED5Mq-XUINmA/edit?usp=sharing) for creating more accessible files and assets. 
