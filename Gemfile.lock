@@ -36,7 +36,7 @@ GEM
       webrick (~> 1.7)
     jekyll-autoprefixer (1.0.2)
       autoprefixer-rails (~> 9.3)
-    jekyll-feed (0.16.0)
+    jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
@@ -83,7 +83,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3.2)
-  jekyll-feed (~> 0.16)
+  jekyll-feed (~> 0.17)
   jekyll-sitemap (>= 1.4.0)
   tzinfo-data
   uswds-jekyll (~> 5.3, >= 5.3.0)
