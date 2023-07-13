@@ -6,7 +6,7 @@ page_title: CSS dependence
 layout: post
 sidenav: docs
 ---
-CSS dependence refers to sites that rely on CSS to be functional or understandable. This is a concern for accessibility because most assistive technology ignores CSS. 
+Cascading style sheets ([CSS](https://www.section508.gov/content/glossary/#sectionC)) allow us to add and manage styles (e.g., fonts, colors, size, spacing) on web pages. CSS dependence refers to sites that rely on CSS to be functional or understandable. This is a concern for accessibility because most assistive technology ignores CSS. 
 
 For example, images displayed through CSS are completely ignored by assistive technology. Images loaded by CSS do not have alt attributes and would require the images content to be displayed in some other manner on the page. It is recommended that all CSS images be decorative and content images be on the page with `<img>` tags.
 
