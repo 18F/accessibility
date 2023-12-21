@@ -1,3 +1,5 @@
+**⚠️ This guide has moved to the [consolidated 18F guides repository](https://github.com/18F/guides).**
+
 # Accessibility
 This repo will contain the guidelines and best practices for 508 accessibility at 18F. 
 The site is in draft.
